@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document 
+
+公共样式
+
+*/
+
+*html{background-image:url(about:blank); background-attachment:fixed;}
+body{margin:0; padding:0; height:100%; font:13px/1.5 Arial, Helvetica, sans-serif; min-width:1000px}
+img{border:none}
+form,ul,li,p,dl,dt,dd{margin:0; padding:0}
+h1,h2,h3,h4,h5{margin:0; padding:0; color:#3F3F3F}
+table{border-collapse:collapse}
+ul{list-style:none}
+cite, em{font-style:normal}
+a{color:#666; text-decoration:none; outline:none; *nofocus:expression(this.onFocus=this.blur())}
+a:hover{text-decoration:none; color:#e70012}
+ins{text-decoration:none}
+.clearfix:after{content:'.'; display:block; height:0; font-size:0; line-height:0; clear:both; visibility:hidden}
+.clearfix{display:inline-block}
+/*Hides from IE-mac*/
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/*End hide from IE-mac*/
+.clear{clear:both; height:0; font-size:0; line-height:0; visibility:hidden;}
+
+
+
+/*color style
+==================================================================*/
+.green{color:#093 !important}
+.gray{color:#888 !important}
+.red{color:#f00 !important}
+.blue{color:#497CD2 !important}
+.orange{color:#ff6600!important}
+.yellow{color:#f60; font-weight:700}
+.fz{font-size:14px}
+.fw{ font-weight:bold;}
+.red{color:#f00}
+.cur{color:#ff6600}
+.pbluebg{color:#036}
+.p9black{font-family:"Verdana"; font-size:12px; color: #000}
+.p9orange{font-family:"Verdana"; font-size:12px; color:#f60}
+.underline{text-decoration:underline}
+.required{color:#f00; font-family:"宋体"}
+.btn_com{background-color:#ff6600; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto;line-height:normal}
+.btn_com_blue{background-color:#06F; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; height:auto; line-height:normal}
+.btn_com_gray{background-color:#d9d9d9;  border-style:solid; border-width:1px; color:#333 !important; padding:6px 8px;font-size:12px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:3px; width:auto;height:auto}
+.btn_border{background-color:#fdebde; border:1px solid #ff6600;color:#ff6600 !important; padding:10px 25px;font-size:12px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:3px; width:auto;height:auto}
+.btn_comCancel{background-color:#ccc; border:none; color:#666 !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto}
+.succeedTip{border:1px solid #4ee46e; background:#d3eed9; padding:15px; width:90%; margin:0 auto; color:#006816; font-size:14px}
+.errorTip{border:1px solid #FFA66D; background:#FFDFCB; padding:15px; width:90%; margin:0 auto; color:#f00; font-size:14px}
+input, textarea{padding:5px; border:1px solid #ddd}
+
+
+/* CSS Document 
+首页
+*/
+.kkf_loginHD{height:80px;width:1000px;margin:0 auto;}
+.kkf_loginHD .img{float:left;margin-right:35px;height:80px}
+.kkf_loginHD .contact{float:left;font-size:16px;margin-top:45px;font-family:"微软雅黑";color:#474747}
+.kkf_loginHD .nav{float:right;}
+.kkf_loginHD .nav ul{}
+.kkf_loginHD .nav li{float:left;font-size:16px;font-family:"微软雅黑";height:77px;line-height:110px;margin:0 20px}
+.kkf_loginHD .nav .ico{background: url(../images/web/down-ico.png) no-repeat 100% 72%;width:80px; position:relative;border-bottom:3px solid #fff}
+.kkf_loginHD .nav .cur{border-bottom:3px solid #ff613a;}
+.kkf_loginHD .nav li a{color:#474747}
+.kkf_loginHD .nav li a:hover{color:#ff6600;}
+.kkf_loginHD .nav .ico .hidden{ position:absolute;top:80px;left:-10px;z-index:10;border:1px solid #eee;line-height:35px;background:#fff;text-align:center;display:none}
+.kkf_loginHD .nav .ico .hidden a{display:block;width:100px}
+.kkf_loginHD .nav .ico .hidden dd:hover{background:#f2f2f2;width:100px;}
+
+
+/*首页焦点图*/
+.kkfpresent .banner{ position:relative;}
+.banner .H_Pic{width:1366px; margin:0 auto}
+
+
+/*数字按钮样式*/
+.kkfpresent .banner .num {overflow:hidden; height:20px; position:absolute; bottom:0; left:48%; zoom:1; z-index:3}
+.kkfpresent .banner .num li {width:10px; height:10px; line-height:20px; text-align:center; font-weight:400; font-family:"微软雅黑", Arial; color:#fff; background:#444; margin:0 3px; border-radius:50%; cursor:pointer; float:left; text-indent:-888em; overflow:hidden}
+.kkfpresent .banner .num li.on {background:#E70012;}
+
+/*上一个  下一个*/
+.banner .prev,
+.banner .next {display:none; width:40px; height:62px; background:url(../images/web/btn.png) no-repeat; position:absolute; top:50%; margin-top:-31px;}
+.banner .prev {left:0;}
+.banner .next {right:0; background-position:right}
+
+.kkfpresent .kkf-main{width:100%;font-family:"微软雅黑";color:#666}
+.submit{ padding:50px 0; text-align:center;font-family:"微软雅黑"}
+.footer{width:100%;background:#4d4d4d; overflow:hidden;padding-top:70px;font-family:"微软雅黑"}
+.footer .bottomnav {width:1000px;margin:0 auto}
+.footer .bottomnav dl{float:left;color:#fff;margin:0 35px 0 40px}
+.footer .bottomnav dt{font-size:18px;padding-bottom:5px}
+.footer .bottomnav dd{font-size:14px;padding:5px 0;margin-left:3px}
+.footer .bottomnav dd a{color:#fff;}
+.footer .about dd{float:left;margin-right:20px}
+.footer .about dd span{margin-left:30px;font-size:12px}
+.footer .foot{width:1000px;margin:20px auto;text-align:center;color:#fff;font-size:14px;}
+.kkfpresent .kkf_loginBDR{position:absolute; right:16%; top:60px; padding:18px; color:#fff;  z-index:99;background:none}
+.kkfpresent .kkf_loginBDR .title{font-size:32px;font-family:"微软雅黑";margin-bottom:15px}
+.kkfpresent .kkf_loginBDR .intro{font-size:18px;font-family:"微软雅黑";margin-bottom:15px}
+.kkfpresent .kkf_loginBDR .btn .btn_com{margin-right:10px;background:#ff613a;}
+.kkfpresent .kkf_loginBDR .btn .btn_com_blue{background:#2f66b0}
+.kkfpresent .kkf-main .content{width:935px;margin:0 auto;padding:60px 0 40px 0;padding-left:65px;overflow:hidden}
+.kkfpresent .kkf-main .content .top{margin-bottom:40px}
+.kkfpresent .kkf-main .content .top h3{font-size:22px;margin-bottom:5px;color:#666}
+.kkfpresent .kkf-main .content .top p{color:#f4b2ab}
+.kkfpresent .kkf-main .content .conL,.kkfpresent .kkf-main .content .conR{float:left;}
+.kkfpresent .kkf-main .content .conL{}
+.kkfpresent .kkf-main .content .conL dd{padding:3px 0}
+.kkfpresent .tow{background:#efe9db}
+.kkfpresent .tow .content{text-align:center}
+.kkfpresent .three .top{text-align:center;font-size:22px}
+.kkfpresent .three .item{float:left;margin:0 15px 50px 10px}
+.kkfpresent .three .item .img,.kkfpresent .three .item .con{float:left}
+.kkfpresent .three .item .con{padding:20px 0 0 60px;height:130px;width:260px}
+.kkfpresent .three .item01 .con{background:#aae6ff}
+.kkfpresent .three .item02 .con{background:#95ef8e}
+.kkfpresent .three .item03 .con{background:#ffb09c}
+.kkfpresent .three .item04 .con{background:#f0b2ef}
+.kkfpresent .three .item .con h4{color:#fff;font-size:18px;margin-bottom:25px}
+.kkfpresent .three .item .con p{line-height:22px}
+.kkfpresent .three .content{padding-left:0;width:1000px;overflow:hidden}
+.kkfpresent .three .item02,.kkfpresent .three .item04{margin-right:0}
+.kkfpresent .three .item03,.kkfpresent .three .item04{margin-bottom:0}
+
+
+.kkfpresent .kkf_loginBDR_load{position:absolute; right:10%; top:30%; padding:18px; color:#fff;  z-index:99;background: url(../images/web/transparent.png);
+}
+.kkfpresent .kkf_loginBDR .name{float:left; line-height:37px; font-size:18px; color:#fff; letter-spacing:0.2px; width:80px;}
+.kkfpresent .kkf_loginBDR .txt{ background:#fff;border:none;padding:5px; display:block; margin-bottom:16px; height:26px; line-height:24px; font-size:14px; color:#333}
+.kkfpresent .kkf_loginBDL{position:absolute; right:9.5%; top:60px; background-color:#000; opacity:0.2; filter:alpha(opacity=20); z-index:90; width:300px; min-height:300px}
+.kkfpresent .kkf_loginBDL_load{position:absolute; right:9.5%; top:30%; background-color:#000; opacity:0.2; filter:alpha(opacity=20); z-index:90; width:300px; min-height:150px}
+.kkfpresent .kkf_loginBDR h2{height:35px;color:#fff;font-size:22px;background:none;margin:0; text-align:center}
+.kkfpresent .kkf_loginBDR .password{background: #fff url(../images/web/icon5.png) no-repeat 5% 50%;}
+.kkfpresent .kkf_loginBDR .username{background:#fff url(../images/web/icon4.png) no-repeat 5% 50%;}
+.kkfpresent .kkf_loginBDR .code img{max-height:34px; max-width:94px}
+.kkfpresent .kkf_loginBDR .code .txt{ float:left;width:130px;border-radius:3px;margin-right:10px}
+.kkfpresent .kkf_loginBDR .wrong{background:#F9ECC7;width:225px; line-height:37px;margin-bottom:10px;padding-left:20px;color:#ff0000}
+.kkfpresent .kkf_loginBDR .btn input{background:#e4700e; border:none; height:38px; line-height:32px; font-size:16px; width:245px; color:#fff; font-weight:600; cursor:pointer; border-radius:3px}
+.kkfpresent .kkf_loginBDR_load .btn input{background:#e4700e; border:none; height:38px; line-height:32px; font-size:16px; width:245px; color:#fff; font-weight:600; cursor:pointer; border-radius:3px}
+.kkfpresent .kkf_loginBDR .username input,.kkfpresent .kkf_loginBDR .password input{width:180px}
+.kkfpresent .kkf_loginBDR_load .btn{text-align:center;}
+.kkfpresent .kkf_loginBDR_load .load{padding:20px 0}
+.kkfpresent .kkf_loginBDR .username,.kkfpresent .kkf_loginBDR .password{width:200px; padding-left:45px; height:38px; margin-bottom:10px; border-radius:3px;float:left}
+.kkf_loginBDR .remember{margin-bottom:6px; }
+.kkfpresent .kkf_loginBDR .yhm{clear:both}
+/* CSS Document 
+产品介绍
+*/
+.productpresent{background:#f5f5f5}
+.productpresent .header{width:100%;background:#fff;height:80px}
+.productpresent .kkf-main{width:1000px; margin:0 auto}
+.productpresent .kkf-main img{display:block}
+.productpresent .submit{ padding:50px 0; text-align:center}
+
+
+/* CSS Document 
+加盟合作
+*/
+
+.Cooperation .header{width:100%;background:#fff;height:80px}
+.Cooperation .kkf-main{width:100%;overflow:hidden;background:#fff;font-family:"微软雅黑"}
+.Cooperation .kkf-main .content{width:1000px;margin:0 auto;overflow:hidden;padding:50px  0}
+.Cooperation .first{background:#009bff}
+.Cooperation .first .content{color:#666;padding:100px  0}
+.Cooperation .first .content .conL h3{color:#fff;font-size:28px;color:#fff}
+.Cooperation .content .conL{width:500px;float:left;margin-right:80px}
+.Cooperation .content .conR{float:left}
+.Cooperation .first .content .conL p{line-height:50px;font-size:16px;color:#fff}
+.Cooperation .kkf-main .content dl{margin-bottom:60px}
+.Cooperation .kkf-main .content dt{font-size:22px}
+.Cooperation .kkf-main .content dd{padding:3px 0}
+.Cooperation .second .conR{margin-top:30px}
+.Cooperation .third{background:#fea033}
+.Cooperation .third .content{color:#fff}
+.Cooperation .third .content h3{font-size:28px;color:#fff;margin-bottom:150px}
+.Cooperation .third .content dl{font-size:16px}
+.Cooperation .third .conL{width:660px;margin-right:50px}
+.Cooperation .kkf-main h2{color:#ff6600;font-size:32px; text-align:center;line-height:100px;}
+.Cooperation .filed{margin-bottom:20px; padding:0}
+.Cooperation .filed .label{vertical-align:middle; margin-right:20px; display:inline-block; zoom:1; *display:inline; font-size:14px;width:15%;text-align:right}
+.Cooperation .filed .text{display:inline-block; zoom:1; *display:inline; vertical-align:middle;}
+.Cooperation .filed .text1{display:inline-block; zoom:1; *display:inline; vertical-align:middle;margin-left:10px;color:#ff0000}
+.Cooperation .filed span{display:inline-block; zoom:1; *display:inline; vertical-align:middle; font-size:14px; font-family:arial}
+.Cooperation .filed .txt{border:none; padding:5px;width:600px;background:#ffdfca;line-height:28px;height:28px}
+.Cooperation .submit{ padding:10px 0; text-align:center}
+.Cooperation .superiority{width:600px;height:150px;background:#ffdfca;}
+.Cooperation  .filed .stick{ vertical-align:top}
+.Cooperation .submit .btn_com{background:#ff613a;font-size:18px;padding:10px 80px}
+/* CSS Document 
+商户服务
+*/
+.services{background:#f5f5f5}
+.services .kkf_loginHD{height:80px;width:1200px;margin:0 auto;}
+.services .kkf_loginHD .img{float:left;}
+.services .kkf_loginHD .nav{float:right;}
+.services .kkf_loginHD .nav ul{padding:30px 0}
+.services .kkf_loginHD .nav li{float:left;padding:5px 20px;font-size:16px;color:#808080; font-family:"微软雅黑"}
+.services .kkf_loginHD .nav .bg{background:#f60; border-radius:3px}
+.services .kkf_loginHD .nav .bg a{color:#fff}
+ .kkf_loginHD .nav li a:hover{color:#ff6600}
+.services .header{width:100%;background:#fff;height:80px;margin-bottom:25px}
+.services .footer{width:100%;background:#4d4d4d; overflow:hidden; text-align:center;padding:18px 0;}
+.services .foot{  width:58%;margin:0 auto; text-align:center}
+.services .footer p{color:#fff;font-size:14px; text-align:center; display:inline; float:left;margin-top:3px}
+.services .footer .telphone{float:left; display:inline; padding-left:40px;font-size:14px;color:#fff;}
+.services .footer .telphone .tel span{color:#fff; font-size:18px; font-weight:600}
+.services .kkf-main{width:1050px; margin:0 auto;overflow:hidden;background:#fff;margin-bottom:30px; border-radius:5px; box-shadow:0px 1px 8px #999}
+.services .kkf-main h2{font-size:24px; text-align:center;line-height:60px; border-bottom:1px solid #999999; width:900px;margin:0 auto; color:#666}
+.services .filed{margin-bottom:20px; padding:10px 0; width:800px;margin:0 auto; border-bottom:1px solid #999;line-height:25px}
+.services .filed .label{display:inline-block; zoom:1; *display:inline; font-size:14px;font-weight:600;color:#666;}
+.services .filed .text{display:inline-block; zoom:1; *display:inline;font-size:14px;color:#999}
+.services .filed .text p{ display:inline-block;margin-left:28px;}
+.services .noborder{ border:none}
+
+
+/* CSS Document 
+商户服务
+*/
+.buy{background:#f9f9f9}
+.buy .kkf_loginHD{height:80px;width:1000px;margin:0 auto;}
+.buy .kkf_loginHD .nav li a:hover{color:#ff6600}
+.buy .header{width:100%;background:#fff;height:80px;margin-bottom:25px}
+.buy .buy-con{overflow:hidden;width:935px;margin:0 auto}
+.buy .buy-con .buy-left,.buy .buy-con .buy-right{float:left}
+.buy .buy-con .buy-left{margin-right:20px}
+.buy .buy-con .buy-right{width:605px}
+.buy .buy-con .buy-right .title{padding:10px 0 10px 50px;border:1px solid #dedede;background:#fff}
+.buy .buy-con .buy-right .title span{display:block;padding:3px 0}
+.buy .buy-con .buy-right .title .name{font-size:16px;color:#666;font-weight:bold;font-family:"微软雅黑"}
+.buy .buy-con .buy-right .title .con{color:#f60}
+.buy .buy-con .buy-right .hd{padding:10px 0}
+.buy .buy-con .buy-right .hd span{display: inline-block;*display:block;*float:left;width:16%}
+.buy .buy-con .buy-right .hd .price{color:#808080;width:8%}
+.buy .buy-con .buy-right .hd .choose{border:1px solid #dedede;text-align:center;line-height:32px;background:#fff;width:72px; cursor:pointer}
+.buy .buy-con .buy-right .hd .choose:hover{border:1px solid #f60}
+.buy .buy-con .buy-right .hd .bg{background:url(../images/web/bg.png) no-repeat;height:32px}
+.buy .buy-con .buy-right .years span{width:auto}
+.buy .buy-con .buy-right .years .sub{width:23px;height:23px}
+.buy .buy-con .buy-right .years .add{width:35px; height:35px}
+.buy .buy-bottom{margin-bottom:40px}
+.kkf_loginBDR{position:absolute;padding:18px; color:#fff;  z-index:99;background: url(../images/web/transparent.png);
+}
+
+.buy .kkf_loginBDR .name{float:left; line-height:37px; font-size:18px; color:#fff; letter-spacing:0.2px; width:80px;}
+.buy .kkf_loginBDR .txt{ background:#fff;border:none;padding:5px; display:block; margin-bottom:16px; height:26px; line-height:24px; font-size:14px; color:#333}
+.buy .kkf_loginBDR h2{height:35px;color:#fff;font-size:22px;background:none;margin:0; text-align:center}
+.buy .kkf_loginBDR .password{background: #fff url(../images/web/icon5.png) no-repeat 5% 50%;}
+.buy .kkf_loginBDR .username{background:#fff url(../images/web/icon4.png) no-repeat 5% 50%;}
+.buy .kkf_loginBDR .code img{max-height:34px; max-width:94px}
+.buy .kkf_loginBDR .code .txt{ float:left;width:130px;border-radius:3px;margin-right:10px}
+.buy .kkf_loginBDR .wrong{background:#F9ECC7;width:225px; line-height:37px;margin-bottom:10px;padding-left:20px;color:#ff0000}
+.buy .kkf_loginBDR .btn input{background:#e4700e; border:none; height:38px; line-height:32px; font-size:16px; width:245px; color:#fff; font-weight:600; cursor:pointer; border-radius:3px}
+.buy .kkf_loginBDR_load .btn input{background:#e4700e; border:none; height:38px; line-height:32px; font-size:16px; width:245px; color:#fff; font-weight:600; cursor:pointer; border-radius:3px}
+.buy .kkf_loginBDR .username input,.kkfpresent .kkf_loginBDR .password input{width:180px}
+
+.buy .kkf_loginBDR .username,.buy .kkf_loginBDR .password{width:200px; padding-left:45px; height:38px; margin-bottom:10px; border-radius:3px;float:left}
+.buy .remember{margin-bottom:6px; }
+.buy .kkf_loginBDR .yhm{clear:both}
+
+
+/* CSS Document 
+行业方案
+*/
+.solution .kkf_loginHD{height:80px;width:1000px;margin:0 auto;}
+.solution .header{width:100%;background:#fff;height:80px}
+.solution .banner{width:100%;background: url(../images/web/hy-bg.png);height:747px;position:relative}
+.solution .banner .logo{position:absolute;top:0;left:50%;margin-left:-480px}
+.solution .kkf-main{position:absolute;width:900px;padding:30px;background:#f1f1f1;top:97px;left:50%;margin-left:-480px; box-shadow:0 0 10px #666}
+.solution .kkf-main .end{margin-right:0!important}
+.solution .kkf-main .work{width:280px; height:90px;border:1px solid #b3b3b3;float:left;margin:0 25px 20px 0;}
+.solution .kkf-main .work .icon{float:left;padding:30px 10px 30px 20px}
+.solution .kkf-main .work .text{padding:22px 0 0;}
+
+/* CSS Document 
+医院
+*/
+.hos .kkf-main{width:1366px; margin:0 auto}
+.hos .kkf-main img{ display:block}
+.hos .banner{width:100%;background: url(../images/web/hy-hos/hos_bg.png) center center;height:473px;}
+.hos .banner .H_Pic{width:1366px; margin:0 auto}
+/* CSS Document 
+购物
+*/
+.general .kkf-main{width:1366px; margin:0 auto}
+.general .kkf-main img{ display:block}
+.general .banner{width:100%;background: url(../images/web/hy-general/general_bg.png) center center;height:473px;}
+.general .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+购物
+*/
+.ber .kkf-main{width:1366px; margin:0 auto}
+.ber .kkf-main img{ display:block}
+.ber .banner{width:100%;background: url(../images/web/hy-ber/ber_bg.png) center center;height:473px;}
+.ber .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+酒店
+*/
+.hotel .kkf-main{width:1366px; margin:0 auto}
+.hotel .kkf-main img{ display:block}
+.hotel .banner{width:100%;background: url(../images/web/hy-hotel/hotel_bg.png) center center;height:473px;}
+.hotel .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+超市
+*/
+.mar .kkf-main{width:1366px; margin:0 auto}
+.mar .kkf-main img{ display:block}
+.mar .banner{width:100%;background: url(../images/web/hy-mar/mar_bg.png) center center;height:473px;}
+.mar .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+景区
+*/
+.sce .kkf-main{width:1366px; margin:0 auto}
+.sce .kkf-main img{ display:block}
+.sce .banner{width:100%;background: url(../images/web/hy-sce/sce_bg.png) center center;height:473px;}
+.sce .banner .H_Pic{width:1366px; margin:0 auto}
+/* CSS Document 
+便民
+*/
+.facilitate .kkf-main{width:1366px; margin:0 auto}
+.facilitate .kkf-main img{ display:block}
+.facilitate .banner{width:100%;background: url(../images/web/hy-facilitate/facilitate_bg.png) center center;height:473px;}
+.facilitate .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+教育
+*/
+.edu .kkf-main{width:1366px; margin:0 auto}
+.edu .kkf-main img{ display:block}
+.edu .banner{width:100%;background: url(../images/web/hy-edu/edu_bg.png) center center;height:473px;}
+.edu .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+售货机
+*/
+.ven .kkf-main{width:1366px; margin:0 auto}
+.ven .kkf-main img{ display:block}
+.ven .banner{width:100%;background: url(../images/web/hy-ven/ven_bg.png) center center;height:473px;}
+.ven .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+物流
+*/
+
+.log .kkf-main{width:1366px; margin:0 auto}
+.log .kkf-main img{ display:block}
+.log .banner{width:100%;background: url(../images/web/hy-log/log_bg.png) center center;height:473px;}
+.log .banner .H_Pic{width:1366px; margin:0 auto}
+
+/* CSS Document 
+停车场
+*/
+.dep .kkf-main{width:1366px; margin:0 auto}
+.dep .kkf-main img{ display:block}
+.dep .banner{width:100%;background: url(../images/web/hy-dep/dep_bg.png) center center;height:473px;}
+.dep .banner .H_Pic{width:1366px; margin:0 auto}
+/* CSS Document 
+展会
+*/
+.exh .kkf-main{width:1366px; margin:0 auto}
+.exh .kkf-main img{ display:block}
+.exh .banner{width:100%;background: url(../images/web/hy-exh/exh_bg.png) center center;height:473px;}
+.exh .banner .H_Pic{width:1366px; margin:0 auto}
+/* CSS Document 
+数据
+*/
+.data .kkf-main{width:1366px; margin:0 auto}
+.data .kkf-main img{ display:block}
+.data .banner{width:100%;background: url(../images/web/hy-data/data_bg.png) center center;height:473px;}
+.data .banner .H_Pic{width:1366px; margin:0 auto}
+/* CSS Document 
+资金
+*/
+.fund .kkf-main{width:1366px; margin:0 auto}
+.fund .kkf-main img{ display:block}
+.fund .banner{width:100%;background: url(../images/web/hy-fund/fund_bg.png) center center;height:473px;}
+.fund .banner .H_Pic{width:1366px; margin:0 auto}

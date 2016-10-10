@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.lnk{color:#009; text-decoration:underline; cursor:pointer}
+
+.infoPanel{padding:23px 5px 5px; cursor:pointer; background:#f6f6f6 url(../images/memberbg.gif) repeat-x; border-bottom:1px solid #fff}
+.infoPanel .searchbar{text-align:right; background:#F2F2F2; padding:0 10px 5px}
+.infoPanel .searchbar .addbutton{padding:0 5px; font-size:12px} 
+
+.infoPanel .handles{white-space:nowrap; padding:12px 0 0 10px; background:#efefef; border-top:1px solid #fff; border-right:1px solid #fff; border-left:1px solid #fff; height:21px; position:relative;}
+.infoPanel .handles a{border:1px solid #CFCFCF; border-bottom:none; color:#666; padding:4px 10px; position:relative; z-index:10; background:#fff; text-decoration:none; cursor:pointer}
+.infoPanel .handles a.current{border-bottom:0; background:#fff; padding:5px 10px; font-weight:700; color:#000; border-top:2px solid #f90}
+.infoPanel .handles span{font-family:"宋体"}
+.infoPanel .tabs{clear:both; padding-top:10px}
+.infoPanel .infoContent{background:#fff; color:#000; padding-bottom:10px}
+.infoPanel .actionBar{background:#efefef; border-bottom:1px solid #cfcfcf; border-top:1px solid #fff; height:28px; margin-bottom:10px}
+.infoPanel .infoContent .actionBar{line-height:20px; height:20px; background:url(../images/sysrightbackgroud.gif) repeat-x; border-top:1px solid #efefef; border-bottom:1px solid #efefef}
+

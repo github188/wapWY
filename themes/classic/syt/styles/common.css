@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document 
+
+公共样式
+
+*/
+
+*html{background-image:url(about:blank); background-attachment:fixed;}
+body{margin:0; padding:0; height:100%; font:13px/1.5 Arial, Helvetica, sans-serif;}
+img{border:none}
+form,ul,li,p,dl,dt,dd{margin:0; padding:0}
+h1,h2,h3,h4,h5{margin:0; padding:0; color:#3F3F3F}
+table{border-collapse:collapse}
+ul{list-style:none}
+cite, em{font-style:normal}
+a{color:#666; text-decoration:none; outline:none; *nofocus:expression(this.onFocus=this.blur())}
+a:hover{text-decoration:none; color:#e70012}
+ins{text-decoration:none}
+.clearfix:after{content:'.'; display:block; height:0; font-size:0; line-height:0; clear:both; visibility:hidden}
+.clearfix{display:inline-block}
+/*Hides from IE-mac*/
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/*End hide from IE-mac*/
+.clear{clear:both; height:0; font-size:0; line-height:0; visibility:hidden;}
+
+
+
+/*color style
+==================================================================*/
+.green{color:#093 !important}
+.gray{color:#888 !important}
+.red{color:#f00 !important}
+.blue{color:#497CD2 !important}
+.orange{color:#ff6600!important}
+.yellow{color:#f60; font-weight:700}
+.fz{font-size:14px}
+.fw{ font-weight:bold;}
+.red{color:#f00}
+.cur{color:#ff6600}
+.pbluebg{color:#036}
+.p9black{font-family:"Verdana"; font-size:12px; color: #000}
+.p9orange{font-family:"Verdana"; font-size:12px; color:#f60}
+
+
+.btn_com{background:#f60; border:none; color:#fff !important; padding:10px 25px; font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px;}
+.btn_com_blue{background:#06F; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px}
+.btn_com_gray{background:#efefef; border:none; color:#333 !important; padding:10px 25px; font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px}
+.btn_comCancel{background-color:#ccc; border:none; color:#666 !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto}
+.block{clear:both; margin-bottom:10px}
+.btnstyle{background:#999; border:1px solid #ccc; font-size:12px; height:25px; line-height:25px; text-align:center; padding:0 12px; cursor:pointer; display:inline-block; overflow:hidden; color:#fff}
+.btnstyle:hover{color:#333}
+.buttonstyle{height:23px; line-height:21px; cursor:pointer; padding:0 5px; font-size:12px}
+
+.error{color:#f00; font-size:12px}
+.errorMessage{display:inline}
+.errorWrap{margin:10% 0 10% 20px; position:relative; text-align:left;}
+.errorpic{background:url(../images/error.gif) no-repeat; width:300px; margin:0 auto; padding:20px 0 0 120px; height:auto !important; height:100px; min-height:100px}
+.errorTip{border:1px solid #FFA66D; background:#FFDFCB; padding:15px; width:90%; margin:0 auto; color:#f00; font-size:14px}
+input, textarea{padding:5px; border:1px solid #ddd}
+
+.footer{width:100%;text-align:center;padding:20px 0}
+.filed{padding:10px 0; font-size:14px;}
+.filed .label{width:28%; text-align:right; display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+.filed .text{display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+.filed .text a{color:#03F}
+.filed .text1{padding-left:8px; display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+
+.hr{ border-bottom:1px solid #ccc; font-size:0; height:0; line-height:0; clear:both; width:100%; margin:8px 0}
+
+.required{color:#f00; font-family:"宋体"}
+.remark{color:#999; font-size:12px; font-weight:100; padding:5px 0}
+
+.search{margin-bottom:15px; padding:10px 0}
+.search span{display:inline-block; zoom:1; *display:inline; vertical-align:middle; margin-bottom:10px}
+.search .filed{display:inline-block; zoom:1; *display:inline; vertical-align:top; margin-right:10px}
+.search select{border:1px solid #dedede; padding:6px 4px; *height:30px;}
+.search .btn_com_blue, .search .btn_com_gray{padding:0 20px; height:30px; line-height:30px}
+.sysiconBtnNoIcon{background:url(../images/functionareabg.gif) 0 -23px; margin-left:5px; padding:4px 4px 2px; cursor:pointer; color:#000; border-width:1px; border-style:solid; border-color:#fff #bec6ce #bec6ce #fff;}
+.step{border:1px solid #FEC157; background:#FFFFE1; padding:10px; margin-bottom:10px; font-size:14px}
+.step .sp_head{background:url(../images/icon.gif) no-repeat 0 48%; padding-left:18px; margin-left:20px; color:#445;}
+.step em{padding-right:5px; font-size:16px; font-style:normal; font-weight:700; font-family:Arial, Helvetica, sans-serif}
+.step strong{font-family:"宋体"; padding:0 20px}
+.step .cur{color:#f00}
+.succeedTip{border:1px solid #4ee46e; background:#d3eed9; padding:15px; width:90%; margin:0 auto; color:#006816; font-size:14px}
+
+.txtsearch{ float:left;}
+.textarea{padding:5px; overflow:auto; font-size:14px}
+.tip_common{background:#FFF5E5; border:1px solid #FEC46F; padding:10px; line-height:2; position:relative; zoom:1; text-align:center; margin:10px 0}
+.tip_common .blue{margin-left:10px}
+.tip_common .close{position:absolute; right:15px; top:15px; background:url(../images/tab-close-active.png) no-repeat 50%; width:13px; height:13px; cursor:pointer}
+.txt{border:1px solid #ccc; padding:7px 4px}
+
+.underline{text-decoration:underline}
+
+
+/* 收银台 */
+.pay .kkfmain_r{margin:0 0 0 180px}
+.pay{width:100%; margin:0 auto; min-width:1000px}
+.pay .top{background:#F60;height:71px;border:1px solid #dedede;overflow:hidden}
+.pay .top .img{float:left}
+.pay .top_left{float:left; color:#Fff; font-weight:600;padding-left:35px; letter-spacing:0.8px;line-height:68px;}
+.pay .top_right a{color:#fff;}
+.pay .top_right{float:right;margin-right:30px;line-height:68px;color:#fff; font-weight:bold;letter-spacing:0.5px;}
+.pay-main{overflow:hidden;width:100%; position:relative;border-bottom:1px solid #dedede}
+.pay-main .nav{float:left;width:165px;text-align:center}
+.pay-main .nav li{border-top:1px solid #dedede;border-left:1px solid #dedede;border-right:1px solid #dedede;background:#fafafa;background:#fafafa url(../images/i1.png) no-repeat}
+.pay-main .nav li a{display:block;width:165px;height:115px;line-height:180px;text-align:center}
+.pay-main .nav .icon0{ background-position:center -125px}
+.pay-main .nav .icon{ background-position:center -10px;}
+.pay-main .nav .icon1{background-position:center -240px}
+.pay-main .nav .icon10{background-position:center -360px}
+.pay-main .nav .icon2{background-position:center -470px}
+.pay-main .nav .icon20{background-position:center -580px}
+.pay-main .nav .icon3{background-position:center -700px}
+.pay-main .nav .icon30{background-position:center -815px}
+.pay-main .nav .icon4{background-position:center -930px}
+.pay-main .nav .icon40{background-position:center -1045px}
+.pay-main .main-right{float:left;width:1100px}
+.pay-main .main-right .filed span{display:inline-block;*display:block;*float:left;padding:10px 0}
+.pay .footer{background:#f0f0f0}
+
+
+
+/*登录页*/
+.pay-login{background:#f5f5f5}
+.pay-login .header{width:100%; height:68px; overflow:hidden;background:#fff;border-top:1px solid #FF5902;border-bottom:1px solid #dedede;min-width:1000px}
+.pay-login .top{width:1000px; margin:0 auto;}
+.pay-login .logo,.pay-login.header_left{float:left}
+.pay-login .header_left{color:#b8c2cc;padding-left:15px;font-size:14px;line-height:20px;font-family:"微软雅黑"}
+.pay-login .header_right ul{float:right;line-height:68px;padding:0}
+.pay-login .header_right li{float:left;padding:0 20px;font-weight:bold;font-family:"微软雅黑";color:#333;font-size:16px}
+.pay-con {width:780px;margin:50px auto 80px auto;background:#fff; border-radius:10px;padding:30px 0;overflow:hidden}
+.pay-con .left{border-right:1px dashed #dedede;width:50%;text-align:center;float:left;margin-right:10px}
+.pay-con .right{padding:20px 25px 10px 25px;width:40%;float:left}
+.pay-con .right h2{text-align:center}
+.pay-con .right span{display:block;padding:6px 0px}
+.pay-con .right .resales{float:right}
+.pay-con .right .txt{height:25px;width:95%; border-radius:3px;line-height:25px;color:#666}
+.pay-con .right .btn{ clear:both}
+.pay-con .right .btn_com{width:100%;}
+.pay-login .footer{background:#f60;color:#fff; position:fixed;bottom:0;_position: absolute;
+_bottom: auto;
+_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+
+
+/*弹出框*/
+#popShadow{position:fixed; left:0; top:0; z-index:1010; width:100%; height:100%; background:#000; opacity:0.5; filter:alpha(opacity=50)}
+.popWrap{position:absolute; z-index:1020; box-shadow:0 0 10px #666}
+.pop_con .cancel,.popCancel{background:url(../images/close.png) no-repeat; width:28px; height:28px; text-align:right; text-decoration:none; position:absolute; right:0px; z-index:10;top:0}
+.pop_con{background:#fff; padding:15px 50px; overflow:hidden}
+.pop_con .title{border-bottom:1px solid #dedede;padding:10px 0 5px 10px}
+.pop_con .title em{font-size:16px;color:#323232;margin-right:10px;}
+.pop_con span{display:inline-block; zoom:1; *display:inline; vertical-align:top; font-size:14px; font-family:arial;width:45%;padding:10px 0 10px 10px}
+.pop_con span em{color:#808080}
+.pop_con .use-con .title{border-bottom:1px dashed #dedede}
+.pop_con .use-con span{display:block;color:#808080;padding:5px 0 5px 10px;font-size:12px}
+.pop_con .filed{padding:0px 0 0px 15px;}
+.pop_con .filed span{display:inline-block; zoom:1; *display:inline; vertical-align:middle; font-size:12px; font-family:arial;}
+.pop_con .label{font-family:"宋体";width:100px;text-align:right;margin-right:8px}
+.pop_con .text .txt{width:200px}
+.pop_con .text{text-align:left}

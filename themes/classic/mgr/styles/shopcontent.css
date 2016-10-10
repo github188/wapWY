@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; font:12px/150% Arial, Helvetica, sans-serif, "宋体" }
+dl,dt,dd,ul,ol,form,fieldset,input,p,blockquote,table{margin:0; padding:0; list-style:none}
+a{color:#666; text-decoration:none; font-size:12px}
+a:hover{color:#ff9900; text-decoration:underline}
+a img{ border:0}
+.clear{clear:both}
+
+
+/*color style
+---------------------------*/
+.yellow{color:#f60; font-weight:700}
+.fz{font-size:14px}
+.red{color:#ff0000}
+.pbluebg{color:#036}
+.p9black{font-family:"Verdana"; font-size:12px; color: #000}
+.p9orange{font-family:"Verdana"; font-size:12px; color:#f60}
+.underline{text-decoration:underline}
+
+
+/*common style
+---------------------------*/
+.addbutton{ background:url(../images/buttonbg.gif) repeat-x; border:1px solid #ccc; font-size:12px; height:22px; line-height:22px; text-align:center; padding:0 8px; margin:0}
+.addinfo{ display:none; margin-top:10px}
+.btnWrap{ padding:10px 0; text-align:center}
+.buttonstyle{ height:23px; line-height:21px; cursor:pointer; padding:0 5px; font-size:12px}
+.close { float:right; position:absolute; right:2px; top:2px; width:30px; text-align:center}
+.hr{ border-bottom:1px solid #ccc; font-size:0; height:0; line-height:0; clear:both; width:100%; margin:8px 0}
+.required-dot{ color:#ff0000; font-size:160%; line-height:16px; padding-left:3px}
+.textright{ text-align:right}
+.txtstyle{ border:1px solid #ccc; padding:3px 5px; height:15px}
+
+
+
+
+/*table style
+---------------------------*/
+.search_btn{border:2px groove #8ac; height:20px; background-color:#fff; color:#57a;}
+.stat_inputstyle{font-family:"Verdana"; color: #f60; border:1px #ccc solid; height:20px; background-image: url(../images/inputstyle.gif)}
+.fieldsetStat{margin-bottom:20px}
+.fieldsetStat legend span{color:#f60; font-weight:700}
+
+
+.adduserinfo, .addOrder{width:100%; background:#f7f7f7; border:1px solid #ccc; margin-bottom:9px; color:#333; font-size:12px}
+.adduserinfo .settime input{ width:30px}
+.adduserinfo .select1{ width:155px}
+.adduserinfo .thL, .addOrder .thL{text-align:right; font-weight:100; color:#000}
+.adduserinfo .txtlength{width:254px}
+.adduserinfo .inputstyle{text-align:left; padding:10px 0}
+
+
+
+table.listtable td{font-size:12px; border-bottom:#e5e5e5 1px solid; font-family:"Verdana"}
+
+table td.goodpic a{cursor:default}
+table td.goodpic a:hover{position:relative}
+table td.goodpic a span{display:none}
+table td.goodpic a:hover span{display:block; position:absolute; text-align:center; padding:1px 0; border:3px solid #ccc; width:80px; height:80px; top:20px; left:20px; z-index:100; background:#fff}
+
+.toolbox{margin:0 0 2px 10px; font-size:12px; width:100%}
+.toolbox .menu {color:#666; height:26px}
+.toolbox .menu span {line-height:20px; padding:5px; border-width:1px 1px 0; border-style:solid; border-color:#ccc; color:#666; position:relative; top:2px; margin-right:4px; cursor:pointer}
+.toolbox .menu span a {color:#000}
+.toolbox .menu span.current,.toolbox .menu span.current1 {line-height:24px; color:#000; position:relative; top:1px; font-weight:700}
+.toolbox .menu span.current {background:#fcf7dc;border-width:1px 1px 0 1px; border-style:solid; border-color:#ccc; border-bottom:2px solid #fcf7dc; }
+.toolbox .menu span.current1{background:#f7f7f7;border-width:1px 1px 0 1px; border-style:solid; border-color:#ccc; border-bottom:2px solid #f7f7f7; }
+
+
+
+
+/*.toolbox td.searchbar{text-align:right; padding-bottom:2px; padding-right:10px}
+.toolbox td.tdadd,.toolbox td.searchbutton{width:5%; padding:0 0 2px 0}*/
+
+
+
+/*mgrIndexRight style
+-----------------------------------*/
+.welcometopinfo{ border-left:2px solid #f60; margin:20px 0 0 50px; padding-left:10px; font-family:"宋体"}
+.welcomecontent{ border-width:3px 0 0; border-style:solid; border-color:#efefef; padding:30px 50px 0}
+.welcomecontent fieldset{margin-bottom:10px; border:1px solid #E5E5E5}
+.welcomecontent fieldset legend{ margin-left:20px; font-size:14px; font-weight:700; color:#000}
+.welcomecontent table{width:100%; text-align:center; margin:10px 0 0}
+.welcomecontent table th{ background:url(../images/bartop.gif) repeat-x; height:27px; font-weight:normal;}
+.welcomecontent table td{ border-top:1px solid #e5e5e5; height:25px}
+.welcomecontent table tr.row{ background:#F7F3F7}
+
+
+
+
+/*userlist
+----------------------------------*/
+.userlist{margin:10px auto 20px; padding:10px 20px 20px; position:relative}
+
+
+
+
+.listhead{float:left;color:#9cacaf; padding:7px 14px;margin-bottom:10px; border-bottom:1px solid #ddd}
+.listhead a:hover{text-decoration:underline}
+.listhead .listheadL{float:left}
+.listhead .adduser{float:right; padding-left:10px; border-left:2px solid #999}
+
+.listcontent table.usertable{ width:100%;border-width:1px 1px 1px 1px; border-style: solid; border-color:#ccc;  text-align:center; font-size:12px; border-collapse:collapse}
+.listcontent table.usertable thead th{background:url(../images/clisttitlebg.gif); height:23px; line-height:23px; text-align:center; white-space:nowrap; border-bottom:1px solid #ccc}
+.trfoot{ background:url(../images/clisttitlebg.gif); height:28px}
+.trfoot .totaltxt{ width:20px}
+.listcontent table.usertable tr:hover{ background:url(../images/clisttitlebg.gif)}
+.usertable tr.odd{ background-color:#efefef}
+.usertable td.operation a{ color:#000}
+.usertable td.orderNoRed a{color:#f60; font-weight:700}
+.usertable td.orderNoBlack a{color:#000; font-weight:700}
+
+
+.usertable td{border-top:1px solid #ccc; border-bottom:1px solid #ccc;padding:2px 0}
+.usertable td.all-delbutton{padding-left:8px; text-align:left}
+.all-delbutton a{background:url(../images/inputstyle.gif) repeat-x; height:22px; line-height:22px; border:1px solid #ccc; padding:2px 4px}
+.usertable td.navol{ text-align:right;padding-right:10px;}
+.usertable td.navol a{ text-decoration:underline}
+.usertable td.navol .addbutton{margin-top:2px}
+
+
+.ordercategory a{color:#000}
+
+
+.cborder{border:1px solid #ddd; margin:20px 0 0; padding:5px}
+.chead{border:1px solid #efefef; padding:5px; font-weight:700; color:#4f6b82}
+
+
+
+
+
+
+.addfile{width:400px;height:24px; background:#fff; padding-left:2px}
+.selectboxbar{ border:4px solid #efefef}
+.selectboxbar .title{ background:url(../images/clisttitlebg.gif) repeat-x; height:24px; padding:1px 0 1px 2px}
+.selectboxbar ul{ background:url(../images/fieldbg.gif) repeat-x; overflow:auto}
+.selectboxbar ul li{ border-top:1px solid #efefef; padding:4px; height:16px; line-height:16px} 
+.selectboxbar ul li span{ padding:0 10px; display:block; float:left; white-space:nowrap}
+.selectboxbar ul li span.link{background:url(../images/tab-close-active.png) no-repeat 0 6px; float:right; text-indent:-9999px;_text-indent:0;_background:none; color:#f00}
+
+
+.tablehead{text-align:center; background:#ddd; font-weight:700}
+.addOrder tr,.addOrder1 tr{ padding:4px 0}
+.addOrder td,.addOrder1 td{ border-width:1px 0; border-style:solid;border-color:#efefef;}
+
+.addOrder1{text-align:center; width:100%; background:#f7f7f7; border-width:0 1px; border-style:solid; border-color:#bcbcbc;}
+.addOrder1 tr.shopinfohead{ font-weight:700}
+
+
+
+.searchbox{padding:10px; background:#fcf7dc; border:1px solid #c2b931}
+.searchbox fieldset{border:1px solid #c2b931;padding:10px}
+.searchbox legend{font-weight:700; border:1px solid #cfbd5f; margin:5px; padding:5px; color:#000}
+.searchbox table{width:100%}
+.searchbox table th{text-align:right; font-weight:normal}
+.searchbox table input,.searchbox table select{ border:1px solid #ccc; height:18px}
+.searchbox table .selectstyle{ width:153px}
+.searchbox table .radiostyle{ border:0}
+.searchbox table select{ height:22px}
+.searchbox fieldset table .textstyle{width:50%}
+
+
+#normalCategorySelector{float:left; width:100%; margin:0 auto;border:1px solid #ccc; background:#f7f7f7; padding:0 10px 20px 30px}
+.recentUserdCategory{float:left; margin:20px 0 5px 60px}
+.categorySelector{clear:both; width:760px; height:279px;margin-left:120px; background:#fff}
+.categorySelector ul{ margin-right:2px; border:1px solid #ccc; float:left;width:186px; height:277px; overflow:auto}
+.categorySelector ul.black{ background:#f1f1f1}
+.categorySelector li{ width:156px; height:20px; margin:0 1px; border:1px solid #fff; line-height:20px; color:#444; text-indent:3px}
+.categorySelector li.selected{ background:#caffc0; border:1px solid #0a9800; color:#006623}
+.categorySelector li.isfather, .classlist li.isfather{background:url(../images/publishitem_subcate_arrow.gif) no-repeat 99% 50%}
+.submitform{ float:left; width:100%; clear:both;margin:10px 0px 15px; text-align:center}
+
+
+#ClassSearchResultDiv {border:1px solid #dfdfdf; background:#fafff8; margin-top:10px}
+#ClassSearchResultDivList{padding-top:5px; overflow:auto; height:200px;}
+#ClassSearchResultDivList div, .sortShow div { padding-left:5px; margin-left:10px; cursor:pointer; margin-top:3px;padding-top:2px}
+.classbutton{margin:8px 0; text-align:center}
+div.selectedSort {border:1px solid #78a3d2;	background-color:#e6f5ff; margin-right:10px; color:#3366cc}
+div.hasLeaf {background-image:url(../images/publishitem_subcate_arrow.gif); background-position:183px; background-repeat:no-repeat}
+.sortList{float:left; width:228px; margin-right:10px; margin-top:10px}
+.sortNote{background:url(http://pics.paipai.com/upload/sortShowBg.gif) no-repeat; height:20px; margin-bottom:5px;	padding-top:4px; padding-left:24px;	color:#ff4a00}
+.sortShow{width:227px;	height:230px; overflow:auto; border:1px solid #dfdfdf; background:#f7f7f7;}
+#sortPath{border:1px solid #ffe696; background:#fffaea; margin-top:10px}
+.mTop{margin-top:10px}
+
+
+.addpic{margin:4px 0}
+
+.addclasslist{clear:both; width:760px; height:279px;padding:0 86px; background:#fff}
+.classlist{ float:left;width:186px; height:277px; margin:10px 2px 10px 0 }
+.classlist .classbutton{margin:8px 0; text-align:center}
+.classlist ul{border:1px solid #ccc; width:200px; height:277px; overflow:auto}
+.classlist ul li{ width:170px; height:20px; margin:0 1px; border:1px solid #fff; line-height:20px; text-indent:3px; color:#444}
+
+
+/*patchonload 批量处理
+------------------------*/
+.patchonload{margin:30px auto 0; padding:0 20px 20px}
+.allborder{border:#bcbcbc solid 1px; font-family:"Verdana"; font-size:12px; color:#000}
+.allborder td{line-height:20px; padding-left:10px}
+
+
+
+/*shopadminList
+------------------------*/
+.adminlistcontent{margin:20px auto 0; padding:0 20px 20px}
+
+.c-header{position:relative; cursor:default; padding:18px 0 0 10px;	z-index:1}
+.c-header .desc{border-top:1px solid #eee; background:url(../images/tableheadbg.gif); color:#000; padding:5px 15px; margin:1px 0; text-align:center; position:absolute; left:10px; top:4px}
+.c-header .block{position: absolute; top:-25px; right:0; z-index:0}
+.c-header .block span{display:block; cursor: pointer; float:right; text-indent: -5000px; width:17px; height:17px; display:block;position:absolute; right:25px}
+
+#headBar{margin-top:20px; margin-left:8px}
+
+.billfunctions{ padding:4px}
+.billfunctions input{border:1px solid #ccc; height:21px; line-height:18px; font-size:11px; width:130px}
+.billfunctions input.button{border:3px double #ddd; background:url(../images/buttonbg1.gif); height:25px; padding-top:1px}
+form.clist{clear:both; display:block; padding:4px}
+form.clist .operation{text-align:right; background:url(../images/tableheadbg.gif); border-bottom:1px solid #efefef; height:25px}
+form.clist .operation .button{float:left; color:#fff; height:26px; background:url(../images/operationbutton.gif) no-repeat right 3px; white-space:nowrap; margin:0 1px; padding-right:6px}
+.clist .operation .button label,.clist .operation .button input,.clist .operation .button a{ background:url(../images/operationbutton.gif) no-repeat 0 3px; display:block; float:left; height:26px; line-height:26px; color:#000; text-align:center; padding-left:5px; font-weight:700}
+.clist .operation .button label:hover,.clist .operation .button input:hover,.clist .operation .button a:hover{ background:url(../images/operationbutton.gif) no-repeat 0 -41px}
+
+ul.clist{ border:4px solid #efefef; display:block; background:#efefef; clear:both}
+ul.clist li{ padding:3px; height:20px; line-height:20px; border-bottom:1px solid #e9e9e9}
+ul.clist li.header{ height:27px; background:url(../images/clisttitlebg.gif); line-height:27px; padding:0 5px}
+.row_1{ background:url(../images/lirowbg.gif); border-bottom:1px solid #ccc}
+.row_2{ background:#fff; border:1px solid #ccc}
+ul.clist li input.sel{ float:left; width:40px}
+ul.clist li span{ float:left; width:85px}
+ul.clist li span.handle1{width:60px}
+
+.adminlistcontent h2{clear: both; padding:2px 4px; border-top:1px solid #bbb; border-bottom:1px solid #ccc; background:#747a7e; margin:6px 0px 6px -4px; color:#fff; font-size:14px}
+.Operatorinfo{background:url(../images/administrationseupinfo.gif); width:563px; height:186px; margin:5px 0 5px 25px; position:relative; color:#999; line-height:normal}
+.Operatorinfo .adminname{position: absolute; left: 200px; top: 43px; width: 133px; height: 14px; text-align: center; color: #369}
+.Operatorinfo .admininfo{ position:absolute; left:350px; top:4px; width:145px; height:55px; vertical-align:middle; display:block}
+.Operatorinfo .straightinfo{position:absolute; left:7px; top:61px; width:170px; height:55px; vertical-align:middle; display:block}
+.Operatorinfo .apartname{ position:absolute; left:292px; top:102px; width:100px; height:14px; text-align:center; color:#369}
+.Operatorinfo .apartinfo{ position:absolute; left:417px; top:99px; width:141px; height:55px; vertical-align:middle; display:block}
+.Operatorinfo .normaladmin1{ position:absolute; left:127px; top:164px; width:124px; height:20px; vertical-align:middle; text-align:center; color:#369}
+.Operatorinfo .normaladmin2{ position:absolute; left:279px; top:164px; width:124px; height:19px; text-align:center; color:#369}
+
+.cform table.section{color:#333; margin-bottom:9px; border-top:6px solid #efefef; clear:both}
+.cform table.section tbody th{ border-top:1px solid #efefef; vertical-align:top; font-weight:normal; background:#fff}
+.cform table.section tbody td{ border-top:1px solid #efefef; vertical-align:top; background:#fff}
+.cform table.section td.value label{display: block}
+
+.privilege{width:980px; margin:0 auto; padding-top:15px}
+.privilege fieldset{border:1px solid #ddd; width:46%; float:left; margin:0 3px 7px 3px; padding:10px;}
+.privilege fieldset.right{float:right}
+.privilege fieldset legend{border-top:1px solid #eee; background:url(../images/tableheadbg.gif); color:#000; padding:5px 15px; margin:1px 0}
+.privilege dl dt{font-weight:700; font-size: 14px; color:#000; border-bottom:3px solid #efefef; padding:5px 0}
+.privilege dl dd{ padding-left:20px}
+
+.actionbar{padding-left:40%}
+.actionbar .button{float:left; color:#000; height:26px; line-height:26px; background:url(../images/operationbutton.gif) no-repeat right 3px; white-space:nowrap; margin:0 1px; padding-right:6px; font-weight:700}
+.actionbar .button label{background:url(../images/operationbutton.gif) no-repeat 0 3px; display:block; float:left; height:26px; line-height:26px; color:#000; padding-left:6px; font-weight:700}
+
+
+.error{margin:20% 0 0 20px; position:relative; text-align:left;}
+.errorpic{background:url(../images/error.gif) no-repeat; width:300px; margin:0 auto; padding:20px 0 0 120px; height:auto !important; height:100px; min-height:100px}
+
+.navBar{padding-left:10px;}
+.navBar{padding-top:8px}
+
+.sysiconBtn {float:right; background:#EDF3F7 url(../images/sysicon.gif) no-repeat 5px 2px; margin:1px 5px 0 5px; padding:0 4px 0 20px; line-height:24px; cursor:pointer; color:#000; border-top:1px solid #fff; border-left:1px solid #fff; border-right:1px solid #bec6ce; border-bottom:1px solid #bec6ce; outline:none; display:inline; font-weight:normal; text-align:right}
+
+
+
+
+/*订单列表
+-------------------------*/
+h4{color:#111; margin:0.5em 0; font-size:1.2em; font-weight:700; line-height:1.25em; height:1.25em;}
+.tableform{background:#f9f9f9; margin:30px 20px 10px; padding:5px; border:1px solid #eee}
+.tableform h4 div{float:right; padding-right:43%}
+.affirmButton{float:right}
+.division{border:1px solid #eee; background:#fff; padding:5px; margin:10px}
+.division table{border-collapse:collapse;}
+.division table a{color:#000}
+.division th{text-align:right; white-space:nowrap; border-right:1px solid #efefef; background:#F8FAFC; font-size:14px; font-weight:normal}
+.division th,.division td{padding:3px; border-top:1px solid #efefef; font-family:"宋体"; padding:5px 0; font-size:14px}
+.division td{border-left:1px solid #fff; border-right:1px solid #efefef; padding:5px}
+.division th.td_fz,.division td.td_fz{ font-size:12px}
+
+
+table.finderInform{border:1px solid #efefef; width:100%; border-collapse:collapse}
+.finderInform thead th{background:url(../images/functionareabg.gif); border-bottom:1px solid #ccc; border-top:1px solid #fff;border-right:1px solid #DBE2E7; border-left:1px solid #fff; padding:1px 0; text-align:center; table-layout:fixed;  font-size:12px; font-weight:700;}
+.finderInform tbody td{padding:5px 3px; border-right:1px solid #DBE2E7; border-left:1px solid #fff; border-bottom:1px solid #dedede; border-top:1px solid #fff; text-align:center; font-size:12px}
+.finderInform a:hover{ text-decoration:none}
+.Colsn{width:36px; background:#efefef; border-bottom:1px solid #000}
+.Colamount,td.Colamount{background:#F8FAFC;}
+.Coloption_1b{border-bottom:1px solid #dedede}
+
+table td.goodpic a:hover{ position:relative}
+table td.goodpic a span{ display:none}
+table td.goodpic a:hover span{display:block; position:absolute; text-align:center; top:20px; left:20px; z-index:100; background:#fff}
+table td.goodpic a:hover span img{border:1px solid #ccc; padding:2px}
+
+.league_head{margin-top:20px; font-size:14px; text-align:center; color:#3366CC; font-weight:700}
+
+
+.sysiconBtnNoIcon{background:url(../images/functionareabg.gif) 0 -23px; margin-left:5px; padding:4px 4px 2px; cursor:pointer; color:#000; border-top:1px solid #fff; border-left:1px solid #fff; border-right:1px solid #bec6ce; border-bottom:1px solid #bec6ce}
+
+.tableAction{margin:5px auto; clear:both; padding-bottom:5px}
+.submitBtn{float:left; height:27px; white-space:nowrap;background:#4E6A81; margin-right:10px; border-top:1px solid #ddd; border-left:1px solid #ddd; border-bottom:1px solid #000; border-right:1px solid #000; cursor:pointer;}
+.submitBtn input,.submitBtn a,.submitBtn button,td .submitBtn a{ color:#fff; font-size:14px; background:#4E6A81; float:left; font-family:Arial; text-align:center; padding:2px 5px 0 5px; font-weight:700; cursor:pointer}
+
+
+
+
+/*模板页面
+-------------------------*/
+#template{margin-top:20px}
+#template .actionBar{float:left; width:99%; line-height:30px; _line-height:25px; background:url(../images/functionareabg.gif); border-bottom:3px solid #6F777A; padding:0 8px;}
+.templatelist{clear:both}
+.templatelist .item {width:32%; overflow:hidden; margin:5px 0 5px 6px; border:1px solid #eee; float:left}
+.templatelist .item img {background:#EFF2F5; padding:4px; border:1px solid #ddd}
+.templatelist .current{background:#E7EFF5 url(../images/sysrightbackgroud.gif) repeat-x; border:1px solid #369}
+.templatelist .item .info li{line-height:20px;}
+.templatelist .item .info li a{ text-decoration:underline}
+.templatelist .optionsbar{margin-top:15px; position:relative}
+.templatelist .optionsbar cite{display:block; float:left; width:100%; font-style:normal; margin-top:3px; height:18px}
+.templatelist .desc{float:left; width:100%; border-top:1px solid #BEC6CE}
+.templatelist .desc ul{float:left; width:29%; white-space:nowrap; margin:10px 0 10px 20px; font-family:"宋体"; font-size:12px}
+.templatelist .desc ul li{line-height:210%}
+.templatelist .desc span{color:#295D8D; font-weight:700}
+
+

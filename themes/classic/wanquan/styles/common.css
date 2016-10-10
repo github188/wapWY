@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document 
+
+公共样式
+
+*/
+
+*html{background-image:url(about:blank); background-attachment:fixed;}
+body{margin:0; padding:0; height:100%; font:13px/1.5 Arial, Helvetica, sans-serif; min-width:1000px}
+img{border:none}
+form,ul,li,p,dl,dt,dd{margin:0; padding:0}
+h1,h2,h3,h4,h5{margin:0; padding:0; color:#3F3F3F}
+table{border-collapse:collapse}
+ul{list-style:none}
+cite, em{font-style:normal}
+a{color:#666; text-decoration:none; outline:none; *nofocus:expression(this.onFocus=this.blur())}
+a:hover{text-decoration:none; color:#e70012}
+ins{text-decoration:none}
+.clearfix:after{content:'.'; display:block; height:0; font-size:0; line-height:0; clear:both; visibility:hidden}
+.clearfix{display:inline-block}
+/*Hides from IE-mac*/
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/*End hide from IE-mac*/
+.clear{clear:both; height:0; font-size:0; line-height:0; visibility:hidden;}
+
+
+
+/*color style
+==================================================================*/
+.green{color:#093 !important}
+.gray{color:#888 !important}
+.red{color:#f00 !important}
+.blue{color:#497CD2 !important}
+.orange{color:#ff6600!important}
+.yellow{color:#f60; font-weight:700}
+.fz{font-size:14px}
+.fw{ font-weight:bold;}
+.red{color:#f00}
+.cur{color:#ff6600}
+.pbluebg{color:#036}
+.p9black{font-family:"Verdana"; font-size:12px; color: #000}
+.p9orange{font-family:"Verdana"; font-size:12px; color:#f60}
+.underline{text-decoration:underline}
+.required{color:#f00; font-family:"宋体"}
+.btn_com{background-color:#ff6600; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto}
+.btn_com_blue{background-color:#06F; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; height:auto;}
+.btn_com_gray{background-color:#d9d9d9;  border-style:solid; border-width:1px; color:#333 !important; padding:6px 8px;font-size:12px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:3px; width:auto;height:auto}
+.btn_comCancel{background-color:#ccc; border:none; color:#666 !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto}
+.succeedTip{border:1px solid #4ee46e; background:#d3eed9; padding:15px; width:90%; margin:0 auto; color:#006816; font-size:14px}
+.errorTip{border:1px solid #FFA66D; background:#FFDFCB; padding:15px; width:90%; margin:0 auto; color:#f00; font-size:14px}
+input, textarea{padding:5px; border:1px solid #ddd}
+
+
+/*登录界面*/
+.kkf_loginHD{height:80px}
+.kkf_loginBD{background:url(../images/loginBG.jpg) no-repeat top center; position:relative; font-family:"微软雅黑";}
+.kkf_loginBDL{position:absolute; right:150px; top:60px; background-color:#000; opacity:0.2; filter:alpha(opacity=20); z-index:90; width:309px; height:290px}
+.kkf_loginBDR{position:absolute; left:50%; top:120px; padding:18px 22px; color:#fff;  z-index:99;margin-left:-210px;}
+.kkf_loginBDR h2{background:url(../images/logo_icon.png) no-repeat center center; height:60px; margin-bottom:20px;}
+.kkf_loginBDR .txt{border:none; background:#96835a; padding:5px; display:block; margin-bottom:16px; height:26px; line-height:24px; font-size:14px; color:#333}
+.kkf_loginBDR .yhm{width:377px; clear:both}
+.kkf_loginBDR .code{margin-bottom:20px}
+.kkf_loginBDR .code input{width:150px; float:left; margin-right:10px;border-radius:3px}
+.kkf_loginBDR .code img{max-height:34px; max-width:94px}
+.kkf_loginBDR .forgetPasswrod{text-align:right; display:block; margin-bottom:5px; color:#fff; font-size:14px; clear:both;}
+.kkf_loginBDR .name{float:left; line-height:37px; font-size:18px; color:#666; letter-spacing:0.2px; width:80px;}
+.kkf_loginBDR .username,.kkf_loginBDR .password{width:250px; padding-left:45px; height:38px; margin-bottom:20px; border-radius:3px;float:left}
+.kkf_loginBDR .password{background:#96835a url(../images/icon5.png) no-repeat 5% 50%;background-size:18px;}
+.kkf_loginBDR .username{background:#96835a url(../images/icon4.png) no-repeat 5% 50%; background-size:25px;}
+.kkf_loginBDR .username input, .kkf_loginBDR .password input{width:235px}
+.kkf_loginBDR .btn{text-align:center; margin-bottom:15px;float:right}
+.kkf_loginBDR .btn input{background:#e4700e; border:none; height:38px; line-height:32px; font-size:16px; width:295px; color:#fff; font-weight:600; cursor:pointer; border-radius:3px}
+.kkf_loginBDR .wrong{background:#F9ECC7;width:275px; line-height:37px;margin-bottom:10px;padding-left:20px;float:right; color:#ff0000}
+
+
+/* CSS Document 
+用户支付
+*/
+.header{width:100%; height:44px;margin:0 auto; overflow:hidden; background:url(../images/top_bj.png) repeat-x}
+.logo{width:200px; float:left}
+.header_right{height:44px;float:right}
+.header_left{line-height:44px; float:left; color:#F9ECC7; font-weight:600;padding-left:35px;font-size:14px}
+.header_right ul{float:right;margin-right:30px;line-height:44px}
+.header_right li{float:left;color:#fff;padding:0 10px}
+.header_right a{ color:#fff;}
+.header_right .fw{font-size:20px; font-weight:600; font-family:Arial, Helvetica, sans-serif}
+.kkfmain{overflow:hidden}
+.kkfmain .left{width:199px; float:left; background:#4a525a; overflow:hidden; padding-bottom:1000px; margin-bottom:-1000px;}
+.kkfmain .left li{ padding:18px 0 18px 66px;color:#fff;border-bottom:1px solid #566069;font-size:14px;}
+.kkfmain .left .li0{ background-image:url(../images/icon1.png); background-repeat:no-repeat; background-position:25px center}
+.kkfmain .left .li1{ background-image:url(../images/icon2.png); background-repeat:no-repeat; background-position:25px center;background-size:30px}
+.kkfmain .left .li2{ background-image:url(../images/icon3.png); background-repeat:no-repeat; background-position:25px center}
+.kkfmain .left .li3{ background-image:url(../images/icon6.png); background-repeat:no-repeat; background-position:25px center; background-size:30px}
+.kkfmain .left .li4{ background-image:url(../images/icon7.png); background-repeat:no-repeat; background-position:25px center; background-size:30px}
+.kkfmain .left .li5{ background-image:url(../images/icon10.png); background-repeat:no-repeat; background-position:25px center; background-size:30px}
+.kkfmain .left .li6{ background-image:url(../images/icon9.png); background-repeat:no-repeat; background-position:25px center; background-size:30px}
+.kkfmain .left .li7{ background-image:url(../images/icon11.png); background-repeat:no-repeat; background-position:25px center; background-size:30px}
+.kkfmain .left li a{color:#fff}
+.kkfmain .left li a:hover, .kkfmain .left .cur{color:#ff6600}
+.kkfmain .kkfmain_r{margin:0 0 0 200px;}
+.kkfm_r_inner .put{font-weight:bold; margin:0 0 10px 10px;display:block}
+.kkfm_r_inner{padding:20px 20px 20px; min-height:500px}
+.kkfm_r_inner .contant{position:relative}
+/*.kkfm_r_inner .barCode{width:1px; height:1px; position:relative; left:-50px; z-index:-1; font-size:0}*/
+.kkfm_r_inner .top{margin:0 0 15px 5px; overflow:hidden; border-bottom:1px solid #ddd; padding-bottom:10px}
+.kkfm_r_inner .top .fr{float:left; width:auto; padding:10px 15px; margin-left:15px; display:inline}
+.kkfm_r_inner .img{float:left}
+.kkfm_r_inner .name{float:left;margin:10px 0 0 15px;font-weight:bold;font-size:16px;}
+.kkfm_r_inner .name a{display:block;float:left;margin:3px 30px; padding-left:32px;}
+.kkfm_r_inner .op{float:right;margin:8px 20px 0 0;font-size:14px; background:#09F;padding:6px 12px}
+.kkfm_r_inner .op a{color:#fff}
+.kkfm_r_inner .op a:hover{color:#ff0000}
+.kkfm_r_inner .name .way{ background-image:url(../images/txm.jpg); background-size:30px 20px; background-repeat:no-repeat; background-position: left center}
+.kkfm_r_inner .name .way1{ background-image:url(../images/ewm.jpg); background-size:20px; background-repeat:no-repeat; background-position: left center}
+.kkfm_r_inner .name select{border:1px solid #ddd; padding:3px; font-size:14px; color:#666; font-weight:100;}
+.kkfm_r_inner .filed{padding:12px 0 12px 55px}
+.kkfm_r_inner .filed span{display:inline-block; zoom:1; *display:inline; vertical-align:center; font-size:14px; font-family:arial}
+.kkfm_r_inner .label{font-family:"宋体";width:125px;text-align:right;}
+.kkfm_r_inner .texttop{vertical-align:top;}
+.kkfm_r_inner .text{color:#666}
+.kkfm_r_inner .text a:hover{text-decoration:underline;}
+.kkfm_r_inner .text .remarks{width:350px; height:150px;}
+.kkfm_r_inner .filed .text1{width:180px; color:#666; font-size:12px;padding-left:8px}
+.kkfm_r_inner .filed .label em{ display:inline-block; vertical-align:central;margin-right:5px}
+.footer{width:100%; margin:0 auto;background:#dedede;padding:18px 0}
+.footer p{ text-align:center;}
+.footer p span{color:#ff0000;font-size:16px;font-weight:bold}
+.tow-code{ position:absolute; right:250px;top:10px;}
+.tow-code .img{margin-bottom:10px;border:1px solid #dedede; float:none}
+.tow-code .img img{width:180px;height:180px;}
+.tow-code .text{margin-left:30px;}
+
+/* CSS Document 
+分页
+*/
+.page1{color:#777; padding-top:20px; width:100%; clear:both; height:36px}
+.page1 ul{float:right}
+.page1 li{margin-left:5px; float:left; vertical-align:middle; line-height:33px; background-color:#fff}
+.page1 li a{color:#333; padding:5px 0; display:inline-block; font:100 16px/24px Arial, Helvetica, sans-serif; text-align:center; border:1px solid #dedede; height:24px; width:34px}
+.page1 ul .first{display:inline}
+.page1 ul .first a, .page1 ul .pre a, .page1 ul .previous a, .page1 ul .next a, .page1 ul .last a{font:100 12px/24px "宋体"; width:auto; padding:5px 14px}
+.page1 li a:hover{border:1px solid #E4700E; background-color:#ffdee0}
+.page1 li.selected a{color:#fff; font-weight:700; background:#E4700E; border:1px solid #E4700E}
+.page1 .page-count{margin:0 0 0 20px; line-height:34px}
+.page1 .page-split{padding:0 13px; color:#000; font-family:"Microsoft Yahei";}
+.page-form input, .page-form span{float:left; margin-left:5px; display:inline}
+.page-form input{margin-top:4px}
+.page1 .txt{height:14px; line-height:14px; width:40px; text-align:center; margin-top:5px}
+.page1 .btn_com{background:#E4700E; color:#fff; border:none}
+
+
+/* CSS Document 
+弹出框
+*/
+#popShadow{position:fixed; left:0; top:0; z-index:1010; width:100%; height:100%; background:#000; opacity:0.5; filter:alpha(opacity=50)}
+.popWrap{position:absolute; z-index:1020; border:5px solid #666;}
+.pop_con{background:#fff; padding:15px; text-align:center}
+.pop_con .cancel,.popCancel{background:url(../images/close.gif) no-repeat; width:23px; height:24px; text-align:right; text-decoration:none; margin-top:-4px; position:absolute; right:23px; z-index:10}
+.pop_content .filed{margin-bottom:10px; padding:0}
+.pop_content .filed .label{vertical-align:middle; margin-right:10px; display:inline-block; zoom:1; *display:inline; font-size:14px; width:180px}
+.pop_content .filed .label1{margin-right:10px; text-align:right; display:inline-block; zoom:1; *display:inline; width:auto}
+.pop_content .filed p{line-height:1.8}
+.pop_content .text{display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+.pop_content .text img{width:110px; height:100px;}
+.pop_content .fileds{padding:8px 0 8px 20px}
+.pop_content .fileds span{display:inline-block; zoom:1; *display:inline; vertical-align:top; font-size:14px; font-family:arial}
+.pop_content .fileds h3{ color:#ff0000; text-align:center; font-size:16px}
+.pop_content .fileds .label{font-family:"宋体";  display:inline-block; zoom:1; *display:inline; width:135px; text-align:right}
+.pop_content .fileds .text{color:#666; margin-left:20px; display:inline-block; zoom:1; *display:inline;}
+
+/* CSS Document 
+交易明细
+*/
+.count-top .search{color:#666; background:#F9ECC7; border:1px solid #F2D98E; padding:10px; margin-bottom:20px; line-height:1.6; text-align:left; font-family:"宋体"}
+.count-top .detailed{font-size:18px; height:28px; line-height:28px;}
+.count-top{ background:#fafafa;margin-bottom:10px;} 
+.count-top .search span{padding:0 10px 8px 0; height:23px; display:inline-block; zoom:1; *display:inline; vertical-align:top; width:42%; margin-bottom:5px}
+.count-top .search select{width:105px; font-size:12px}
+.count-top .search .txt{color:#666; line-height:14px}
+.count-top .search .d_taxi{margin-right:15px; padding-bottom:8px; display:block; height:23px}
+.count-top .search .d_taxi dt{margin-right:8px}
+.count-top .search .btnWap{margin-left:300px}
+.order-title{font-weight:bold; background:#eeeeee; line-height:42px; border:1px solid #dcdcdc;}
+.contant td{line-height:42px;}
+.contant tr{border:1px solid #dcdcdc;}
+.list-page{padding:3px; border:1px solid #dcdcdc; color:#f60; font-size:14px;}
+.money{width:63px; margin:0 auto;text-align:right}
+
+/* CSS Document 
+服务介绍
+*/
+.kkfpresent .kkf_loginHD{height:80px;width:1200px;margin:0 auto;}
+.kkfpresent .kkf_loginHD .img{float:left;}
+.kkfpresent .kkf_loginHD .nav{float:right;}
+.kkfpresent .kkf_loginHD .nav li{float:left;padding:0 20px;line-height:80px;font-size:16px;color:#808080; font-family:"微软雅黑"} .kkf_loginHD .nav li a:hover{color:#ff6600}
+/*首页焦点图*/
+.kkfpresent .banner{background:url(../images/kkfpresent/banner_bj.png) no-repeat center center; position:relative;}
+.banner .H_Pic{width:1200px; margin:0 auto}
+
+/*数字按钮样式*/
+.kkfpresent .banner .num {overflow:hidden; height:20px; position:absolute; bottom:0; left:48%; zoom:1; z-index:3}
+.kkfpresent .banner .num li {width:10px; height:10px; line-height:20px; text-align:center; font-weight:400; font-family:"微软雅黑", Arial; color:#fff; background:#444; margin:0 3px; border-radius:50%; cursor:pointer; float:left; text-indent:-888em; overflow:hidden}
+.kkfpresent .banner .num li.on {background:#E70012;}
+
+/*上一个  下一个*/
+.banner .prev,
+.banner .next {display:none; width:40px; height:62px; background:url(../images/kkfpresent/btn.png) no-repeat; position:absolute; top:50%; margin-top:-31px;}
+.banner .prev {left:0;}
+.banner .next {right:0; background-position:right}
+.kkfpresent .kkf-main{width:1200px; margin:0 auto}
+.kkfpresent .submit{ padding:50px 0; text-align:center}
+.kkfpresent .footer{width:100%;background:#4d4d4d; overflow:hidden; text-align:center}
+.kkfpresent .foot{  width:58%;margin:0 auto; text-align:center}
+.kkfpresent .footer p{color:#fff;font-size:14px; text-align:center; display:inline; float:left;margin-top:3px}
+.kkfpresent .footer .telphone{float:left; display:inline; padding-left:40px;font-size:14px;color:#fff;}
+.kkfpresent .footer .telphone .tel span{color:#fff; font-size:18px; font-weight:600}
+.kkfpresent .kkf_loginBDR{position:absolute; right:10%; top:60px; padding:18px 22px; color:#fff;  z-index:99;margin-left:-210px; left:auto}
+.kkfpresent .kkf_loginBDR .name{float:left; line-height:37px; font-size:18px; color:#fff; letter-spacing:0.2px; width:80px;}
+.kkfpresent .kkf_loginBDR .txt{ background:#fff}
+.kkfpresent .kkf_loginBDL{position:absolute; right:10%; top:60px; background-color:#000; opacity:0.2; filter:alpha(opacity=20); z-index:90; width:350px; height:320px}
+.kkfpresent .kkf_loginBDR h2{height:35px;color:#fff;font-size:22px;background:none;margin:0; text-align:center}
+.kkfpresent .kkf_loginBDR .password{background: #fff url(../images/kkfpresent/icon5.png) no-repeat 5% 50%; float:right}
+.kkfpresent .kkf_loginBDR .username{background:#fff url(../images/kkfpresent/icon4.png) no-repeat 5% 50%;float:right}
+.kkfpresent .kkf_loginBDR .code{float:right; margin:0}
+.kkfpresent .kkf_loginBDR .code .txt{ width:180px}
+
+/* CSS Document 
+产品介绍
+*/
+.productpresent .kkf_loginHD{height:80px;width:1200px;margin:0 auto;}
+.productpresent .kkf_loginHD .img{float:left;}
+.productpresent .kkf_loginHD .nav{float:right;}
+.productpresent .kkf_loginHD .nav li{float:left;padding:0 20px;line-height:80px;font-size:16px;color:#808080; font-family:"微软雅黑"} .kkf_loginHD .nav li a:hover{color:#ff6600}
+.productpresent{background:#f5f5f5}
+.productpresent .header{width:100%;background:#fff;height:80px}
+.productpresent .kkf-main{width:1366px; margin:0 auto}
+.productpresent .submit{ padding:50px 0; text-align:center}
+.productpresent .footer{width:100%;background:#4d4d4d; overflow:hidden; text-align:center}
+.productpresent .foot{  width:58%;margin:0 auto; text-align:center}
+.productpresent .footer p{color:#fff;font-size:14px; text-align:center; display:inline; float:left;margin-top:3px}
+.productpresent .footer .telphone{float:left; display:inline; padding-left:40px;font-size:14px;color:#fff;}
+.productpresent .footer .telphone .tel span{color:#fff; font-size:18px; font-weight:600}
+
+/* CSS Document 
+加盟合作
+*/
+.Cooperation{background:#f5f5f5}
+.Cooperation .kkf_loginHD{height:80px;width:1200px;margin:0 auto;}
+.Cooperation .kkf_loginHD .img{float:left;}
+.Cooperation .kkf_loginHD .nav{float:right;}
+.Cooperation .kkf_loginHD .nav li{float:left;padding:0 20px;line-height:80px;font-size:16px;color:#808080; font-family:"微软雅黑"} .kkf_loginHD .nav li a:hover{color:#ff6600}
+.Cooperation .header{width:100%;background:#fff;height:80px;margin-bottom:25px}
+.Cooperation .footer{width:100%;background:#4d4d4d; overflow:hidden; text-align:center}
+.Cooperation .foot{  width:58%;margin:0 auto; text-align:center}
+.Cooperation .footer p{color:#fff;font-size:14px; text-align:center; display:inline; float:left;margin-top:3px}
+.Cooperation .footer .telphone{float:left; display:inline; padding-left:40px;font-size:14px;color:#fff;}
+.Cooperation .footer .telphone .tel span{color:#fff; font-size:18px; font-weight:600}
+.Cooperation .kkf-main{width:1000px; margin:0 auto;overflow:hidden;background:#fff;margin-bottom:30px;}
+.Cooperation .kkf-main h2{color:#ff6600;font-size:32px; text-align:center;line-height:100px;}
+.Cooperation .filed{margin-bottom:20px; padding:0}
+.Cooperation .filed .label{vertical-align:middle; margin-right:20px; display:inline-block; zoom:1; *display:inline; font-size:14px;width:20%;text-align:right}
+.Cooperation .filed .text{display:inline-block; zoom:1; *display:inline; vertical-align:middle;}
+.Cooperation .filed .text1{display:inline-block; zoom:1; *display:inline; vertical-align:middle;margin-left:10px;color:#ff0000}
+.Cooperation .filed span{display:inline-block; zoom:1; *display:inline; vertical-align:center; font-size:14px; font-family:arial}
+.Cooperation .filed .txt{border:none; padding:5px;width:450px;background:#ffdfca;line-height:28px;height:28px}
+.Cooperation .submit{ padding:10px 0; text-align:center}
+/* CSS Document 
+商户服务
+*/
+.services{background:#f5f5f5}
+.services .kkf_loginHD{height:80px;width:1200px;margin:0 auto;}
+.services .kkf_loginHD .img{float:left;}
+.services .kkf_loginHD .nav{float:right;}
+.services .kkf_loginHD .nav li{float:left;padding:0 20px;line-height:80px;font-size:16px;color:#808080; font-family:"微软雅黑"} .kkf_loginHD .nav li a:hover{color:#ff6600}
+.services .header{width:100%;background:#fff;height:80px;margin-bottom:25px}
+.services .footer{width:100%;background:#4d4d4d; overflow:hidden; text-align:center}
+.services .foot{  width:58%;margin:0 auto; text-align:center}
+.services .footer p{color:#fff;font-size:14px; text-align:center; display:inline; float:left;margin-top:3px}
+.services .footer .telphone{float:left; display:inline; padding-left:40px;font-size:14px;color:#fff;}
+.services .footer .telphone .tel span{color:#fff; font-size:18px; font-weight:600}
+.services .kkf-main{width:1050px; margin:0 auto;overflow:hidden;background:#fff;margin-bottom:30px; border-radius:5px; box-shadow:0px 1px 8px #999}
+.services .kkf-main h2{font-size:24px; text-align:center;line-height:60px; border-bottom:1px solid #999999; width:900px;margin:0 auto; color:#666}
+.services .filed{margin-bottom:20px; padding:10px 0; width:800px;margin:0 auto; border-bottom:1px solid #999;line-height:25px}
+.services .filed .label{display:inline-block; zoom:1; *display:inline; font-size:14px;font-weight:600;color:#666;}
+.services .filed .text{display:inline-block; zoom:1; *display:inline;font-size:14px;color:#999}
+.services .filed .text p{ display:inline-block;margin-left:28px;}
+.services .noborder{ border:none}
+
+/* CSS Document 
+行业方案
+*/
+.solution .kkf_loginHD{height:80px;width:1200px;margin:0 auto;}
+.solution .kkf_loginHD .img{float:left;}
+.solution .kkf_loginHD .nav{float:right;}
+.solution .kkf_loginHD .nav li{float:left;padding:0 20px;line-height:80px;font-size:16px;color:#808080; font-family:"微软雅黑"} .kkf_loginHD .nav li a:hover{color:#ff6600}
+.solution .header{width:100%;background:#fff;height:80px}
+.solution .footer{width:100%;background:#4d4d4d; overflow:hidden; text-align:center}
+.solution .foot{  width:58%;margin:0 auto; text-align:center}
+.solution .footer p{color:#fff;font-size:14px; text-align:center; display:inline; float:left;margin-top:3px}
+.solution .footer .telphone{float:left; display:inline; padding-left:40px;font-size:14px;color:#fff;}
+.solution .footer .telphone .tel span{color:#fff; font-size:18px; font-weight:600}
+.solution .banner{width:100%;background: url(../images/kkfpresent/hy-bg.png);height:747px;position:relative}
+.solution .banner .logo{position:absolute;top:0;left:50%;margin-left:-480px}
+.solution .kkf-main{position:absolute;width:900px;padding:30px;background:#f1f1f1;top:97px;left:50%;margin-left:-480px; box-shadow:0 0 10px #666}
+.solution .kkf-main .end{margin-right:0!important}
+.solution .kkf-main .work{width:280px; height:90px;border:1px solid #b3b3b3;float:left;margin:0 25px 20px 0;}
+.solution .kkf-main .work .icon{float:left;padding:30px 10px 30px 20px}
+.solution .kkf-main .work .text{padding:22px 0 0;}

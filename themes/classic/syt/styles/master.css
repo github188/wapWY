@@ -1,0 +1,196 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0; font:12px/150% Arial, Helvetica, sans-serif, "宋体"}
+dl,dt,dd,ul,form,fieldset,p,table, h2, h4{margin:0; padding:0; list-style:none}
+a {color:#666; text-decoration:none; font-size:12px}
+a:hover {color:#f90; text-decoration:none}
+img {border:none}
+em{font-style:normal}
+table{border-collapse:collapse;}
+.clearfix:after{content:'.'; display:block; height:0; font-size:0; clear:both; overflow:hidden}
+.clearfix{display:inline-block}
+/*Hide from IE-mac\*/
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/*End Hide from IE-mac*/
+.clear{clear:both}
+
+
+
+
+
+/*color style
+==================================================================*/
+.green{color:#093 !important}
+.gray{color:#888 !important}
+.red{color:#f00 !important}
+.blue{color:#497CD2 !important}
+.orange{color:#f60 !important}
+.yellow{color:#f60; font-weight:700}
+.fz{font-size:16px}
+.fw{ font-weight:bold;}
+.red{color:#f00}
+.pbluebg{color:#036}
+.p9black{font-family:"Verdana"; font-size:12px; color: #000}
+.p9orange{font-family:"Verdana"; font-size:12px; color:#f60}
+.underline{text-decoration:underline}
+.required{color:#f00; font-family:"宋体"}
+
+
+/*common style
+==================================================================*/
+
+h4{color:#111; margin:7px 0; font-size:14px; font-weight:700; line-height:23px; height:23px}
+
+.album{padding:0 0 0 5px}
+.album .btn{margin-bottom:5px; background:url(../images/90.gif) no-repeat; height:23px; line-height:24px; color:#333; cursor:pointer; font-size:12px; text-align:center; display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+.album .btn span{background:url(../images/90.gif) no-repeat 100% 0; height:23px; line-height:23px; margin-left:3px; padding:0 10px 0 10px; display:inline-block;}
+.album dl{display:inline-block; zoom:1; *display:inline; width:124px; margin-bottom:10px; margin-right:5px; vertical-align:top}
+.album dt{border:1px solid #ccc; padding:1px; margin-bottom:5px}
+.album dt img{display:block}
+.album dd{text-align:center}
+.album dd a{color:#333}
+
+
+.close { float:right; position:absolute; right:2px; top:2px; width:30px; text-align:center}
+
+.imgLogoList li{float:left; margin:0 10px 10px 0; line-height:normal}
+.imgLogoList li .htcon{width:90px; height:90px; line-height:90px; *font-size:81px}
+.imgLogoList li a{display:block; color:#04c; padding-top:5px; font-size:12px; text-align:center}
+
+label .required{color:#f00; font-size:12px; padding-right:3px}
+
+/*公共子导航*/
+.menuWrap{margin-bottom:15px}
+.menuWrap ul{border-bottom:1px solid #dedede; height:31px}
+.menuWrap li{float:left; height:30px; line-height:30px; color:#666; font-size:14px}
+.menuWrap li a{display:inline-block; zoom:1; *display:inline; color:#666; padding:0 15px; background:#f8f8f8; border:1px solid #dedede; margin-right:-1px}
+.menuWrap .cur a{background-color:#fff; border-bottom:none; height:31px}
+
+.newbtnstyle{ background:url(../images/buttonbg.gif) repeat-x; border:1px solid #ccc; font-size:12px; height:22px; line-height:22px; text-align:center; padding:0 8px; cursor:pointer; display:inline-block; overflow:hidden; color:#333; float:left;}
+.btn_border{background:#fff;border:1px solid #ddd;border-radius:5px;display:inline;padding:6px 15px;color:#666; cursor:pointer}
+
+
+/*支付*/
+.main-right{margin-right:15px}
+.kkfm_r_inner .contant{position:relative}
+.kkfm_r_inner .way{width:736px;margin:0 auto;overflow:hidden}
+.kkfm_r_inner .way li{float:left;border:1px solid #06ABFD; background-color:#f7f7f7; width:100px;text-align:center;margin:10px; padding:38px 0 10px 0}
+.kkfm_r_inner .way li a{font-size:14px}
+.kkfm_r_inner .way .li0{ background:url(../images/icon5.png) no-repeat center 10px;}
+.kkfm_r_inner .way .li1{ background:url(../images/icon6.png) no-repeat center 10px;}
+.kkfm_r_inner .way .li2{ background:url(../images/icon7.png) no-repeat center 10px;}
+.kkfm_r_inner .way .li3{ background:url(../images/icon8.png) no-repeat center 10px;}
+.kkfm_r_inner .way .li4{ background:url(../images/icon9.png) no-repeat center 6px;}
+.kkfm_r_inner .way .li5{ background:url(../images/icon10.png) no-repeat center 6px;}
+.kkfm_r_inner .way .borderGreen{border-color:#00A746}
+.kkfm_r_inner .way .borderOrange{border-color:#f60}
+.kkfm_r_inner{padding:20px 00px 0;}
+.kkfm_r_inner .clavier{width:55%;margin:0 auto;min-height:280px}
+.kkfm_r_inner .hd{width:350px;padding:0 15px;border:1px solid #dedede; position:absolute;left:120px;top:-78px; z-index:20}
+
+.kkfm_r_inner .hd .img{position:absolute;top:22%;left:-8px}
+.kkfm_r_inner .hd .hb-con{border:1px solid #dedede; overflow:auto; height:199px;padding:10px 10px 0 10px}
+
+.kkfm_r_inner .hd dt{padding:4px 0; font-size:14px}
+.kkfm_r_inner .hd dt .label{width:22%}
+.kkfm_r_inner .hd dd{padding:4px 0 4px 20px;wdith:100%}
+.kkfm_r_inner .hd .hy-name{font-size:16px; padding:10px 0 10px 10px;display:inline-block;*display:block; zoom:1}
+.kkfm_r_inner .hd dl span{display:inline-block;*display:block;*float:left;}
+.kkfm_r_inner .hd dl .text{color:#808080;font-size:12px}
+.kkfm_r_inner .hd .hb-con dd .label{width:69%;text-align:left; vertical-align:top;padding-left:0px}
+.kkfm_r_inner .hd .hb-con dd .label a{color:#333;font-size:14px}
+.kkfm_r_inner .hd .hb-con dt .label{width:71%;text-align:left; vertical-align:top;padding-left:0px;font-size:14px}
+.kkfm_r_inner .hd dl .label{width:64%;text-align:left; vertical-align:top;padding-left:10px;font-size:14px}
+.kkfm_r_inner .hd .hd-pay{clear:both; margin:5px 0 10px}
+.kkfm_r_inner .hd .momeny{border:1px solid #dedede;font-size:14px;padding:7px 10px; margin-right:10px; display:inline-block; zoom:1; *display:inline; vertical-align:middle}
+.kkfm_r_inner .hd .momeny em{font-size:18px}
+.kkfm_r_inner .top{margin:0 0 15px 5px; overflow:hidden; border-bottom:1px solid #ddd; padding-bottom:10px}
+.kkfm_r_inner .name{float:left;margin:15px 0 0 15px;font-weight:bold;font-size:14px;}
+.kkfm_r_inner .cz{float:right}
+.kkfm_r_inner .cz .btn_com_blue{padding:6px 8px;font-size:12px;margin-top:8px}
+
+.cashierDesk .filed .label{}
+.cashierDesk .filed .txt{padding:4px 4px}
+.cashierDesk .numkeyboard{height:45px; width:300px; border:2px solid #f60; font-size:24px; font-weight:bold;line-height:45px}
+.cashierDesk .phoneTxt{height:30px; width:204px;line-height:30px}
+.cashierDesk .filed .text1{position:relative}
+.cashierDesk .btn_com_gray{width:86px}
+.auth_keybord{height:252px !important}
+.auth_keybord li{height:58px !important}
+.auth_keybord button{background-color:#f7f7f7 !important; border:1px solid #ddd !important}
+.auth_keybord .backspace{background:#f7f7f7 url(../images/backspace.png) no-repeat 50% 50% !important}
+.number_list{margin-top:0 !important}
+
+
+/*修改密码*/
+.status-nav{overflow:hidden}
+.status-nav ul{padding-top:11px;}
+.status-nav ul li{padding:0 30px; height:28px; line-height:28px; position:relative; text-align:center; margin-right:10px; float:left; font-size:1.2em;border-top:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd; border-radius:3px}
+.status-nav ul .cur > a{color:#2c78a9; font-weight:600}
+.i-bd{padding:12px 20px 20px; min-height:200px; background:#fff}
+.passward{border:1px solid #dedede}
+.passward .filed{padding:15px 0 15px 15px}
+.passward .filed .label{color:#666;width:30%; vertical-align:top; margin-top:5px; margin-right:5px}
+.passward .filed .pwlabel{vertical-align: middle;margin-top: 0;}
+
+/*弹出框*/
+#popShadow{position:fixed; left:0; top:0; z-index:1010; width:100%; height:100%; background:#000; opacity:0.5; filter:alpha(opacity=50)}
+.popWrap{position:absolute; z-index:1020; border:1px solid #f0f0f0; border-radius:5px;background:#fff;}
+.pop_con{ padding:15px; text-align:center}
+.pop_con .cancel,.popCancel{background:url(../images/close.gif) no-repeat; width:23px; height:24px; text-align:right; text-decoration:none; margin-top:-4px; position:absolute; right:23px; z-index:10}
+.pop_con .title{font-size:16px;font-weight: bold; }
+.pop_con .title,.pop_con .con,.pop_con .btn{text-align:center;padding:8px 0;overflow:hidden;width:100%}
+.pop_con .btn-border{ border-radius:3px;background:none;padding:6px 25px; border:1px solid #dedede; cursor:pointer}
+.pop_con .pop_content .next{line-height:60px;width:100%;text-align:center}
+.pop_content .next span{display:block;width:100%;}
+.pop_content .next .text{text-align:center}
+.pop_content .next img{ vertical-align:middle;text-align:center}
+
+/*会员储值*/
+.stored{border:1px solid #dedede; padding:15px}
+.stored .vaule{width:200px;height:30px}
+.stored .collect{border:1px solid #dedede;width:200px;height:30px;float:right;text-align:center;font-weight:normal;line-height:30px}
+.stored .text .txt{line-height:30px;height:30px;width:200px}
+
+/*储值记录*/
+.czjl tr{height:42px;font-size:14px;border:1px solid #dedede}
+.czjl td{padding:5px; word-break:break-all}
+.order-title{font-weight:bold; background:#eeeeee; line-height:42px; border:1px solid #dcdcdc;}
+.czjl .bg{background:#f0f0f0}
+
+/*交易详情*/
+.kkfm_r_inner .balanceList .filed .label{width:auto}
+.moneyTotal{margin-bottom:10px}
+.moneyTotal .r{float:right}
+.moneyTotal .r span{margin-left:15px}
+.moneyTotal .r .total{font-size:18px}
+.moneyTotal .r strong{padding:0 3px}
+.business .top{border:1px solid #dedede;background:#e5fdff}
+.business .top .cz{margin-right:30px;margin-top:5px}
+.business .top .btn_com_gray{padding:5px 10px}
+.business .title{padding:2px 0 0 8px; clear:both; min-height:10px}
+.business .title span{display:inline-block;*display:block;*float:left;margin-right:30px}
+.business  .business-list{border:1px solid #dedede;background:#e5fdff;overflow:hidden;padding:0 5px;margin:8px 0 10px 5px}
+.business  .business-list .name{font-size:12px;border-bottom:1px solid #dedede;width:98%;margin-top:5px}
+.business  .business-list .name span{display:inline-block;*display:block;*float:left;width:20%;text-align:center;padding:5px 0}
+.business  .business-list .vaule span{display:inline-block;*display:block;*float:left;width:20%;text-align:center;padding:10px 0}
+.business-list .vaule{width:98%;margin:0 auto}
+.business-list .vaule .ssje{font-size:16px;font-weight:bold;color:#f60}
+.business-con{border:1px solid #dedede;padding:5px 10px;margin:10px 0 10px 5px;overflow:hidden}
+.business-con .con-left{width:45%;margin:0 auto;float:left;border-right:1px solid #dedede;}
+.business-con .border{border-bottom:1px dashed #dedede}
+.business  .business-con .label{ vertical-align:top}
+.business-con .con-right{float:left;}
+.business-list .dline{border-bottom:1px solid #dedede}
+.business .tk-list{background:none !important}
+
+/* 确认收款 */
+.consume_wrap{font-size: 18px;}
+.consume_money{margin: 0 auto;margin-top: 40px;height: 60px;background: #f5f5f8;width: 90%;border-radius: 5px;line-height: 60px;}
+.consume_money label{padding-left: 20px;}
+.consume_money input{border: none;background: none;height: 40px;width: 50%;line-height: 40px;font-size: 16px;outline: none;text-align: right;-webkit-appearance: none;}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; 
+  margin: 0; }
+.confirm_pay{border: none;background: #7dd469;height: 50px;line-height: 50px;width: 90%;display: block;margin: 0 auto;border-radius: 5px;color: #fff;font-size: 18px;margin-top: 20px;}
+.confirm_pay .btn_able{background: #14a003;}

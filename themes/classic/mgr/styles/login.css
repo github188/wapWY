@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body{font:100 12px/160% Verdana, Arial, Helvetica, sans-serif; color:#010101; background:url(../images/adminlogin/bg.png) repeat-x; margin:0; padding:0}
+
+
+.login_admin{background:url(../images/adminlogin/formbg.png) no-repeat; width:650px; height:368px; position:absolute; left:50%; top:50%; margin:-184px 0 0 -325px}
+.login_admin h1{top:104px; left:20px; width:288px; position:absolute; margin:0; text-align:center}
+.login_admin h1 img{border:none}
+.login_admin h2{position:absolute; left:26px; top:175px; margin:0; text-align:center; width:288px}
+.errorMessage{position:absolute; left:69px; top:22px; color:#f00; font-family:"宋体"}
+
+.formstyle{position:absolute; left:375px; top:108px}
+
+.login_admin ul{list-style:none; margin:0; padding:0}
+.login_admin li{margin-bottom:21px; _margin-bottom:13px; padding-left:70px; height:22px; position:relative}
+.login_admin .pwd{_margin-bottom:11px}
+.login_admin .pwd input{padding-top:3px; *padding-top:0}
+
+.inputstyle{height:19px; line-height:19px; width:138px; font-size:12px; border:none; background:none}
+.loginbtn{background:url(../images/adminlogin/loginbtn.png) no-repeat; width:231px; height:29px; border:none; color:#fff; cursor:pointer}
+.verifycode .inputstyle{float:left}
+.verifycode img{margin-left:23px; vertical-align:middle; *vertical-align:baseline}

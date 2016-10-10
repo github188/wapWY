@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document 
+
+公共样式
+
+*/
+
+*html{background-image:url(about:blank); background-attachment:fixed;}
+body{margin:0; padding:0; height:100%; font:13px/1.5 Arial, Helvetica, sans-serif, '微信雅黑'}
+img{border:none}
+form,ul,li,p,dl,dt,dd{margin:0; padding:0}
+h1,h2,h3,h4,h5{margin:0; padding:0; color:#3F3F3F}
+table{border-collapse:collapse}
+ul{list-style:none}
+cite, em{font-style:normal}
+a{color:#666; text-decoration:none; outline:none; *nofocus:expression(this.onFocus=this.blur())}
+a:hover{text-decoration:none; color:#e70012}
+ins{text-decoration:none}
+.clearfix:after{content:'.'; display:block; height:0; font-size:0; line-height:0; clear:both; visibility:hidden}
+.clearfix{display:inline-block}
+/*Hides from IE-mac*/
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/*End hide from IE-mac*/
+.clear{clear:both; height:0; font-size:0; line-height:0; visibility:hidden;}
+html{position: relative;min-height: 100%;}
+
+
+/*common style
+==================================================================*/
+input, textarea{padding:5px; border:1px solid #ddd}
+
+.black{color:#333 !important}
+.blue{color:#497CD2 !important}
+
+.btn_com{background-color:#f60; border:none; color:#fff;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; margin:0 2px; height: 30px; line-height: 30px; padding: 0 20px; text-align: center}
+.btn_com_blue{background-color:#06F; border:none; color:#fff;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; margin:0 2px; height: 30px; line-height: 30px; padding: 0 20px; text-align: center}
+.btn_com_gray{background-color:#eff0f4; border:1px solid #ddd; color:#666;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; margin:0 2px; height: 28px; line-height: 28px; padding: 0 20px; text-align: center;}
+.btn_com_green{background-color:#0C6; border:none; color:#fff;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; margin:0 2px; height: 30px; line-height: 30px; padding: 0 20px; text-align: center}
+.btn_com_orange{background-color:#f60; border:none; color:#fff;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; margin:0 2px; height: 30px; line-height: 30px; padding: 0 20px; text-align: center}
+
+.btn_pulldown{border:1px solid #ff7630; border-radius: 5px; color: #ff7630; height: 28px; line-height: 28px; padding: 0 20px 0 10px; display: inline-block; zoom:1; *display: inline; font-size: 14px; position: relative}
+.btn_pulldown em{position: absolute; right: 7px;top: 50%; border-width: 4px; border-style: solid; border-color: #ff7630 transparent transparent; margin-top: -2px}
+.btn_pulldown em em{position: absolute; right:-3px;top:-2px; border-width: 3px; border-style: solid; border-color: #fff transparent transparent}
+
+.checkboxAnalog{position:relative}
+.checkboxAnalog input{position:absolute; left:0; top:2px; background: #fff; border: none}
+.checkboxAnalog span{background:url(../images/sprite_icon.png) no-repeat 0 -342px; padding-left:25px; font-size:0.875rem; margin-top:0; position:relative; height:22px; display:inline-block; vertical-align:middle; color: #666; cursor: pointer}
+.checkboxChecked span{background:url(../images/sprite_icon.png) no-repeat 0 -381px}
+
+.errorTip{border:1px solid #FFA66D; background:#FFDFCB; padding:15px; width:90%; margin:0 auto; color:#f00; font-size:14px}
+.error{border:1px solid #ff0000;background:#fff5f5 url(../images/error.png) no-repeat 5px center;color:#f00;padding:0 6px 0 25px!important;height:30px; position:relative;line-height:30px;margin-left:10px; border-radius:3px}
+.error .ico{ background:url(../images/error-ico.png) no-repeat;height:10px; width:10px;position:absolute;left:-6px; top:10px}
+.footer{width:100%;text-align:center;padding:20px 0;position: absolute;left: 0;bottom: 0;}
+.fl{float: left}
+.fw{ font-weight:bold;}
+.fz{font-size:14px}
+.gray{color:#888 !important}
+.green{color:#093 !important}
+.orange{color:#ff6600!important}
+.red{color:#f00 !important}
+.required{color:#f00; font-family:"宋体"}
+.succeedTip{border:1px solid #4ee46e; background:#d3eed9; padding:15px; width:90%; margin:0 auto; color:#006816; font-size:14px}
+.yellow{color:#f60; font-weight:700}
+.underline{text-decoration:underline}
+.w_200{width: 200px !important}
+
+
+
+/* CSS Document
+ 玩券登录页面
+*/
+.login{ background:url(../images/bg.png);}
+.kkf_loginBDL{position:absolute; right:37%; top:25%; background-color:#fff; opacity:0.5; filter:alpha(opacity=50); z-index:90; width:450px; height:290px; border-radius:3px; box-shadow:0px 0px 8px 2px}
+.kkf_loginBDR{position:absolute; left:50%; top:28%; padding:20px 30px 30px 30px; color:#fff;  z-index:99;margin-left:-220px;}
+.login .kkf_loginBDR .txt{width:280px;margin:10px 0;height:25px; border-radius:3px;border:1px solid #F60}
+.login .kkf_loginBDR a{display:block;float:right;margin-bottom:10px}
+.login .kkf_loginBDR .btn{ clear:both;}
+.login .kkf_loginBDR .btn span{ display:inline-block;*display:block;*float:left}
+.login .kkf_loginBDR .btn_com{width:130px;margin-right:25px}
+.login .kkf_loginBDR .btn_com_border{background:none;border:1px solid #F60;width:130px;padding:9px 25px; border-radius:3px;color:#F60}
+.login .footer{ background:#046171}
+.login .footer p{color:#fff}
+
+/* CSS Document
+ 玩券注册页面
+*/
+.register .header{border-bottom:1px solid #d6d6d6}
+.register .header_right ul{line-height:44px;padding:0}
+.register .header li{color:#fff;font:bold 16px "微软雅黑";}
+.register .step{heigth:53px;width:700px; margin:50px auto}
+.register .step ul{background:url(../images/step.png) no-repeat; height:53px}
+.register .step li{height:36px; float:left; width:324px; text-indent:-998em}
+.register .step .cur_01{background-position:0 0}
+.register .step .cur_02{background-position:0 -53px}
+.register .step .cur_03{background-position:0 -108px}
+.register .Wqmain{width:715px;margin:10px auto;border:1px solid #dedede;background:#fff;padding:80px 0 80px 185px;}
+.register .Wqmain span{display:inline-block;*display:block;*float:left;padding:10px 0}
+.register .Wqmain .lable{width:10%;text-align:right}
+.register .Wqmain .fild .text .txt{width:280px;height:25px}
+.register .Wqmain .fild .yztxt{width:155px;height:25px}
+.register .Wqmain .success{padding-left:100px;}
+.register .Wqmain .btn{margin-left:180px}
+.register .title{width:900px;margin:30px auto 0 auto;font-size:18px;font-family:"微软雅黑"}
+.register .return{font-size:12px;padding:10px 0;padding-left:190px;}
+/* CSS Document
+ 玩券门店管理
+*/
+.store .head-top{background:#f0f0f0;height:30px;border-bottom:1px solid #dbdbdb;line-height:30px}
+.store .head-top .content{width:1200px; margin:0 auto; font-family:"微软雅黑"}
+.store .head-top .content .left{float:left}
+.store .head-top .content .right{float:right}
+.store .head-top .content .right a{margin:0 5px;color:#666}
+.store .header{background:#fff;border-top:none;border-bottom:2px solid #4990de}
+.store .header .top{padding:0}
+.store .header .logo{padding:15px 0 0 0}
+.store .header_right ul{float:left;padding:0px;margin-left:20px}
+.store .header_right a{color:#4d4d4d;font-size:14px}
+.store .header_right .li0{background:#4990de;height:68px}
+.store .header_right span{display:block}
+.store .header_right .li0 .text{color:#fff}
+/*.store .header_right .img0{background:url(../images/icon.png) no-repeat 15px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img{background:url(../images/icon.png) no-repeat 15px -20px;height:20px;margin:10px 0 8px 0}
+.store .header_right .img0{background:url(../images/icon.png) no-repeat 15px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img{background:url(../images/icon.png) no-repeat 15px -20px;height:20px;margin:10px 0 8px 0}
+.store .header_right .img1{background:url(../images/icon1.png) no-repeat 15px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img01{background:url(../images/icon1.png) no-repeat 15px -20px;height:20px;margin:10px 0 8px 0}
+.store .header_right .img2{background:url(../images/icon2.png) no-repeat 18px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img02{background:url(../images/icon2.png) no-repeat 18px -20px;height:20px;margin:10px 0 8px 0}
+.store .header_right .img3{background:url(../images/icon3.png) no-repeat 15px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img03{background:url(../images/icon3.png) no-repeat 15px -20px;height:20px;margin:10px 0 8px 0}
+.store .header_right .img4{background:url(../images/icon4.png) no-repeat 15px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img04{background:url(../images/icon4.png) no-repeat 15px -20px;height:20px;margin:10px 0 8px 0}*/
+.store .header_right li .text{color:#4d4d4d}
+/* CSS Document 
+分销登录页面
+*/
+.fx-login{background:#00c7cc}
+.fx-login .header_right ul{float:right;line-height:44px;padding:0}
+.header_right li{float:left;font-weight:bold;font-family:"微软雅黑";color:#fff;font-size:16px}
+.fx-login .Wqmain{ overflow:hidden; position:relative}
+.fx-login .Wqmain .left{ background:none;border:none}
+.fx-login .Wqmain .right{background:#fff;border:1px solid #dedede; border-radius:3px;padding:20px 25px 10px 25px;position: absolute; top:20%;right:5%}
+.fx-login .Wqmain .left{padding:30px 30px 0 60px;}
+.fx-login .right span{display:block;padding:6px 0px}
+.fx-login .right .resales{float:right}
+.fx-login .right .txt{height:25px;width:95%; border-radius:3px}
+.fx-login .right .btn{ clear:both}
+.fx-login .right .btn_com{width:100%;}
+.fx-login .footer{ background:#046171}
+.fx-login .footer p{color:#fff}
+
+/* CSS Document 
+分销首页
+*/
+body{background:#f5f5f5}
+.header{width:100%; height:68px; overflow:hidden;background:#232D3B;border-top:2px solid #FF5902}
+.top{width:1200px; margin:0 auto;padding:10px 0; height: 100%; position: relative}
+.logo,.header_left{float:left}
+.noLogin{float:left; color: #e9e9ea; line-height:25px; height: 25px; margin-top: 8px; border-left: 1px solid #e9e9ea; font-size: 16px; margin-left: 15px; padding-left: 10px}
+.header_left{color:#b8c2cc;padding-left:15px;font-size:14px;line-height:20px;font-family:"微软雅黑"}
+.header_left a{ color:#b8c2cc;}
+.header_right{position: absolute; right: 0; top:23px}
+.header_right li{float:left;}
+.header_right li a{color:#fff;font:14px/25px "微软雅黑";border-right: 1px solid #ddd;padding:0 20px}
+.header_right .cur{ color:#FF7805}
+.header_right .bg{background:#fd7935;height:25px; border-radius:5px}
+.Wqmain{width:1200px;margin:0 auto;overflow:hidden;margin-top:15px;}
+.Wqmain .left{border:2px solid #dedede;margin-right:30px;float:left;width:750px;padding:100px 47px 0 47px; background:#fff;min-height:255px}
+.Wqmain .left .list{width:215px; height:145px; border-radius:3px;float:left;margin-right:50px;margin-bottom:78px}
+.Wqmain .left .list .img{text-align:center;padding:30px 0}
+.Wqmain .left .list .img img{vertical-align:middle}
+.Wqmain .left .list .text{color:#fff;text-align:center;font:bold 16px "微软雅黑"}
+.Wqmain .right{width:265px; float:left;border:2px solid #dedede;padding:15px 17px; background:#fff}
+.Wqmain .right h2{display:block;float:left}
+.Wqmain .right .more{float:right;line-height:25px}
+.Wqmain .right dl{border-bottom:2px solid #e9e9e9; padding-bottom:8px}
+.Wqmain .right dt{padding:6px 0;font-family:"微软雅黑";font-size:14px;}
+.Wqmain .right .content{margin-top:10px;}
+.Wqmain .right .content span{padding:3px 0;display: inline-block;*display:block;*float:left}
+.Wqmain .right .content .fild{border-bottom:1px dashed #e9e9e9;width:100%}
+.Wqmain .right .content .fild a:hover{color:#FF5902;}
+.Wqmain .right .content .title{font-size:14px; color:#FF5902;width:78%}
+.Wqmain .right .content .time{text-align:right;width:20%}
+
+
+/* CSS Document 
+分销公告
+*/
+.notice .left{padding:20px;min-height:350px;}
+.notice .left span{padding:5px 0;display: inline-block;*display:block;*float:left}
+.notice .left .fild{border-bottom:1px dashed #e9e9e9;width:100%;}
+
+.notice .left .title{font-size:14px; width:60%}
+.notice .left .time{text-align:right;width:38%}
+.notice-con .left{padding:20px}
+.notice-con .left h2{text-align:center}
+.notice-con .left .con{min-height:350px;}
+
+/* CSS Document 
+资料下载
+*/
+.fx-load{padding:30px 40px;border:1px solid #ddd;width:820px;margin:10px auto;background:#fff;min-height:300px}
+.fx-load .item{border-bottom:1px dashed #ddd;overflow:hidden;padding-bottom:20px;margin-bottom:30px}
+.fx-load .item .img{border:1px solid #ddd;width:80px;height:80px;background:#f5f5f5;text-align:center;float:left;line-height:80px;margin-left:10px}
+.fx-load .item .img img{vertical-align:middle;}
+.fx-load .item .name{float:left;margin:0 30px;width:75%}
+.fx-load  .item .title{width:auto;margin:10px 0 20px;color:#4d4d4d;font-weight:bold}
+.fx-load  .item .time span{margin-right:50px;color:#b3b3b3}
+.fx-load  .item .time .ico{background:url(../images/time.png) no-repeat 0 center;width:14px;height:14px;padding-left:25px}
+.fx-load .item .load{float:left}
+
+/* 新登录页 */
+.n-header {
+ padding: 15px 0; background: #37414f;
+}
+.n-logo {
+ width: 280px; height: 43px;
+}
+.n-header-inner, .login-con {
+ margin: 0 auto; width: 1200px;
+}
+.n-header-inner {
+ height: 43px; line-height: 43px;
+}
+.n-header-r {
+ float: right
+}
+.n-header-r .icon-phone {
+ position: relative; top: 8px; display: inline-block; width: 24px; height: 25px; padding-right: 20px; background: url(../images/service-phone.png) no-repeat center center;
+}
+.n-header-r span {
+ display: block; font-size: 14px; color: #fff;
+}
+.login-con input[type="text"], .login-con input[type="password"], .login-con button {
+ margin: 0; padding: 0; background: none; border: none; border-radius: 0; outline: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.login-cover {
+ margin-left: 110px
+}
+.login-con {
+ padding: 48px 0
+}
+.login-form {
+ float: right; width: 400px; margin-right: 110px; margin-top: 30px; background: #fff; box-shadow: 0px 2px 2.97px 0.03px rgba(0, 0, 0, 0.15);
+}
+.login-form .login-title {
+ display: block; height: 44px; line-height: 44px; background: #fb8018; color: #fff; text-align: center;
+}
+.login-form-con {
+ padding: 40px 30px
+}
+.login-form .login-title span:first-child {
+ border-right: 2px solid #eee
+}
+.login-active {
+ color: #ff613a
+}
+.login-account, .login-pw {
+ width: 100%; height: 40px; line-height: 40px; border: 1px solid #eee;position: relative;overflow: hidden;
+}
+.login-pw {
+ margin-top: 20px
+}
+.login-icon {
+ display: inline-block; background: url(../images/sprite-login.png) no-repeat;position: absolute;top: 8px;left: 12px;
+}
+.icon-account {
+ width: 24px; height: 23px; background-position: -24px 0;
+}
+.icon-pw {
+ width: 24px; height: 24px; background-position: 0 0;
+}
+.login-remember-pw {
+ margin-top: 25px; text-align: right;
+}
+.login-remember-pw label {
+ vertical-align: top; padding-left: 7px;
+}
+.forget-pw {
+ text-align: right; color: #459bf3;
+}
+.forget-pw:hover {
+ color: #459bf3; text-decoration: underline;
+}
+.login-cover {
+ width: 358px; height: 408px;
+}
+.login-con .login-btn {
+ display: block; margin-top: 20px; background: #fb8018; width: 100%; font-size: 15px; color: #fff; height: 40px; line-height: 40px; border-radius: 5px; cursor: pointer;
+}
+.n-error{
+    height: 74px;line-height: 74px;text-align: center;font-size: 22px;color: #fff;background: #ffb351;position: fixed;top: 0;z-index: 9999;width: 100%;display: none;
+}
+.n-footer{
+	background: #fff;border-top: 1px solid #dedede;
+}
+.login-form-con input[type="password"],.login-form-con input[type="text"]{
+	height: 40px;line-height: 40px;width: 100%;padding-left: 50px;
+}

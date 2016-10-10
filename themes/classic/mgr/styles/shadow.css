@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0}
+a{text-decoration:none}
+
+.btnWrap{background:url(../images/90.gif) no-repeat; height:23px; text-align:center; display:inline-block; zoom:1; *display:inline; vertical-align:top}
+.btnWrap span{background:url(../images/90.gif) no-repeat 100% 0; height:23px; line-height:23px; display:inline-block; zoom:1; *display:inline; margin-left:3px; padding:0 8px 0 5px; cursor:pointer; overflow:hidden; vertical-align:top}
+.btnWrap input{border:none; background:none; line-height:23px; *line-height:24px; height:23px; cursor:pointer; display:block}
+.btnWrap a{font-size:12px; padding:0 6px; color:#000;}
+.information{ font-size:14px;}
+.information span{ margin-right:5px;}
+.fw{font-weight:600 !important}
+
+#popShadow{position:absolute; left:0; top:0; z-index:1010; width:100%; height:100%; background:url(../images/shadow.png)}
+.popWrap{position:absolute; z-index:1020; border:7px solid #232323; background:url(../images/shadow.png)}
+.pop_con{background:#fff; padding:15px}
+.pop_con .cancel,.popCancel{background:url(../images/close.gif) no-repeat; width:23px; height:24px; text-align:right; text-decoration:none; margin-top:-4px; position:absolute; right:23px; z-index:10}
+.pop_title, .pop_con .title{border-bottom:1px solid #dedede; color:#000; margin-bottom:10px; padding:3px 0 10px; font-size:16px; font-weight:700}
+.pop_nav{border-bottom:1px solid #dedede; height:26px; padding-left:5px; margin-bottom:20px}
+.pop_nav h3{font-size:14px; font-weight:100}
+.pop_nav ul{float:right; padding-right:55px}
+.pop_nav li{float:left; border:1px solid #dedede; border-bottom:none; margin:0 5px 0 0; background:#fafafa; padding:0 8px; height:25px; line-height:25px; font-size:14px}
+.pop_nav .current{background:#fff; position:relative; margin-bottom:-1px; height:26px; font-weight:600}
+.pop_note{margin:0 0 20px; position:relative; width:946px; line-height:1.6}
+.pop_note h4{float:left; font:600 12px "微软雅黑"; margin-right:18px; padding-top:3px; color:#CC0001}
+.pop_note .note{background:#FFF8D9; border:1px solid #febe8f; float:left; width:676px; position:relative; padding:3px 8px; color:#f60; line-height:1.6; font-size:14px}
+.pop_note .c{background:url(../images/sprite_btn.png) no-repeat; width:4px; height:4px; position:absolute; font-size:0}
+.pop_note .tl{background-position:-120px -100px; width:11px; height:15px; left:-6px; top:-1px}
+.pop_note .tr{background-position:-123px -123px; right:-1px; top:-1px}
+.pop_note .bl{background-position:-125px -119px; left:-1px; bottom:-1px}
+.pop_note .br{background-position:-123px -142px; right:-1px; bottom:-1px}
+.pop_note .note_r{background:url(../images/sprite_btn.png) no-repeat -120px -123px; width:7px; height:23px; position:absolute; right:-3px; top:-1px}
+.pop_con .list, .pop_content .list{border-collapse:collapse}
+.pop_con .list td,.pop_con .list th, .pop_content .list td, .pop_content .list th{padding:5px 3px; font-size:14px; font-weight:100; color:#666; line-height:normal}
+.pop_con .list th, .pop_content .list th{font-size:12px}
+.pop_con .list .txt, .pop_content .list .txt{padding:3px; color:#888}
+.pop_con .list .submit, .pop_content .list .submit, .succeed .submit,.succeed1 .submit{background:url(../images/sprite_btn.png) no-repeat 0 -60px; width:88px; height:30px; text-align:center; color:#fff; border:none; font:700 14px/30px "宋体"; cursor:pointer; margin:0 3px}
+.pop_con .list .submit1, .pop_content .list .submit1, .succeed .submit1{background:url(../images/sprite_btn.png) no-repeat 0 -140px; width:88px; height:30px; text-align:center; color:#fff; border:none; font:700 14px/30px "宋体"; cursor:pointer; margin:0 3px}
+.tip{float:right; color:#f00; font-size:12px; margin-right:38px; display:inline}
+
+/*选择商户*/
+.bus_select_pop .search_txt{margin:25px 0; text-align:center}
+.bus_select_pop .show_text{background:#f9f9f9; margin:15px 0; padding:10px 15px; color:#666; line-height:2}
+.bus_select_pop .show_text a{color:#666}
+.bus_select_pop .show_text .btnWrap{margin-top:10px}
+.bus_select_pop .show_name li{float:left; width:49%; padding:3px 0}
+
+
+
+

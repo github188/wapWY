@@ -1,0 +1,2259 @@
+/*
+*公共样式 模块
+*/
+
+
+/*默认值设置*/
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #666
+}
+
+em {
+    font-style: normal
+}
+
+ul {
+    list-style: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+/*颜色尺码*/
+
+.cBlack {
+    color: #000
+}
+
+.cBlue {
+    color: #4990de
+}
+
+.cGray333 {
+    color: #333
+}
+
+.cGray {
+    color: #999
+}
+
+.cGreen {
+    color: #32b16c !important;
+}
+
+.cOrange {
+    color: #ff613a
+}
+
+.cRed {
+    color: #f00
+}
+
+.fm {
+    font-family: arial, "微软雅黑"
+}
+
+.fz12 {
+    font-size: 12px
+}
+
+.fz18 {
+    font-size: 18px
+}
+
+.fz30 {
+    font-size: 30px
+}
+
+.iconWhite {
+    color: #fff
+}
+
+.lh28 {
+    line-height: 28px
+}
+
+.wq_bggreen {
+    background-color: #09bb07
+}
+
+.wq_bgred {
+    background-color: #cf3e36
+}
+
+.wq_bgWhite {
+    background-color: #fff
+}
+
+
+/* 背景颜色 */
+
+.Color082 {
+    background-color: #a9d92d!important;
+}
+
+.Color082 .couponUseHD .weui_btn_primary {
+    background-color: #a9d92d;
+}
+
+.Color082 .couponUseHD .twoCode p {
+    color: #a9d92d;
+}
+
+.Color010 {
+    background-color: #63b359!important;
+}
+
+.Color010 .couponUseHD .weui_btn_primary {
+    background-color: #63b359;
+}
+
+.Color010 .couponUseHD .twoCode p {
+    color: #63b359;
+}
+
+.Color020 {
+    background-color: #2c9f67!important;
+}
+
+.Color020 .couponUseHD .weui_btn_primary {
+    background-color: #2c9f67;
+}
+
+.Color020 .couponUseHD .twoCode p {
+    color: #2c9f67;
+}
+
+.Color030 {
+    background-color: #509fc9!important;
+}
+
+.Color030 .couponUseHD .weui_btn_primary {
+    background-color: #509fc9;
+}
+
+.Color030 .couponUseHD .twoCode p {
+    color: #509fc9;
+}
+
+.Color040 {
+    background-color: #5885cf!important;
+}
+
+.Color040 .couponUseHD .weui_btn_primary {
+    background-color: #5885cf;
+}
+
+.Color040 .couponUseHD .twoCode p {
+    color: #5885cf;
+}
+
+.Color050 {
+    background-color: #9062c0!important;
+}
+
+.Color050 .couponUseHD .weui_btn_primary {
+    background-color: #9062c0;
+}
+
+.Color050 .couponUseHD .twoCode p {
+    color: #9062c0;
+}
+
+.Color102 {
+    background-color: #5E6671!important;
+}
+
+.Color102 .couponUseHD .weui_btn_primary {
+    background-color: #5E6671;
+}
+
+.Color102 .couponUseHD .twoCode p {
+    color: #5E6671;
+}
+
+.Color060 {
+    background-color: #d09a45!important;
+}
+
+.Color060 .couponUseHD .weui_btn_primary {
+    background-color: #d09a45;
+}
+
+.Color060 .couponUseHD .twoCode p {
+    color: #d09a45;
+}
+
+.Color070 {
+    background-color: #e4b138!important;
+}
+
+.Color070 .couponUseHD .weui_btn_primary {
+    background-color: #e4b138;
+}
+
+.Color070 .couponUseHD .twoCode p {
+    color: #e4b138;
+}
+
+.Color080 {
+    background-color: #ee903c!important;
+}
+
+.Color080 .couponUseHD .weui_btn_primary {
+    background-color: #ee903c;
+}
+
+.Color080 .couponUseHD .twoCode p {
+    color: #ee903c;
+}
+
+.Color081 {
+    background-color: #f08500!important;
+}
+
+.Color081 .couponUseHD .weui_btn_primary {
+    background-color: #f08500;
+}
+
+.Color81 .couponUseHD .twoCode p {
+    color: #f08500;
+}
+
+.Color090 {
+    background-color: #dd6549!important;
+}
+
+.Color090 .couponUseHD .weui_btn_primary {
+    background-color: #dd6549;
+}
+
+.Color90 .couponUseHD .twoCode p {
+    color: #dd6549;
+}
+
+.Color100 {
+    background-color: #cc463d!important;
+}
+
+.Color100 .couponUseHD .weui_btn_primary {
+    background-color: #cc463d;
+}
+
+.Color100 .couponUseHD .twoCode p {
+    color: #cc463d;
+}
+
+.Color101 {
+    background-color: #cf3e36!important;
+}
+
+.Color101 .couponUseHD .weui_btn_primary {
+    background-color: #cf3e36;
+}
+
+.Color101 .couponUseHD .twoCode p {
+    color: #cf3e36;
+}
+
+.Color082 .couponUseHD .lineL,
+.Color082 .couponUseHD .lineR {
+    background-color: #a9d92d;
+}
+
+.Color010 .couponUseHD .lineL,
+.Color010 .couponUseHD .lineR {
+    background-color: #63b359;
+}
+
+.Color020 .couponUseHD .lineL,
+.Color020 .couponUseHD .lineR {
+    background-color: #2c9f67;
+}
+
+.Color030 .couponUseHD .lineL,
+.Color030 .couponUseHD .lineR {
+    background-color: #509fc9;
+}
+
+.Color040 .couponUseHD .lineL,
+.Color040 .couponUseHD .lineR {
+    background-color: #5885cf;
+}
+
+.Color050 .couponUseHD .lineL,
+.Color050 .couponUseHD .lineR {
+    background-color: #9062c0;
+}
+
+.Color102 .couponUseHD .lineL,
+.Color102 .couponUseHD .lineR {
+    background-color: #5E6671;
+}
+
+.Color060 .couponUseHD .lineL,
+.Color060 .couponUseHD .lineR {
+    background-color: #d09a45;
+}
+
+.Color070 .couponUseHD .lineL,
+.Color070 .couponUseHD .lineR {
+    background-color: #e4b138;
+}
+
+.Color080 .couponUseHD .lineL,
+.Color080 .couponUseHD .lineR {
+    background-color: #ee903c;
+}
+
+.Color081 .couponUseHD .lineL,
+.Color081 .couponUseHD .lineR {
+    background-color: #f08500;
+}
+
+.Color090 .couponUseHD .lineL,
+.Color090 .couponUseHD .lineR {
+    background-color: #dd6549;
+}
+
+.Color100 .couponUseHD .lineL,
+.Color100 .couponUseHD .lineR {
+    background-color: #cc463d;
+}
+
+.Color101 .couponUseHD .lineL,
+.Color101 .couponUseHD .lineR {
+    background-color: #cf3e36;
+}
+
+
+/*公共元素*/
+
+.ac {
+    text-align: center
+}
+
+.borderR {
+    border-radius: 50%
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box
+}
+
+.flex-box {
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1
+}
+
+.flex-box2 {
+    flex: 2;
+    -webkit-flex: 2;
+    -webkit-box-flex: 2
+}
+
+.flex-box3 {
+    flex: 3;
+    -webkit-flex: 3;
+    -webkit-box-flex: 3
+}
+
+.clear_flex {
+    display: block
+}
+
+.icon_label {
+    border: 1px solid #ff613a;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ff613a;
+    padding: 0 10px;
+    font-size: 13px;
+    margin: 0 15px
+}
+
+.iconPhone {
+    background: url("../images/sprite_icon.png") no-repeat 0 -541px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_label_addr {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat -120px 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_phone_gray {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat -80px 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_label_date {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat;
+    width: 20px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_label_detail {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat -40px -36px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.icon_label_detailed {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat 0 -36px
+}
+
+.icon_label_house {
+    background: url("../images/sprite_icon.png") no-repeat 0 -965px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.icon_label_people {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat -40px 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_position_gray {
+    background: url("../images/sprite_small_icon_prop.png") no-repeat -155px 0;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.icon_label_pp {
+    background: url("../images/property/icon5.png") no-repeat 0 0/100% auto;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px
+}
+
+.iconAdd {
+    background: url("../images/sprite_icon.png") no-repeat 0 -1030px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.iconAdd .uploadify-button {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    font-size: 0;
+    border: none
+}
+
+.iconAdd .uploadify-button:hover {
+    background-color: transparent
+}
+
+.input_box {
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    border-radius: 3px;
+    height: auto
+}
+
+.input_box_green {
+    border: 1px solid #32b16c;
+    color: #32b16c
+}
+
+.line {
+    position: relative;
+    margin: 15px 0
+}
+
+.line hr {
+    border: none;
+    border-top: 1px solid #eaeaea
+}
+
+.lineRadius {
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    border-radius: 50%
+}
+
+.lineL {
+    left: -5px
+}
+
+.lineR {
+    right: -5px
+}
+
+.ml15 {
+    margin-left: 15px
+}
+
+.mr10 {
+    margin-right: 10px
+}
+
+.mr15 {
+    margin-right: 15px
+}
+
+.mp10 {
+    margin-bottom: 10px
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.popWrap {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.popWrap .weui_cells_title {
+    margin: 0.77em 0
+}
+
+.popWrap .weui_icon_cancel {
+    float: right;
+    margin-left: 5px
+}
+
+.popWrap .wq_panel {
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 0 0 -42.5%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 85%;
+}
+
+.popWrap .login_area {
+    margin: 1.17em 15px
+}
+
+.popWrap .login_area .weui_cells {
+    font-size: 15px
+}
+
+.step_wrap {
+    text-align: center;
+    padding: 15px 0
+}
+
+.step_num > div {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.step_line {
+    background-color: #666;
+    width: 60px;
+    height: 2px;
+    font-size: 0
+}
+
+.step_com {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #787878
+}
+
+.step_text li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 96px;
+    color: #666
+}
+
+.step_num .highlight_green {
+    background-color: #32b16c;
+}
+
+.step_text .highlight_green {
+    color: #32b16c;
+}
+
+.step_num .highlight_red {
+    background-color: #ff613a;
+}
+
+.step_text .highlight_red {
+    color: #ff613a;
+}
+
+.table_h {
+    border: 1px solid #d1d1d1;
+    font-size: 13px
+}
+
+.table_h th {
+    color: #32b16c;
+    text-align: center;
+    font-weight: 100;
+    padding: 5px 0;
+    border-bottom: 1px solid #d1d1d1
+}
+
+.table_h td {
+    text-align: center;
+    padding: 5px 0;
+    color: #999
+}
+
+.weui_media_box.weui_media_appmsg {
+    align-items: flex-start
+}
+
+.weui_tab35 {
+    height: 34px
+}
+
+.weui_tab35 .weui_navbar_item {
+    padding: 0
+}
+
+.weui_tab35 .weui_navbar_item span {
+    padding: 5px 0;
+    display: inline-block
+}
+
+.weui_tab35 .weui_bar_item_on {
+    color: #32b16c;
+    background-color: transparent
+}
+
+.weui_tab35 .weui_bar_item_on span {
+    border-bottom: 2px solid #32b16c;
+    height: 34px
+}
+
+.width_auto {
+    width: auto
+}
+
+.width_48 {
+    width: 48px
+}
+
+.prop_warnning {
+    margin: .3em 15px .3em
+}
+
+
+/*自定义模块*/
+
+.defined_panel .weui_panel_hd:after {
+    border-bottom: 1px dotted #d1d1d1
+}
+
+.defined_panel .weui_media_text {
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
+    justify-content: center
+}
+
+.defined_panel .weui_media_box.weui_media_text .weui_media_title {
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    color: #666;
+    margin-bottom: 0;
+    font-size: 15px
+}
+
+.defined_panel .weui_media_title .name {
+    margin-bottom: 10px
+}
+
+.defined_panel .weui_media_desc {
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    vertical-align: middle;
+    font-size: 15px;
+    color: #333;
+    padding-top: 20px
+}
+
+.defined_panel .icon_label_date {
+    height: 28px
+}
+
+.defined_panel:after {
+    border-bottom-color: #d1d1d1
+}
+
+.defined_panel .mr10 {
+    margin-right: 5px
+}
+
+.tabbar_pay {
+    background-color: #fff;
+    border-top: 1px solid #d1d1d1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+.tabbar_pay_55{height: 55px; width: 55px; }
+
+.tabbar_pay .flex-box:nth-of-type(1) {
+    flex: 3
+}
+
+.tabbar_pay .tabbar_pay_l {
+    padding: 15px 0 15px 10px
+}
+
+.tabbar_pay .tabbar_pay_r .weui_btn {
+    background-color: #32b16c;
+    border-radius: 0;
+    line-height: 3
+}
+
+.weui_cells_form .weui_input {
+    color: #999
+}
+
+
+/*
+*优惠券 模块
+*/
+
+.couponDetail {
+    min-height: 100%;
+    margin-top: 0
+}
+
+.couponDetail .couponUseHD {
+    margin: 5%;
+    background-color: #fff;
+    border-radius: 3px;
+    border-bottom: none
+}
+
+.couponDetail .couponUseBD {
+    margin: 0 5% 5%;
+    border-radius: 3px
+}
+
+.couponDetail .logoSymbol {
+    margin-bottom: 10px
+}
+
+.couponDetail .weui_panel_hd,
+.couponElecDetail .weui_panel_hd {
+    padding-top: 0;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 600;
+    padding-bottom: 5px
+}
+
+.couponDetail .weui_media_appmsg,
+.couponElecDetail .weui_media_appmsg {
+    padding: 5px 15px
+}
+
+.couponDetail .weui_media_appmsg .weui_media_hd,
+.couponElecDetail .weui_media_appmsg .weui_media_hd {
+    font-size: 13px;
+    color: #999;
+    text-align: left;
+    height: auto;
+    line-height: 1.8
+}
+
+.couponDetail .weui_media_box:before,
+.couponElecDetail .weui_media_box:before {
+    border-top: none
+}
+
+.couponDetail .weui_media_desc,
+.couponElecDetail .weui_media_desc {
+    color: #333;
+    line-height: 1.8;
+    overflow: visible;
+    height: auto;
+    -webkit-line-clamp: initial
+}
+
+.couponElecDetail .weui_panel_hd:after {
+    border-bottom-color: #aaa
+}
+
+.couponElecDetail .weui_panel:after {
+    border-bottom: none;
+    margin-bottom: 20px
+}
+
+.couponElecIntro {
+    padding-bottom: 15px
+}
+
+.couponElecIntro:before {
+    border-top: none
+}
+
+.couponElecIntro .weui_media_box.weui_media_appmsg .weui_media_hd {
+    width: 100%;
+    height: auto;
+    line-height: normal
+}
+
+.couponElecIntro .weui_media_text {
+    padding-bottom: 0
+}
+
+.couponElecIntro .weui_media_box.weui_media_text .weui_media_title {
+    margin-bottom: 0;
+    font-size: 0;
+    text-align: center
+}
+
+.couponElecIntro .weui_media_title img {
+    max-width: 100%
+}
+
+.couponElecIntro .weui_media_desc {
+    background-color: #f4f4f4;
+    padding: 10px
+}
+
+.couponUse {
+    padding-top: 50px;
+    min-height: 100%
+}
+
+.couponUse .weui_cells {
+    background-color: transparent;
+    margin-top: 0
+}
+
+.couponUse .weui_cells:before,
+.couponUse .weui_cells:after {
+    border-bottom: none;
+    border-top: none
+}
+
+.couponUse .weui_cell {
+    padding: 0 15px
+}
+
+.couponUse .weui_panel_bd {
+    margin: 0 5% 5%;
+    background-color: #fff;
+    border-radius: 5px
+}
+
+.couponUse .weui_media_text:before {
+    border-top: none
+}
+
+.couponUseHD {
+    text-align: center;
+    border-bottom: 1px dashed #e1e1e1
+}
+
+.couponUseHD .line {
+    margin: 15px -15px
+}
+
+.couponUseHD .lineL,
+.couponUseHD .lineR {
+    background-color: #09bb07
+}
+
+.couponUseHD .twoCode {
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.couponUseHD .twoCode img {
+    width: 80%
+}
+
+.couponUseHD .twoCode p {
+    color: #09bb07;
+    font-size: 22px
+}
+
+.couponUseHD .weui_media_desc {
+    margin-bottom: 5px;
+    color: #666;
+    line-height: 1.6
+}
+
+.couponUseHD .weui_media_desc span {
+    color: #999
+}
+
+.couponUseHD .weui_media_desc .hd {
+    color: #666
+}
+
+.wq_media_desc_al {
+    text-align: left
+}
+
+.wq_media_desc_al .hd {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    text-align: left;
+    color: #666;
+}
+
+.wq_media_desc_al .bd {
+    display: inline-block;
+    vertical-align: top;
+    width: 72%;
+    color: #999
+}
+
+.couponUseHD .weui_btn_primary {
+    background-color: #cf3e36;
+    line-height: 3;
+    padding: 0 1em;
+    margin-bottom: 10px;
+    width: 65%;
+    font-size: 15px
+}
+
+.couponUseHD .weui_btn_default {
+    line-height: 3;
+    padding: 0 1em;
+    margin-bottom: 10px;
+    border: 1px solid #d9d9d9;
+    width: 65%;
+    font-size: 15px;
+    background-color: #f3f3f3;
+    color: #666
+}
+
+.couponUseHD .weui_media_title {
+    font-size: 1.3rem
+}
+
+.couponUseBD {
+    padding: 10px 0
+}
+
+.couponUseBD .weui_cell {
+    font-size: 15px;
+    padding: 12px 15px;
+    border-bottom: none
+}
+
+.couponUseBD .weui_cell img {
+    width: 100%
+}
+
+.couponUseBD .weui_cell p {
+    color: #333
+}
+
+.couponUseBD .weui_cell_primary {
+    position: relative
+}
+
+.couponUseBD .weui_cell_primary img {
+    display: block
+}
+
+.couponUseBD .weui_cell_primary .weui_panel_ft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 7px
+}
+
+.couponUseBD .weui_cell_primary .weui_panel_ft:before {
+    border-top: none
+}
+
+.logoSymbol {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #333;
+    margin-bottom: 10px
+}
+
+.logoSymbol img {
+    position: relative;
+    margin: -37px auto 0;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid #fff
+}
+
+
+/*
+* 核销助手 模块
+*/
+
+
+/*身份验证*/
+
+.IDVerification {
+    background-color: #f4f4f4;
+    min-height: 100%;
+    margin-top: 0;
+    padding: 0 15px
+}
+
+.IDVerification .weui_cells {
+    font-size: 14px
+}
+
+.IDVerification .weui_cells_title {
+    padding: 1.17647059em 15px 0.8em;
+    margin-top: 0
+}
+
+.IDVerification .weui_btn_area {
+    margin: 1.17647059em 0 .3em
+}
+
+
+/*
+*物业 模块 prop_开头
+*/
+
+.prop_wrap {
+    background-color: #f6f6f6;
+    min-height: 100%;
+    padding-top: 1px
+}
+
+.prop_wrap .weui_btn_primary {
+    background-color: #32b16c
+}
+
+.prop_wrap .weui_cells {
+    font-size: 15px
+}
+
+.prop_wrap .weui_cells:before,
+.prop_wrap .weui_cell:before,
+.prop_wrap .weui_grids:before,
+.prop_wrap .weui_panel:before {
+    border-top: 1px solid #d1d1d1
+}
+
+.prop_wrap .weui_cells:after,
+.prop_wrap .weui_cell:after,
+.prop_wrap .weui_panel:after {
+    border-bottom: 1px solid #d1d1d1
+}
+
+.prop_wrap .weui_label {
+    width: 80px
+}
+
+.prop_weui_tabbar {
+    position: fixed;
+    left: 0;
+    background-color: #fff
+}
+
+.prop_weui_tabbar .weui_tabbar_icon {
+    background: url("../images/sprite_icon.png") no-repeat
+}
+
+.prop_weui_tabbar_item.weui_bar_item_on .weui_tabbar_label {
+    color: #32b16c
+}
+
+.prop_weui_tabbar .weui_tabbar_item:nth-of-type(1) .weui_tabbar_icon {
+    background: url("../images/sprite_icon.png") no-repeat 0 -600px
+}
+
+.prop_weui_tabbar .weui_tabbar_item:nth-of-type(1).weui_bar_item_on .weui_tabbar_icon {
+    background-position: 0 -660px
+}
+
+.prop_weui_tabbar .weui_tabbar_item:nth-of-type(2) .weui_tabbar_icon {
+    background: url("../images/sprite_icon.png") no-repeat 0 -720px
+}
+
+.prop_weui_tabbar .weui_tabbar_item:nth-of-type(2).weui_bar_item_on .weui_tabbar_icon {
+    background-position: 0 -780px
+}
+
+.prop_weui_tabbar .weui_tabbar_item:nth-of-type(3) .weui_tabbar_icon {
+    background: url("../images/sprite_icon.png") no-repeat 0 -840px
+}
+
+.prop_weui_tabbar .weui_tabbar_item:nth-of-type(3).weui_bar_item_on .weui_tabbar_icon {
+    background-position: 0 -900px
+}
+
+.prop_wrap .weui_textarea {
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    border-radius: 3px
+}
+
+.prop_wrap .weui_vcode {
+    padding: 10px 15px
+}
+
+.prop_pic_upload_hd {
+    margin-bottom: 10px;
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
+    color: #666
+}
+
+.prop_pic_upload_hd_l {
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+}
+
+.prop_pic_upload_bd li {
+    float: left;
+    width: 31%;
+    margin-right: 2%
+}
+
+.prop_pic_upload_bd li:last-child {
+    margin-right: 0
+}
+
+.prop_pic_upload_bd li img {
+    width: 100%
+}
+
+.prop_pic_upload_bd li a {
+    text-align: center;
+    font-size: 13px;
+    display: block
+}
+
+.prop_QACode {
+    background: url("../images/sprite_icon.png") no-repeat 0 -60px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+
+/*首页 prop_index_*/
+
+.prop_family .weui_label {
+    width: 105px
+}
+
+.prop_family .add-btn {
+    margin: 0 auto;
+    color: #32b16c;
+    font-size: 15px
+}
+
+.prop_family_edit .weui_cells_form:nth-of-type(1) {
+    margin-top: 0
+}
+
+
+/*弹出框*/
+
+.prop_feedbackck_pop .login_area {
+    margin: 0
+}
+
+.prop_feedbackck_pop .weui_btn {
+    margin: 0;
+    border-radius: 0;
+    background-color: transparent
+}
+
+.prop_feedbackck_pop .weui_btn:after {
+    border-radius: 0;
+    border: none
+}
+
+.prop_feedbackck_pop .weui_btn:active {
+    background-color: transparent
+}
+
+.prop_feedbackck_pop .weui_btn_primary {
+    color: #32b16c;
+    border-left: 1px solid #e1e1e1
+}
+
+
+/*首页 prop_index_*/
+
+.prop_index_wrap .weui_cells_title {
+    background-color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.prop_index_wrap .weui_grids {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #d1d1d1
+}
+
+.prop_index_wrap .weui_grid {
+    width: 50%
+}
+
+.prop_index_wrap .weui_grid:before {
+    border-right-style: dotted;
+    border-right-color: #d1d1d1
+}
+
+.prop_index_wrap .weui_grid:after {
+    border-bottom-style: dotted;
+    border-bottom-color: #d1d1d1
+}
+
+.prop_index_wrap .weui_grid:nth-of-type(2):before,
+.prop_index_wrap .weui_grid:nth-of-type(4):before {
+    border-right: none
+}
+
+.prop_index_wrap .weui_grid:nth-of-type(3):after,
+.prop_index_wrap .weui_grid:nth-of-type(4):after {
+    border-bottom: none
+}
+
+.prop_index_wrap .weui_grid_icon {
+    width: 40px;
+    height: 40px
+}
+
+
+/*车辆首页*/
+
+.vehicle_index_wrap .weui_grid:nth-of-type(3):after,
+.vehicle_index_wrap .weui_grid:nth-of-type(4):after {
+    border-bottom: 1px dotted #d1d1d1
+}
+
+
+/* 登录 prop_login_    注册 prop_sign_ */
+
+.prop_login_wrap,
+.prop_sign_wrap {
+    padding-top: 1px
+}
+
+.prop_vcode {
+    border: 1px solid #32b16c;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #32b16c;
+    padding: 5px
+}
+
+
+/*预存 repair_开头*/
+
+.prop_prestore .weui_input {
+    line-height: normal
+}
+
+.prop_prestore_pay .weui_icon_success:before {
+    color: #32b16c
+}
+
+
+/*物业 水费 电费 停车费 repair_开头*/
+
+.prop_prestore .weui_input {
+    line-height: normal
+}
+
+.defined_title {
+    background-color: #fff;
+    border-bottom: 1px solid #d1d1d1;
+    margin-top: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.defined_title div {
+    color: #32b16c;
+    font-size: 17px
+}
+
+.prop_wanterRent .weui_label,
+.prop_powerRate .weui_label {
+    width: 105px
+}
+
+.prop_wanterRent .weui_icon_success:before,
+.prop_powerRate .weui_icon_success:before {
+    color: #32b16c
+}
+
+.prop_powerRate .weui_cell_primary {
+    line-height: 21px
+}
+
+.prop_powerrate_selected {
+    color: #32b16c
+}
+
+.prop_powerRate .a-detail {
+    padding: 0 15px 15px
+}
+
+.prop_property .defined_panel .weui_media_desc {
+    padding-top: 15px;
+    text-align: right
+}
+
+.prop_property .defined_panel .weui_media_desc span {
+    display: block
+}
+
+
+/*小区报修 repair_开头*/
+
+.prop_repair_wrap .weui_cells {
+    margin-top: 0
+}
+
+.prop_repair_wrap .weui_cells_form .weui_cell_ft {
+    font-size: 15px
+}
+
+.prop_repair_record .defined_panel .textarea {
+    margin: 0 40px 15px;
+    min-height: 100px;
+    padding: 5px;
+    border: 1px solid #d1d1d1;
+    color: #999
+}
+
+.prop_repair_record .weui_btn_area {
+    text-align: right;
+    margin-top: 0;
+    border-top: 1px dashed #d1d1d1
+}
+
+.prop_repair_record .weui_btn_area .weui_btn {
+    border-radius: 0;
+    border: 1px solid #32b16c
+}
+
+.prop_repair_record .weui_btn_area .weui_btn:after {
+    border: none
+}
+
+.prop_dialog_textarea {
+    border: 1px solid #f3f3f3;
+    color: #999;
+    padding: 5px;
+    font-size: 13px;
+    min-height: 100px
+}
+
+.prop_repair_record .weui_btn_area .weui_btn_default {
+    color: #32b16c;
+    background-color: transparent
+}
+
+
+/*会员中心 prop_uc_开头*/
+
+.prop_uc_bd .weui_cell:before {
+    left: 50px
+}
+
+.prop_uc_bd .weui_cell {
+    padding-top: 13px;
+    padding-bottom: 13px
+}
+
+.prop_uc_head .weui_cell_ft {
+    margin-top: 16px
+}
+
+.prop_uc_head .weui_cell_ft:after {
+    vertical-align: middle
+}
+
+.prop_uc_head .weui_media_appmsg_thumb {
+    border-radius: 50%
+}
+
+.prop_uc_head .weui_media_desc {
+    font-size: 20px
+}
+
+.prop_uc_head .weui_media_desc .iconPhone {
+    vertical-align: top
+}
+
+.prop_uc_head .weui_media_title {
+    margin-bottom: 10px
+}
+
+.prop_uc_head .weui_media_appmsg .weui_media_hd {
+    width: 70px;
+    height: 70px
+}
+
+.prop_uc_head:after {
+    border-bottom: 1px solid #d1d1d1
+}
+
+.prop_uc_icon01 {
+    background: url("../images/sprite_icon.png") no-repeat 15px -140px;
+    padding-left: 50px
+}
+
+.prop_uc_icon02 {
+    background: url("../images/sprite_icon.png") no-repeat 15px -215px;
+    padding-left: 50px
+}
+
+.prop_uc_icon03 {
+    background: url("../images/sprite_icon.png") no-repeat 15px -289px;
+    padding-left: 50px
+}
+
+.prop_uc_icon04 {
+    background: url("../images/sprite_icon.png") no-repeat 15px -370px;
+    padding-left: 50px
+}
+
+.prop_uc_icon05 {
+    background: url("../images/sprite_icon.png") no-repeat 15px -452px;
+    padding-left: 50px
+}
+
+.weui_tabbar_padding {
+    height: 55px
+}
+
+.prop_uc_QECode {
+    background-color: #fff
+}
+
+
+/*
+* 扫描二维码 模块
+*/
+
+.QRCode .weui_cells_title {
+    text-align: center;
+    font-size: 14px
+}
+
+.QRCode .weui_cells_title h3 {
+    color: #ff613a;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    margin-bottom: 5px
+}
+
+.QRCode .weui_cells_title p {
+    color: #999
+}
+
+.QRCode .weui_media_hd {
+    border: 10px solid #f4f4f4;
+    margin: 15px;
+    text-align: center
+}
+
+.QRCode .weui_media_hd img {
+    max-width: 100%
+}
+
+.QRCode .weui_btn_primary {
+    background-color: #ff613a;
+    font-size: 16px
+}
+
+
+/*
+* 核销助手 模块
+*/
+
+.storeList,
+.storeD,
+.integral-record,
+.exchange-success-wrapper {
+    background-color: #f4f4f4;
+    margin-top: 0;
+    min-height: 100%
+}
+
+.storeList {
+    position: relative
+}
+
+.storeList .weui_cells_title,
+.storeD .weui_cells_title {
+    text-align: center;
+    padding: 1em 5px 0.77em;
+    margin: 0
+}
+
+.storeD .weui_cells_title {
+    padding: 20px 0
+}
+
+.storeD .weui_cells_title h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 5px
+}
+
+.storeD .weui_cells {
+    font-size: 14px
+}
+
+.storeD .weui_label {
+    color: #999;
+    width: 70px
+}
+
+.storeD .weui_panel_ft {
+    padding: 0 15px 0 0
+}
+
+.storeD .weui_panel_ft:before {
+    border-top: none
+}
+
+.storeList .weui_cells {
+    padding-bottom: 50px
+}
+
+.storeList .weui_cell {
+    background-color: #fff;
+    padding: 15px
+}
+
+.storeList .weui_cell:nth-of-type(1):before {
+    border-top: none
+}
+
+.storeList .weui_cell_bd {
+    border-right: 1px solid #dedede;
+    margin-right: 20px;
+    color: #999;
+    padding-right: 10px;
+    font-size: 14px
+}
+
+.storeList .weui_cell_bd h3 {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 10px
+}
+
+.storeList .weui_cell_bd h3 span {
+    float: right;
+    color: #999;
+    font-weight: 100;
+    font-size: 14px
+}
+
+.storeList .phone {
+    background: url("../images/phone.png") no-repeat 0 50% / 95% auto;
+    width: 30px;
+    height: 40px;
+    display: block
+}
+
+.refreshMore {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+    font-size: 14px
+}
+
+
+/*卡券核销*/
+
+.wq_VA_Coupon,
+.wq_VA_CouponNext {
+    background-color: #f4f4f4;
+    min-height: 100%;
+    padding-top: 5%
+}
+
+.wq_VA_Coupon .weui_panel {
+    background-color: transparent
+}
+
+.wq_search {
+    margin: 0 5% 5%;
+    background-color: #fff;
+    padding: 0
+}
+
+.wq_search .weui_icon_clear:before,
+.wq_search .weui_icon_search:before {
+    font-size: 22px;
+    color: #fff
+}
+
+.wq_search .weui_cell {
+    padding: 0
+}
+
+.wq_search .weui_cell_primary {
+    padding: 10px;
+    border: 2px solid #c7c7c7;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.wq_search .weui_icon_search {
+    background-color: #09bb07;
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: -2px;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.wq_VA_CouponNext {
+    padding-top: 0
+}
+
+.wq_VA_CouponNext .weui_media_appmsg_thumb {
+    border-radius: 50%
+}
+
+.wq_VA_CouponNext .weui_media_bd {
+    color: #fff
+}
+
+.wq_VA_CouponNext .weui_panel {
+    background-color: transparent
+}
+
+.wq_VA_CouponNext .weui_panel:after {
+    border-bottom: none
+}
+
+.wq_VA_CouponNext .weui_panel_bd {
+    padding: 1em 0
+}
+
+.wq_VA_CouponNext .weui_cells_form {
+    margin-top: 0
+}
+
+.wq_VA_CouponNext .weui_cell {
+    display: block;
+    padding: 0 15px
+}
+
+.wq_VA_CouponNext .weui_cell_hd,
+.wq_VA_CouponNext .weui_cell_bd {
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 8px 0
+}
+
+.wq_VA_CouponNext .weui_btn_area {
+    margin: 2em 15px .5em
+}
+
+.wq_VA_CouponNext .weui_btn_area p {
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+    padding: 10px 0
+}
+
+.wq_VA_CouponNext h2.weui_media_title {
+    font-size: 20px;
+    margin-bottom: 5px
+}
+
+.wq_VA_CouponNext p.weui_media_desc {
+    color: #fff;
+    margin-bottom: 8px
+}
+
+.wq_VA_CouponNext .a-detail {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+    display: block
+}
+
+
+/*核销记录*/
+
+.wq_VA_Record {
+    overflow: hidden;
+    min-height: 100%
+}
+
+.wq_VA_Record .weui_panel {
+    background-color: #f4f4f4;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
+    position: relative
+}
+
+.wq_VA_Record .weui_panel:after {
+    border-bottom: none
+}
+
+.wq_VA_Record .weui_panel_bd {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dedede;
+    background-color: #fff
+}
+
+.wq_VA_Record .weui_media_box .weui_media_hd {
+    width: 80px;
+    height: 80px;
+    line-height: 80px
+}
+
+.wq_VA_Record .weui_media_box .weui_media_appmsg_thumb {
+    vertical-align: top
+}
+
+.wq_VA_Record .weui_tab {
+    overflow: auto
+}
+
+.wq_VA_Record .weui_tab .weui_cells {
+    margin-top: 0;
+    font-size: 15px
+}
+
+.wq_VA_Record .weui_tab .weui_cell_primary h4 {
+    margin-bottom: 10px;
+    color: #666
+}
+
+.wq_VA_Record .prevDay {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #fff
+}
+
+.wq_VA_Record .weui_navbar_item {
+    background-color: #fff
+}
+
+.wq_VA_Record .weui_navbar_item strong {
+    margin-left: 5px
+}
+
+.wq_VA_RecordHD .weui_media_hd img {
+    border-radius: 50%
+}
+
+.wq_VA_RecordHD .weui_media_bd .weui_media_title {
+    margin-bottom: 10px;
+    font-weight: 600
+}
+
+.wq_VA_RecordHD .weui_media_bd .weui_media_title a {
+    color: #4990de;
+    font-size: 13px;
+    font-weight: 100
+}
+
+.wq_VA_RecordHD .weui_media_desc {
+    margin-bottom: 10px
+}
+
+
+/* 登录 */
+
+.forget_pw_link {
+    display: block;
+    text-align: right;
+    margin: 0.5em 15px 0;
+    color: #888;
+}
+
+.sign_link,
+.login_link {
+    display: block;
+    text-align: center;
+    margin: 1.17647059em 15px;
+    color: #888;
+}
+
+
+/*.login_area{
+    margin: 1.17em 0 0;
+}*/
+
+.weui_cell_ft .vcode {
+    font-size: 13px;
+    color: #04be02;
+}
+
+
+/*
+*完善信息 模块
+*/
+
+.weui_label .required {
+    color: #f43530;
+}
+
+.wq_radio {
+    position: relative;
+    margin-right: 80px;
+}
+
+.wq_radio em {
+    padding-left: 5px;
+    font-style: normal;
+}
+
+.wq_radio .weui_icon_checked:before {
+    content: '\EA01';
+    color: #C9C9C9;
+    font-size: 23px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wq_radio .weui_check:checked + .weui_icon_checked:before {
+    content: '\EA06';
+    color: #09BB07;
+}
+
+
+/* 积分换券 */
+
+.fwn {
+    font-weight: normal;
+}
+
+.weui_btn_orange {
+    background-color: #ff9e0d;
+    border: 1px solid #ff9e0d;
+}
+
+.text-orange {
+    color: #ff9e0d;
+}
+
+.text-green {
+    color: #67c42e;
+}
+.text-overflow{
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+
+/* 积分记录 */
+
+.integral-record-now .integral-now {
+    font-size: 30px;
+    color: #0dbe1a;
+    font-weight: bold;
+}
+
+.integral-record-now .integral-now em {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.integral-record-now .total {
+    margin-top: 14px;
+}
+
+.integral-record-now .exchange-btn-wrapper {
+    margin: 0 15px 15px 15px;
+}
+
+.integral-record .coupon-name {
+    font-size: 18px;
+}
+
+.integral-record {
+    padding: 10px 15px;
+}
+
+.integral-record-detail .title {
+    display: block;
+    margin: 15px 0;
+}
+
+.integral-record-detail .time {
+    color: #696964;
+}
+
+.integral-record-detail .time .hour {
+    padding-left: 20px;
+}
+
+.integral-record-detail .weui_cells {
+    margin-top: 0;
+}
+
+
+/* 积分换券列表 */
+
+.integral-list-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.integral-list-item .circle-style{
+    position: absolute;
+    right: 0;
+    top:0;
+    background: url("../images/integral-2.png") no-repeat 5% center;
+    width: 4px;
+    height: 100%;
+    z-index: 2;
+}
+
+.integral-list-item .status{
+    display: none
+}
+
+.integral-coupon-cover {
+    position: relative;
+    background: url("../images/integral-1.png") repeat-y -5% center,
+    url("../images/integral-3.png") repeat-x  center 10%,
+    url("../images/integral-3.png") repeat-x  center 90%;
+    width: 45%;
+    height: 6em;
+    text-align: center;
+    color: #fff;
+}
+
+.integral-coupon-cover .coupon-name {
+    margin-top: 1.4em;
+    margin-bottom: 0.8em;
+    font-size: 15px;
+}
+
+.integral-coupon-cover .use-limit {
+    font-size: 12px;
+}
+
+.integral-coupon-info {
+    margin-left: 0.8em;
+}
+
+.integral-coupon-info .coupon-name {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.integral-coupon-info .coupon-grade {
+    font-size: 14px;
+}
+
+.integral-coupon-info .weui_btn {
+    width: 124px;
+    line-height: 2;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: "微软雅黑", Arial, Helvetica, sans-serif;
+}
+.integral-coupon-info .weui_btn:after{
+    border: none;
+}
+
+.integral-end .integral-coupon-cover {
+    background-color: #eaeaea;
+    color: #696964;
+    padding: 0 10px;
+}
+
+.integral-end .status{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 4px;
+    top: 7px;
+    transform:rotate(30deg);
+    color: #fff;
+    font-size: 12px;
+}
+
+.integral-end .weui_btn {
+    background-color: #a0a0a0;
+    border: 1px solid #a0a0a0;
+}
+.integral-end .integral-coupon-cover:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4.5em;
+    height: 3.5em;
+    background: url(../images/end.png) no-repeat;
+    background-size: contain;
+}
+
+.integral-popup {
+    height: 300px;
+    background-color: #fff;
+}
+
+.integral-popup .coupon-stock {
+    font-size: 14px;
+}
+
+.integral-popup .integral-coupon-info {
+    position: relative;
+}
+
+.integral-popup .integral-coupon-info .coupon-name {
+    margin-top: 15px;
+}
+
+.integral-popup .close-popup {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 30px;
+}
+
+.integral-popup .integral-desc {
+    padding: 10px 20px;
+    line-height: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.integral-popup .amount-operate {
+    padding: 10px 0;
+}
+
+.integral-popup .amount-operate .amount-btn,
+.integral-popup .amount-operate .amount {
+    float: left;
+    display: block;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    color: #3d4145;
+    border: 1px solid #a0a0a0;
+    background-color: #fff;
+}
+
+.integral-popup .amount-operate .amount {
+    border-left: none;
+    border-right: none;
+}
+
+.integral-popup .amount-wrapper {
+    padding: 0 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.integral-popup .amount-wrapper .amount-title {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.integral-popup .exchange-btn-wrapper {
+    margin: 10px 20px;
+}
+
+.integral-body .primary {
+    color: #ff9e0d;
+}
+
+
+/* 兑换成功 */
+
+.exchange-success-tip {
+    background-color: #ff9e0d;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.exchange-success-tip h3 {
+    display: inline-block;
+    padding-left: 30px;
+    background: #ff9e0d url(../images/check.png) no-repeat;
+}
+
+.exchange-success {
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.exchange-success .integral-desc {
+    line-height: 30px;
+}
+
+.exchange-success .integral-desc .title {
+    display: inline-block;
+    width: 80px;
+}
+
+.exchange-success .selected-coupon .avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.exchange-success .selected-coupon .coupon-content {
+    height: 100px;
+    padding: 20px 12px 0;
+    background: #2c9f67 url("../images/dot.png") repeat-x center 97px;
+}
+
+.exchange-success .selected-coupon .title {
+    padding: 10px 0;
+}
+
+.exchange-success .selected-coupon .expiry-date {
+    display: block;
+    width: 100%;
+    color: #7a7a7a;
+    padding: 6px 12px;
+    box-shadow: 0 3px 4px 0 rgba(91, 91, 91, 0.1);
+}
+
+.exchange-success .selected-coupon .coupon-meta {
+    margin-left: 70px;
+    color: #fff;
+}
+
+.exchange-success .selected-coupon .coupon-meta h1 {
+    font-size: 24px;
+}
+
+.exchange-success .btn-group {
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+
+.exchange-success .btn-group .weui_btn {
+    flex: 1;
+    -webkit-flex: 1;
+    -webkit-box-flex: 1;
+    margin-top: 0;
+    width: 95%;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.8rem
+}

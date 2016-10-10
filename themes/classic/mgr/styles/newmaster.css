@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+/*新订单列表*/
+.table-grid .order-title,.table-grid .list-title{ font-weight:bold; background:#eeeeee; line-height:42px; border:1px solid #dcdcdc;}
+.table-grid .order-title .gx1,.table-grid .list-title .gx{ float:left; margin:14px 0 0 10px;}
+.table-grid .list-title span{ color:#1c91cd;}
+.table-grid .list-name{display:inline-block; line-height:20px;*display:block;*float:left;*zoom:1;vertical-align:top; padding-top:5px; width:320px;}
+.table-grid .list-con{ border-bottom:1px solid #dcdcdc;border-left:1px solid #dcdcdc;border-right:1px solid #dcdcdc;}
+.table-grid .list-con .list-img{display:inline-block;*display:block;*float:left;*zoom:1;padding:5px 25px 10px 10px;}
+.table-grid .list-img img{ width:60px; height:60px; }
+.table-grid .list-con td{border-right:1px solid #dcdcdc;}
+.table-grid .list-con span{ font-weight:bold;}
+.table-grid .ddbh,.table-grid .xdsj,.table-grid .zfsj{ display:inline-block; padding:0 20px;*display:block;*float:left;*zoom:1;}
+.table-grid .ddlx{ float:right; margin-right:10px;}
+.table-grid .list-bottom{ margin-bottom:10px;}
+.table-grid .list-btn{ display:inline-block; margin:8px 0 0 0;}
+.list-page{padding:3px; border:1px solid #dcdcdc; color:#f60; font-size:14px;}
+.table-grid a{ margin-right:3px}
+/*数据统计*/
+.mainContent .count-title{ font-size:16px; font-family:"宋体";font-weight:bold; margin-bottom:10px;}
+.mainContent .count-top{ background:#fafafa;height:36px;margin-bottom:10px;} 
+.mainContent .count-top ul{ line-height:36px;}
+.mainContent .count-top li{ float:left; padding:0 20px; } 
+.mainContent .count-top li a:hover{color:#188ed8;} 
+.mainContent .count-top .li1{ color:#188ed8;}  
+.mainContent .count-top .liright{ float:right;}
+.mainContent .count-main .general{ background:url(../images/iconbj.png) no-repeat; height:29px; color:#fff; font-size:14px; line-height:29px; text-align:center; width:84px;}
+.mainContent .count-main .sales-con{ border:1px solid #dedede;padding:30px 0}
+.count-main .sales-momeny{ border-right:1px solid #dedede;width:220px; display:inline-block; padding-left:25px;}
+.count-main .count-end{border:none}
+.count-main .sales-momeny p{ line-height:25px;}
+.count-main .sales-momeny span{ font-weight:bold; font-size:14px; letter-spacing:3px;}
+.count-main .sales-momeny em{ font-size:16px; font-weight:bold;letter-spacing:2px;}
+.count-main .count-pic{ margin:25px;}
+.count-main .sales-all{ overflow:hidden;margin-bottom:30px;}
+.count-main .sales-all .sales-class{ width:485px; float:left; margin-right:10px;}
+.sales-all .class-title{ font-size:14px; font-weight:bold;}
+.sales-all .classify{ margin:15px 0; overflow:hidden}
+.sales-all .classify li{float:left; padding:0 18px 0 0;}
+.classify .color-all{width:12px; height:12px; display:inline-block; margin-right:6px;}
+.classify .red{ background:red}
+.classify .blue{background:blue}
+.count-main .count-flow{ margin-bottom:30px;}
+.count-flow .flow-title{ height:36px; background:#f2f2f2; line-height:36px; font-size:14px; font-weight:bold; padding-left:10px;border-left:1px solid #dedede;border-right:1px solid #dedede;border-top:1px solid #dedede;}
+.count-flow .flow-con{ border:1px solid #dedede; padding:20px 0; overflow:hidden;}
+.count-flow .flow-con li{ float:left; padding:0 108px 0 25px; line-height:25px;}
+.count-flow .flow-con span{font-weight:bold; font-size:16px;}
+.count-flow .flow-title{ height:36px; background:#f2f2f2; line-height:36px; font-size:14px; font-weight:bold; padding-left:10px;border-left:1px solid #dedede;border-right:1px solid #dedede;border-top:1px solid #dedede;}
+.count-member .flow-con{ border:1px solid #dedede; padding:20px 0; overflow:hidden;}
+.count-member .flow-con li{ float:left; padding:0 108px 0 25px; line-height:25px;}
+.count-member .flow-con span{font-weight:bold; font-size:16px;} .flow-title{ height:36px; background:#f2f2f2; line-height:36px; font-size:14px; font-weight:bold; padding-left:10px;border-left:1px solid #dedede;border-right:1px solid #dedede;border-top:1px solid #dedede;}
+.count-member .flow-con{ border:1px solid #dedede; padding:20px 0; overflow:hidden;}
+.count-member .flow-con li{ float:left; padding:0 108px 0 25px; line-height:25px;}
+.count-member .flow-con span{font-weight:bold; font-size:16px;}
+.count-member .flow-title{ height:36px; background:#f2f2f2; line-height:36px; font-size:14px; font-weight:bold; padding-left:10px;border-left:1px solid #dedede;border-right:1px solid #dedede;border-top:1px solid #dedede;}
+.count-member .flow-con{ border:1px solid #dedede; padding:20px 0; overflow:hidden; margin-bottom:20px;}
+.count-member .flow-con li{ float:left; padding:0 108px 0 25px; line-height:25px;}
+.count-member .flow-con span{font-weight:bold; font-size:16px;}
+.count-member .sales-class{ width:485px; float:left; margin-right:10px;}
+.count-member .member-con{ overflow:hidden;}
+.count-member .member-con .class-title{ font-size:14px; font-weight:bold;}
+.member-con .count-pic{margin:25px 0 0 0;}

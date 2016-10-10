@@ -1,0 +1,393 @@
+﻿@charset "utf-8";
+/* CSS Document
+
+公共样式
+
+*/
+*{margin:0;padding: 0;}
+*html{background-image:url(about:blank); background-attachment:fixed;}
+body{margin:0; padding:0; height:100%; font:13px/1.5 "Microsoft Yahei",Arial, Helvetica, sans-serif;}
+img{border:none}
+form,ul,li,p,dl,dt,dd{margin:0; padding:0}
+h1,h2,h3,h4,h5{margin:0; padding:0; color:#3F3F3F}
+table{border-collapse:collapse}
+ul{list-style:none}
+cite, em{font-style:normal}
+a{color:#666; text-decoration:none; outline:none; *nofocus:expression(this.onFocus=this.blur())}
+/* a:hover{text-decoration:none; color:#e70012} */
+ins{text-decoration:none}
+.clearfix:after{content:'.'; display:block; height:0; font-size:0; line-height:0; clear:both; visibility:hidden}
+.clearfix{display:inline-block}
+/*Hides from IE-mac*/
+*html .clearfix{height:1%}
+.clearfix{display:block}
+/*End hide from IE-mac*/
+.clear{clear:both; height:0; font-size:0; line-height:0; visibility:hidden;}
+html{position: relative;min-height: 100%;}
+/*color style
+==================================================================*/
+.green{color:#093 !important}
+.gray{color:#888 !important}
+.red{color:#f00 !important}
+.blue{color:#497CD2 !important}
+.orange{color:#ff6600!important}
+.yellow{color:#f60; font-weight:700}
+.fz{font-size:14px}
+.fw{ font-weight:bold;}
+.red{color:#f00}
+.cur{color:#ff6600}
+.pbluebg{color:#036;}
+.p9black{font-family:"Verdana"; font-size:12px; color: #000}
+.p9orange{font-family:"Verdana"; font-size:12px; color:#f60}
+.underline{text-decoration:underline}
+.required{color:#f00; font-family:"宋体"}
+.btn_com{background:#f60; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto}
+.btn_com_blue{background:#4990de; border:none; color:#fff !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; height:auto;outline: none;}
+.btn_com_gray{background:#999; border:none; color:#fff; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto; height:auto;outline: none;}
+.btn_com_white{background:#fff; border:1px solid #ddd; color:#333 !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:3px; width:auto; height:auto}
+.btn_comCancel{background:#dedede; border:none; color:#666 !important; padding:10px 25px;font-size:14px; display:inline-block; cursor:pointer; zoom:1; *display:inline; border-radius:5px; width:auto;height:auto}
+.bgWhite{background-color:#fff !important}
+.succeedTip{border:1px solid #4ee46e; background:#d3eed9; padding:15px; width:90%; margin:0 auto; color:#006816; font-size:14px}
+.errorTip{border:1px solid #FFA66D; background:#FFDFCB; padding:15px; width:90%; margin:0 auto; color:#f00; font-size:14px}
+input, textarea{padding:5px}
+.footer{width:100%;text-align:center;padding:20px 0;border-top: 1px solid #dedede;}
+.error{border:1px solid #ff0000;background:#fff5f5 url(../images/error.png) no-repeat 5px center;color:#f00;padding:0 6px 0 25px!important;height:30px; position:relative;line-height:30px; border-radius:3px; display: inline-block; vertical-align: middle}
+.error .ico{ background:url(../images/error-ico.png) no-repeat;height:10px; width:10px;position:absolute;left:-6px; top:10px}
+.backTop{position:fixed; left:0; top:113px; _position:absolute;}
+.backTop .service{display:block; background:url(../images/service.png) no-repeat;text-indent:-9998em; width:66px;height:66px}
+.backToptel{position:fixed; left:0; top:183px; _position:absolute}
+.backToptel .tel{background:#fb8018;height:66px;font-size:16px;line-height:66px;color:#fff; display:inline-block; zoom:1; *display:inline}
+.backToptel .tel img{width:66px; overflow:hidden}
+.backToptel .tel span{padding:0 10px; display:none; float:right;}
+.backCellphone{position:fixed; left:0; top:253px; _position:absolute}
+.backCellphone .cellphone{ position:relative}
+.backCellphone .phone{text-align:center;border:1px solid #3bca67;padding:12px 12px 6px;background:#fff; position:absolute;top:0;left:66px;display:none}
+.checkboxPos{position:relative}
+.checkboxPos input{position:absolute; left:0; top:0; visibility:hidden}
+.checkboxPos label{background:url(../images/blue.png) no-repeat 0 0; position:relative; height:22px; width:22px; display:inline-block; cursor:pointer}
+.checkboxPosCur label{background:url(../images/blue.png) no-repeat -47px 0}
+.tableV{border:1px solid #dedede}
+.tableV th{background:#f8f8f8; border-bottom:1px solid #dedede; padding:5px}
+.tableV td{border-bottom:1px solid #dedede; padding:5px}
+.tableH{border:1px solid #dedede}
+.tableH td{padding:6px 5px; border-bottom:1px solid #dedede}
+.tableH .orderHead td{background:#F4F5F9; font-weight:600}
+
+
+/* CSS Document
+ 玩券登录页面
+*/
+.login{ background:#2e7772 url(../images/bg.png) no-repeat 50% 0;}
+.kkf_loginBD{_height:500px}
+.kkf_loginBD .header{background: url(../images/bj.png);border-top:2px solid #F60;padding:15px 0;width:100%}
+.kkf_loginBD .header .top{overflow:hidden;width:1200px;margin:0 auto}
+.kkf_loginBD .header .logo{float:left}
+.kkf_loginBD .header ul{padding-top:5px;float:right}
+.kkf_loginBD .header li{font-family:"微软雅黑";color:#666;font-size:16px;color:#fff}
+.kkf_loginBDL{position:absolute; left:50%; top:25%; background-color:#fff; opacity:0.5; filter:alpha(opacity=50); z-index:90; width:450px; height:290px; border-radius:3px; box-shadow:0px 0px 8px 2px; margin-left:-220px;}
+.kkf_loginBDR{position:absolute; left:50%; top:28%; padding:20px 30px 30px 30px; color:#fff; z-index:99;margin-left:-170px; width:296px;}
+.kkf_loginBDR .txt{width:280px;margin:10px 0;height:25px; line-height:25px; border-radius:3px; border:1px solid #F60; color:#666}
+.kkf_loginBDR .forgetPasswrod{float:right; margin-bottom:10px}
+.kkf_loginBDR .btn{clear:both;}
+.kkf_loginBDR .btn span{float:left}
+.kkf_loginBDR .btn_com{width:130px; margin-right:31px}
+.kkf_loginBDR .btn_com_border{background:none; border:1px solid #F60; width:130px; padding:9px 25px; border-radius:3px;color:#F60;}
+.login .footer{background:#046171;position:absolute;bottom:0}
+.login .footer p{color:#fff}
+
+/* CSS Document
+ 玩券注册页面
+*/
+.register{background:#fafafa}
+.register .header{background:#FFF; border-bottom:1px solid #d6d6d6;border-top:2px solid #F60;padding:15px 0;width:100%}
+.register .header .top{overflow:hidden;width:1200px;margin:0 auto}
+.register .header .top .logo{float:left}
+.register .header ul{padding-top:5px;float:right}
+.register .header li{font-family:"微软雅黑";color:#666;font-size:16px;}
+.register .title{width:900px;margin:30px auto 0 auto;font-size:18px;font-family:"微软雅黑"}
+.register .step{heigth:53px;width:700px; margin:50px auto}
+.register .step ul{background:url(../images/step.png) no-repeat; height:53px}
+.register .step li{height:36px; float:left; width:324px; text-indent:-998em}
+.register .step .cur_01{background-position:0 0}
+.register .step .cur_02{background-position:0 -53px}
+.register .step .cur_03{background-position:0 -108px}
+.register .Wqmain{width:715px;margin:10px auto;border:1px solid #dedede;background:#fff;padding:90px 0 90px 185px;}
+.register .Wqmain span{display:inline-block;*display:block;*float:left;padding:10px 0}
+.register .Wqmain .lable{width:10%;text-align:right}
+.register .Wqmain .fild{overflow:hidden}
+.register .Wqmain .fild .text .txt{width:280px;height:25px}
+.register .Wqmain .fild .yztxt{width:155px;height:25px}
+.register .Wqmain .success{padding-left:100px;}
+.register .Wqmain .btn{margin-left:180px}
+.register .return{font-size:12px;padding:10px 0;padding-left:190px;}
+
+
+/* CSS Document
+ 玩券门店管理
+*/
+.store .head-top{background:#f0f0f0;height:30px;border-bottom:1px solid #dbdbdb;line-height:30px}
+.store .head-top .content{width:1200px; margin:0 auto; font-family:"微软雅黑"}
+.store .head-top .content .left{float:left}
+.store .head-top .content .right{float:right}
+.store .head-top .content .right a{margin:0 5px;color:#666}
+.store .header{background:#fff;border-top:2px solid #4990de;border-bottom:1px solid #dedede;min-width:1200px}
+.store .header .top{padding:0; overflow:hidden;width:1200px; margin:0 auto}
+.store .header .logo{padding:10px 0 0 0;float:left}
+.store .header_right ul{float:left;margin-left:20px}
+.store .header_right li{float:left;padding:0 20px;font:bold 16px "微软雅黑";color:#fff;}
+.store .header_right a{color:#4d4d4d;font-size:14px; float:left}
+.store .header_right .li0{background:#4990de;height:68px}
+.store .header_right span{display:block; _width:70px}
+.store .header_right .li0 .text{color:#fff}
+.store .header_right .img0{background:url(../images/icon.png) no-repeat 15px 0;height:20px;margin:10px 0 8px 0}
+.store .header_right .img{background:url(../images/icon.png) no-repeat 15px -20px;height:20px;margin:10px 0 8px 0}
+.store .header_right .img0{background:url(../images/icon.png) no-repeat 15px 0;height:21px;margin:10px 0 8px 0}
+.store .header_right .img{background:url(../images/icon.png) no-repeat 15px -20px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img1{background:url(../images/icon100.png) no-repeat 15px 0;height:21px;margin:10px 0 8px 0}
+.store .header_right .img01{background:url(../images/icon100.png) no-repeat 15px -26px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img2{background:url(../images/icon2.png) no-repeat 18px 0;height:21px;margin:10px 0 8px 0}
+.store .header_right .img02{background:url(../images/icon2.png) no-repeat 18px -20px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img3{background:url(../images/icon3.png) no-repeat 20px 0;height:21px;margin:10px 0 8px 0}
+.store .header_right .img03{background:url(../images/icon3.png) no-repeat 20px -22px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img4{background:url(../images/icon4.png) no-repeat 15px 0;height:21px;margin:10px 0 8px 0}
+.store .header_right .img04{background:url(../images/icon4.png) no-repeat 15px -20px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img5{background:url(../images/icon11.png) no-repeat 15px 0px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img05{background:url(../images/icon11.png) no-repeat 15px -24px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img6{background:url(../images/icon6.png) no-repeat 15px 0px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img06{background:url(../images/icon6.png) no-repeat 15px -24px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img10{background:url(../images/icon10.png) no-repeat 15px 0px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img010{background:url(../images/icon10.png) no-repeat 15px -24px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img11{background:url(../images/icon99.png) no-repeat 15px 0px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img011{background:url(../images/icon99.png) no-repeat 15px -24px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img12{background:url(../images/icon12.png) no-repeat 15px 0px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img012{background:url(../images/icon13.png) no-repeat 15px -24px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img13{background:url(../images/icon13.png) no-repeat 15px 0px;height:21px;margin:10px 0 8px 0}
+.store .header_right .img013{background:url(../images/icon12.png) no-repeat 15px -24px;height:21px;margin:10px 0 8px 0}
+.store .header_right li .text{color:#4d4d4d}
+
+/* CSS Document
+资料下载
+*/
+.fx-load{padding:30px 40px;border:1px solid #ddd;width:820px;margin:10px auto;background:#fff;}
+.fx-load .item{border-bottom:1px dashed #ddd;overflow:hidden;padding-bottom:20px;margin-bottom:30px}
+.fx-load .item .img{border:1px solid #ddd;padding:9px 0;background:#f5f5f5;text-align:center;float:left;margin-left:10px;width:80px}
+.fx-load .item .name{float:left;margin:0 30px;width:75%}
+.fx-load .item .title{width:auto;margin:10px 0 20px;color:#4d4d4d;font-weight:bold}
+.fx-load .item .time span{margin-right:50px;color:#b3b3b3}
+.fx-load .item .time .ico{background:url(../images/time.png) no-repeat 0 center;width:14px;height:14px;padding-left:25px}
+.fx-load .item .load{float:left}
+.gj-load .status-nav {width:902px;margin:28px auto}
+.gj-load .status-nav ul{padding-top:11px;}
+.gj-load .status-nav .bg{background:#fff}
+.gj-load .status-nav .bg a{color:#333}
+.gj-load .status-nav ul li{padding:0 30px; height:28px; line-height:28px; text-align:center; margin-right:10px; float:left; font-size:1.2em;border-top:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd; border-radius:3px}
+.gj-load .status-nav ul .cur > a{color:#2c78a9; font-weight:600}
+
+/* CSS Document
+财务管理
+*/
+.busniessList .search .top,.busniessList .search .top1{border-bottom:none;margin-bottom:0;padding-bottom:20px}
+.busniessList .search .top1{padding-top:13px}
+.busniessList .search .top1 .txt{width:300px;float:left;height:18px}
+.busniessList .search .top1 .orderSearch{float:left;margin-left:-1px;background:url(../images/search.png) no-repeat center;width:30px;height:30px;border:1px solid #dedede}
+.busniessList .search span{float:left;margin-right:20px}
+.busniessList .operate{width:200px; position:relative;z-index:10; color:#999;margin:0}
+.busniessList .operate dt{height:20px; line-height:20px;background:#fff; text-align:left; padding:5px 0 5px 10px;border-radius:0; color:#999;}
+.busniessList .operate dt b{position:absolute; right:10px; top:14px; border-width:4px; border-color:#999 #fff #fff; border-style:solid; font-size:0; height:0; overflow:hidden}
+.busniessList .operate dd{background:#fff; position:absolute; left:0;border:1px solid #dedede; border-top:none; width:198px; text-align:left; display:none; z-index:-1}
+.busniessList .operate dd a{display:block; height:18px; background-color:#fff; padding:10px; border-top:1px dotted #dedede;font-size:14px}
+.busniessList .operate dd a:hover{color:#666;background:#ccc}
+.busniessList .oper_hover dt,.oper_hover_up dt{ background-color:#fff; cursor:pointer}
+.busniessList .oper_hover dt b,.oper_hover_up dt b{border-color:#fff #fff #000; top:10px}
+.busniessList .oper_hover dd{display:block; background-color:#fff; top:30px}
+.busniessList .oper_hover_up dd{display:block; background-color:#ffffd9; bottom:23px; border-top:1px solid #E8D2A1}
+.busniessList .oper_hover_up dd a{border-top:none; border-bottom:1px dotted #E8D2A1}
+.busniessList .search .top .button,.busniessList .search .top1 .button{float:right}
+.busniessList .search .top .button .btn_border,.busniessList .search .top1 .button .btn_border{border:1px solid #4990de;color:#4990de !important;background:#e1eefd;font-size:12px;padding:0;width:104px;height:29px;line-height:29px;text-align:center}
+.busniessList .search .mod{overflow:hidden}
+.busniessList .search .mod input{border:1px solid #dedede;margin-right:15px;height:18px}
+.busniessList .search .mod select{width:100px;height:30px;color:#666;margin-right:15px;border:1px solid #dedede;}
+.busniessList .search .end{padding-top:20px}
+.busniessList .search .end .btn_com_blue{padding:6px 40px}
+.busniessList .mod .operate{width:100px;}
+.busniessList .status-nav{margin-bottom:30px}
+.busniessList .status-nav li{font-size:12px;border-radius:0;margin-right:-1px;background:#f8f8f8;border-bottom:1px solid #ddd;}
+.busniessList .status-nav .cur{border-bottom:1px solid #fff;background:none}
+.busniessList .status-nav hr{ border:none;border-top:1px solid #ddd;height:0;margin-top:29px}
+.busniessInfo{margin-bottom:20px}
+.busniessInfo .thead{border:1px solid #ccc;height:48px}
+.busniessInfo .thead td{background:none;font-weight:bold}
+.busniessInfo  td{text-align:center;background:#f7fafd;color:#4d4d4d}
+.busniessInfo .coin{width:80px;margin:0 auto;text-align:right}
+.busniessInfo .times{text-align:left;margin-left:50%}
+.busniessInfo  tr{height:35px;border-left:1px solid #ccc;border-right:1px solid #ccc}
+.busniessInfo .thead .download{background:url(../images/download02.png) no-repeat;display:block;height:26px;width:26px;float:right;margin-right:10px; cursor:pointer}
+.busniessInfo .thead .download01{background:url(../images/download01.png) no-repeat;}
+.busniessInfo .thead em{margin-left:20px;font-size:16px}
+.busniessInfo .thead ins{color:#f55f5f;margin-left:10px;font-size:16px}
+.busniessInfo .thead .first{position:relative; cursor:pointer}
+.busniessInfo .thead b{ position:absolute;top:15px;right:32px;border-width:5px; border-color:#fff #fff #999; border-style:solid; font-size:0; height:0; overflow:hidden;}
+.busniessInfo .endtr{border-bottom:1px solid #ccc}
+.busniessInfo .clickFirst b{ border-color:#999 #fff #fff;top:21px;}
+
+
+
+/* CSS Document
+交易汇总
+*/
+.jyhz{
+	background: #fff;
+	padding-bottom: 50px;
+}
+.jyhz-content{
+	margin:0 40px;
+}
+.jyhz-content h3{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #808080;
+}
+.jyhz-content .summary{
+	font-size: 0px;
+	border-bottom: 1px solid #ddd;
+	margin:0 -40px
+}
+.jyhz-content .summary span{
+	margin-bottom: -1px;
+	display: inline-block;
+	padding-bottom: 8px;
+	width: 115px;
+	border-bottom: 3px solid #ccc;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+.jyhz-content .summary span.active{
+	border-bottom: 3px solid #4990de;
+}
+.search-summary{margin-bottom:20px}
+.search-summary .mod{margin: 20px 0;}
+.search-summary .mod input{border:1px solid #dedede;margin-right:15px;height:18px;}
+.search-summary .top{border-bottom:none;margin-bottom:0;padding-bottom:20px}
+.search-summary .top select{width:200px;height:30px;border:1px solid #dedede;color:#666;margin-right:15px}
+.jyhz-content .collect{font-family:"微软雅黑"}
+.jyhz-content .collect .thead{background:#f4f4f4;color:#4d4d4d}
+.jyhz-content .collect .p td{background:none;border-bottom:1px solid #ccc}
+.jyhz-content .collect .fw{font-size:16px}
+.jyhz-content .collect a{color:#4990de}
+.jyhz-content .collect .all{position:relative; cursor:pointer}
+.jyhz-content .collect .all b{position:absolute;top:9px;right:55px;border-width:5px; border-color:#fff #fff #999; border-style:solid; font-size:0; height:0; overflow:hidden;}
+.jyhz-content .collect .clickAll b{border-color:#999 #fff #fff;top:15px}
+
+/*交易详情*/
+.kkfm_r_inner .balanceList .filed .label{width:auto}
+.moneyTotal{margin-bottom:10px}
+.moneyTotal .r{float:right}
+.moneyTotal .r span{margin-left:15px}
+.moneyTotal .r .total{font-size:18px}
+.moneyTotal .r strong{padding:0 3px}
+.business .top{border:1px solid #dedede;border:none}
+.business .top .cz{margin-right:30px;margin-top:5px}
+.business .top .btn_com_gray{padding:5px 10px}
+.business .title{padding:2px 0 0 8px; clear:both; min-height:10px}
+.business .title span{display:inline-block;*display:block;*float:left;margin-right:30px}
+.business  .business-list{border:1px solid #dedede;background:#f7fafd;overflow:hidden;padding:0 5px;margin:8px 0 10px 5px}
+.business  .business-list .name{font-size:12px;border-bottom:1px solid #dedede;width:98%;margin-top:5px}
+.business  .business-list .name span{display:inline-block;*display:block;*float:left;width:20%;text-align:center;}
+.business  .business-list .vaule span{display:inline-block;*display:block;*float:left;width:21%;text-align:center;padding:10px 0}
+.business-list .vaule{width:98%;margin:0 auto}
+.business-list .vaule .ssje{font-size:16px;font-weight:bold;color:#f60}
+.business-con{border:1px solid #dedede;padding:5px 10px;margin:10px 0 10px 5px;overflow:hidden}
+.business-con .con-left{width:45%;margin:0 auto;float:left;border-right:1px solid #dedede;}
+.business-con .border{border-bottom:1px dashed #dedede}
+.business  .business-con .label{ vertical-align:top;margin-top:-4px}
+.business-con .con-right{float:left;}
+.business-list .dline{border-bottom:1px solid #dedede}
+.business .tk-list{background:none !important}
+
+/* 新登录页 */
+.n-header {
+ padding: 15px 0; background: #4990de; border-bottom: 1px solid #dedede;
+}
+.n-logo {
+ width: 280px; height: 43px;
+}
+.n-header-inner, .login-con {
+ margin: 0 auto; width: 1200px;
+}
+.n-header-inner {
+ height: 43px; line-height: 43px;
+}
+.n-header-r {
+ float: right
+}
+.n-header-r .icon-phone {
+ position: relative; top: 8px; display: inline-block; width: 24px; height: 25px; padding-right: 20px; background: url(../images/service-phone.png) no-repeat center center;
+}
+.n-header-r span {
+ display: block; font-size: 14px; color: #fff;
+}
+.login-con-wrap {
+ background: #f9f9f9
+}
+.login-con input[type="text"], .login-con input[type="password"], .login-con button {
+ margin: 0; padding: 0; background: none; border: none; border-radius: 0; outline: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;
+}
+.login-con {
+ padding: 50px 0
+}
+.login-form {
+ float: right; width: 400px; margin-right: 110px; margin-top: 30px; background: #fff; box-shadow: 0px 2px 2.97px 0.03px rgba(0, 0, 0, 0.15);
+}
+.login-form .login-title {
+ display: block; height: 44px; line-height: 44px; background: #4990de; color: #fff; text-align: center;
+}
+.signup {
+ color: #fb8018
+}
+.login-form-con {
+ padding: 40px 30px
+}
+.login-form .login-title span:first-child {
+ border-right: 2px solid #eee
+}
+.login-active {
+ color: #ff613a
+}
+.login-account, .login-pw {
+ width: 100%; height: 40px; line-height: 40px; border: 1px solid #eee;position: relative;overflow: hidden;
+}
+.login-pw {
+ margin-top: 20px
+}
+.login-icon {
+ display: inline-block; background: url(../images/sprite-login.png) no-repeat;position: absolute;top: 8px;left: 12px;
+}
+.icon-account {
+ width: 24px; height: 23px; background-position: -24px 0;
+}
+.icon-pw {
+ width: 24px; height: 24px; background-position: 0 0;
+}
+.login-remember-pw {
+ margin-top: 25px
+}
+.login-remember-pw a:hover{
+	text-decoration: underline;
+}
+.forget-pw {
+ float: right; color: #459bf3;
+}
+.login-cover {
+ width: 579px; height: 400px;
+}
+.login-con .login-btn {
+ display: block; margin-top: 20px; background: #4990de; width: 100%; font-size: 15px; color: #fff; height: 40px; line-height: 40px; border-radius: 5px; cursor: pointer;
+}
+.n-error{
+	height: 74px;line-height: 74px;text-align: center;font-size: 22px;color: #fff;background: #ffb351;position: fixed;top: 0;z-index: 9999;width: 100%;display: none;
+}
+.login-form-con input[type="password"],.login-form-con input[type="text"]{
+	height: 40px;line-height: 40px;width: 100%;padding-left: 50px;
+}

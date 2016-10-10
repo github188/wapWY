@@ -1,0 +1,676 @@
+﻿2015-07-12 11:36:01  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 11:36:01  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-12 14:03:43  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 14:03:43  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-12 21:49:02  alipay response: {"error_response":{"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-app-id","sub_msg":"无效的AppID参数"}}
+2015-07-12 21:49:02  response: stdClass::__set_state(array(
+   'error_response' => 
+  stdClass::__set_state(array(
+     'code' => '40002',
+     'msg' => 'Invalid Arguments',
+     'sub_code' => 'isv.invalid-app-id',
+     'sub_msg' => '无效的AppID参数',
+  )),
+))
+2015-07-12 21:49:02  alipay response: {"error_response":{"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-app-id","sub_msg":"无效的AppID参数"}}
+2015-07-12 21:49:02  response: stdClass::__set_state(array(
+   'error_response' => 
+  stdClass::__set_state(array(
+     'code' => '40002',
+     'msg' => 'Invalid Arguments',
+     'sub_code' => 'isv.invalid-app-id',
+     'sub_msg' => '无效的AppID参数',
+  )),
+))
+2015-07-12 21:49:06  alipay response: {"error_response":{"code":"40002","msg":"Invalid Arguments","sub_code":"isv.invalid-app-id","sub_msg":"无效的AppID参数"}}
+2015-07-12 21:49:06  response: stdClass::__set_state(array(
+   'error_response' => 
+  stdClass::__set_state(array(
+     'code' => '40002',
+     'msg' => 'Invalid Arguments',
+     'sub_code' => 'isv.invalid-app-id',
+     'sub_msg' => '无效的AppID参数',
+  )),
+))
+2015-07-12 21:52:46  alipay response: {"alipay_mobile_public_menu_update_response":{"code":11007,"msg":"菜单标题为空"},"sign":"KpHCl9RtQ0tnYQzajzNRWmYLS6TJYKlQAwB7V2teWb22XiRBE+eZ8MrAK/gvN1zQlC3v3Yj84XHM0z1F1OciEk7XtCiowN3SxyH9lMh4t5Mw8qX77n7bwnoDU97XdgLxCi11ZT6hJCn9d7QWmB5vHSwCOCfJRu+9dYVeclS8Sfw="}
+2015-07-12 21:52:46  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 11007,
+     'msg' => '菜单标题为空',
+  )),
+   'sign' => 'KpHCl9RtQ0tnYQzajzNRWmYLS6TJYKlQAwB7V2teWb22XiRBE+eZ8MrAK/gvN1zQlC3v3Yj84XHM0z1F1OciEk7XtCiowN3SxyH9lMh4t5Mw8qX77n7bwnoDU97XdgLxCi11ZT6hJCn9d7QWmB5vHSwCOCfJRu+9dYVeclS8Sfw=',
+))
+2015-07-12 21:52:57  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 21:52:57  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-12 22:02:48  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 22:02:48  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-12 23:41:31  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 23:41:31  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-12 23:46:36  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 23:46:36  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-12 23:46:40  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-12 23:46:40  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-07-13 10:46:24  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-07-13 10:46:24  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 14:45:45  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-11-05 14:45:45  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 14:47:33  alipay response: {"alipay_mobile_public_menu_update_response":{"code":200,"msg":"成功"},"sign":"Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA="}
+2015-11-05 14:47:33  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 15:14:55  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 15:15:32  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 15:23:19  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 15:48:01  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-05 16:38:46  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40006',
+     'msg' => 'Insufficient Permissions',
+     'sub_code' => 'isv.insufficient-isv-permissions',
+     'sub_msg' => 'ISV权限不足',
+  )),
+   'sign' => 'toxYJiiaL2+6K8ry750HV+9m/9cwobDadvqscyp8oYE1MxXSKWFNRRHmjXE9ZNlVwuDZMcMWspLpj2ShNn24nkoX5WATFkOS/GKu637tCTeDabdhu+6fT4sGA8ZxbnH14bauUkN7mT+UkMbjXWa6tfHmv6K6oVRJ8PfG4uwcILk=',
+))
+2015-11-05 16:49:39  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40001',
+     'msg' => 'Missing Required Arguments',
+     'sub_code' => 'isv.missing-signature-key',
+     'sub_msg' => '缺少签名配置',
+  )),
+   'sign' => 'UK96JoIM4V61SbqKt7HOsv+9OjwKb5rtSYAa7ckkcq3m0asWK3l1EH+4PCUrHcI3Gk4BDIOvFovk3oVxT2bqFdgbcv4UF5HVzF3Mrio1LafYBY92SCCQICVEMdq38gGao05BCocj82aJfbwISawJ5ee3Z0tYlMRQH2xDkXXzQEs=',
+))
+2015-11-05 16:59:01  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40001',
+     'msg' => 'Missing Required Arguments',
+     'sub_code' => 'isv.missing-signature-key',
+     'sub_msg' => '缺少签名配置',
+  )),
+   'sign' => 'UK96JoIM4V61SbqKt7HOsv+9OjwKb5rtSYAa7ckkcq3m0asWK3l1EH+4PCUrHcI3Gk4BDIOvFovk3oVxT2bqFdgbcv4UF5HVzF3Mrio1LafYBY92SCCQICVEMdq38gGao05BCocj82aJfbwISawJ5ee3Z0tYlMRQH2xDkXXzQEs=',
+))
+2015-11-05 16:59:24  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40001',
+     'msg' => 'Missing Required Arguments',
+     'sub_code' => 'isv.missing-signature-key',
+     'sub_msg' => '缺少签名配置',
+  )),
+   'sign' => 'UK96JoIM4V61SbqKt7HOsv+9OjwKb5rtSYAa7ckkcq3m0asWK3l1EH+4PCUrHcI3Gk4BDIOvFovk3oVxT2bqFdgbcv4UF5HVzF3Mrio1LafYBY92SCCQICVEMdq38gGao05BCocj82aJfbwISawJ5ee3Z0tYlMRQH2xDkXXzQEs=',
+))
+2015-11-05 16:59:26  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40001',
+     'msg' => 'Missing Required Arguments',
+     'sub_code' => 'isv.missing-signature-key',
+     'sub_msg' => '缺少签名配置',
+  )),
+   'sign' => 'UK96JoIM4V61SbqKt7HOsv+9OjwKb5rtSYAa7ckkcq3m0asWK3l1EH+4PCUrHcI3Gk4BDIOvFovk3oVxT2bqFdgbcv4UF5HVzF3Mrio1LafYBY92SCCQICVEMdq38gGao05BCocj82aJfbwISawJ5ee3Z0tYlMRQH2xDkXXzQEs=',
+))
+2015-11-05 17:07:50  {"app_id":"2015081800220832","version":"1.0","format":"json","sign_type":"RSA","method":"alipay.trade.precreate","timestamp":"2015-11-05 17:07:50","auth_token":null,"alipay_sdk":"alipay-sdk-php-20130320","terminal_type":null,"terminal_info":null,"prod_code":null,"notify_url":null,"charset":"UTF-8","app_auth_token":null,"sign":"ftA56v\/aCSbrG6+IAHDR\/U+mFcn8Pk22k+hIxaKcbA67FF50+wouYDPlEAFQGs90TXNo6xh9I47QGnWPyffMv1LDi3s\/Fu9MjBm2pgZonDlVO2oU++RKIRplc76kiRU4WHIgn8eM1gHfqDxMtbMpRzcZ906LoFhwrHVP8xK6iwA="}
+2015-11-05 17:07:51  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40001',
+     'msg' => 'Missing Required Arguments',
+     'sub_code' => 'isv.missing-signature-key',
+     'sub_msg' => '缺少签名配置',
+  )),
+   'sign' => 'UK96JoIM4V61SbqKt7HOsv+9OjwKb5rtSYAa7ckkcq3m0asWK3l1EH+4PCUrHcI3Gk4BDIOvFovk3oVxT2bqFdgbcv4UF5HVzF3Mrio1LafYBY92SCCQICVEMdq38gGao05BCocj82aJfbwISawJ5ee3Z0tYlMRQH2xDkXXzQEs=',
+))
+2015-11-05 17:13:50  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40001',
+     'msg' => 'Missing Required Arguments',
+     'sub_code' => 'isv.missing-signature-key',
+     'sub_msg' => '缺少签名配置',
+  )),
+   'sign' => 'UK96JoIM4V61SbqKt7HOsv+9OjwKb5rtSYAa7ckkcq3m0asWK3l1EH+4PCUrHcI3Gk4BDIOvFovk3oVxT2bqFdgbcv4UF5HVzF3Mrio1LafYBY92SCCQICVEMdq38gGao05BCocj82aJfbwISawJ5ee3Z0tYlMRQH2xDkXXzQEs=',
+))
+2015-11-05 19:56:33  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'out_trade_no' => '2015110516301234',
+     'qr_code' => 'https://qr.alipay.com/baxia8zpizzqhcgva0',
+  )),
+   'sign' => 'OAhzAI+lpD5D0JE2n+8t2XhVbhajfEzn4nkMjRn7qETM3n8znkpPIqHoFipj6NFB37ApO+nc485v3tDQafKn+3INKqwuIfTTlLPzifKv5Q47BiUkMUsP7WmWD4OqDUBoBkpoNGk+0Rc3EBwN+PCR5WBw0BvGcGXUb3/HkwggUYM=',
+))
+2015-11-05 20:27:42  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'out_trade_no' => '2015110516306666',
+     'qr_code' => 'https://qr.alipay.com/baxolyblxncmzdox74',
+  )),
+   'sign' => 'wiMPRb7spr3DvIB6p6tnz7gYhpc5u7DToKllQkL5PTqvR2vHrrxG2I7GBm+EQH2wvXBbGslsCrrQLv8uC7nDuvlf0d41bGu5CP9hH0AbTjQcB65dJkfXP9xiz4FmomBSjvtvX/9D4w+x3CFbLUvq6AVW8XoG6bm4UL088DvexBI=',
+))
+2015-11-05 20:29:53  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.INVALID_RECEIVE_ACCOUNT',
+     'sub_msg' => '卖家不在设置的收款账户列表之中',
+  )),
+   'sign' => 'Hs2uxKTGIVfHq8/kL3jG2Am5B1TqZ+dI9Frf3lonRLFiEFAa9xD/bWcS7g2ddhxUgWsu/8T8kvsWYIqXqdacuf53ePemKLTlXdZcjlQLh2USkNoe8x0WytRFSRkOLyVenzlMyLPEM81QqQoJQLk7l+3k79cjrksVkRThBCfLAD0=',
+))
+2015-11-05 20:37:55  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '交易已经支付',
+  )),
+   'sign' => 'M2B6FqaIevcM/sFhoKKMlP/kk9YpG+NVu0iLiaQ/1Qq06aJEOKdBzHznA9qPwyfsQZzPN2d145W2haxnN3JtnoGxgEStPhcqfwZZWsB8g1W530YkQaVwtKXRWrjlrR11jDQO21c6GxzksERmd6WxAdSfrIgmDaxs/u0QvSSX4CU=',
+))
+2015-11-06 09:25:41  response: stdClass::__set_state(array(
+   'alipay_mobile_public_menu_update_response' => 
+  stdClass::__set_state(array(
+     'code' => 200,
+     'msg' => '成功',
+  )),
+   'sign' => 'Mbt/a/K5iUja2aUSrpyeApESwtoEMGa58vxEVXuv/XRhNRm7+Mq/Ql9fMHooaEm1p/ux4LEBFzSRjlqd8f300kNPPIb6rGvz6rbran0yS9744aPHqfV4VJXbTtzqqRp6B8SBc8jG+HfOUurDGOwVpzeBZND61YXl831YUofkBMA=',
+))
+2015-11-06 09:30:30  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '交易已经支付',
+  )),
+   'sign' => 'M2B6FqaIevcM/sFhoKKMlP/kk9YpG+NVu0iLiaQ/1Qq06aJEOKdBzHznA9qPwyfsQZzPN2d145W2haxnN3JtnoGxgEStPhcqfwZZWsB8g1W530YkQaVwtKXRWrjlrR11jDQO21c6GxzksERmd6WxAdSfrIgmDaxs/u0QvSSX4CU=',
+))
+2015-11-06 09:31:48  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '交易已经支付',
+  )),
+   'sign' => 'M2B6FqaIevcM/sFhoKKMlP/kk9YpG+NVu0iLiaQ/1Qq06aJEOKdBzHznA9qPwyfsQZzPN2d145W2haxnN3JtnoGxgEStPhcqfwZZWsB8g1W530YkQaVwtKXRWrjlrR11jDQO21c6GxzksERmd6WxAdSfrIgmDaxs/u0QvSSX4CU=',
+))
+2015-11-06 10:22:06  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '交易已经支付',
+  )),
+   'sign' => 'M2B6FqaIevcM/sFhoKKMlP/kk9YpG+NVu0iLiaQ/1Qq06aJEOKdBzHznA9qPwyfsQZzPN2d145W2haxnN3JtnoGxgEStPhcqfwZZWsB8g1W530YkQaVwtKXRWrjlrR11jDQO21c6GxzksERmd6WxAdSfrIgmDaxs/u0QvSSX4CU=',
+))
+2015-11-06 13:42:50  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'out_trade_no' => '2015110516307777',
+     'qr_code' => 'https://qr.alipay.com/baxz0shj2fvk6rrna2',
+  )),
+   'sign' => 'L4QoEmhvkFPsM3i1x/BcFDEXm5jVFGMi5tYCZHkOHY3iJrqn+g50J2Xob8JXz3RVfXH8qY5X4kVCrjDSeuouwNl+G1+HS0eJNHAzi3rOhVAKvOJZO8UgEG0reM8Ycw0n6uPXRUfc1oxb9vuWcwwk4YuEaXoJVJPXNAPY+LAhP84=',
+))
+2015-11-06 13:43:37  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'total_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'NzhnzOAqS1dmWTy31gMytvnJn9lccUyczCVgXgu60xLNpnGKNz9gFcd29OeVMl3dd0xn9ZcLFob7zutBTNdkK5tK9K2GHxzn9fZpkMNbUyZnCIRxPwjl6EOwzgiD6jUfkPudnPrTIB58DpiaVHtTQCImyQ3uUNFaHqOfQwJGUfU=',
+))
+2015-11-06 14:09:35  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 14:15:51  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 14:16:32  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 14:16:50  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 14:17:40  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 14:17:57  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 14:18:08  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 13:43:37',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '2015110516307777',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060665022',
+  )),
+   'sign' => 'ta6AEuYIqqhh5jOMwyZTLVoaqOaCRj4sbliIL4B02mo5zbyJtV5PvRof4oL0DvgO9JXjmJ8ghda/9LmadmX9gqy1vmgwimXYL3kJiQgsHn0OM853YELtzLZkb7Vfo2RFYCi2kMoO8OxPXMnfAFIkpZ7leUtXqvMeS0SqcV4xACo=',
+))
+2015-11-06 15:25:21  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'out_trade_no' => '20151105163078',
+     'qr_code' => 'https://qr.alipay.com/baxrccrwyx4sb73z4f',
+  )),
+   'sign' => 'nEItGFw0F5BIsNDhRV40Zg3MTj7HhK+Ueiyy4EF5te1Jl5F+hnEa8KtwqwtZzB+uEn5ZhYvdWJ2M+8CIAHbDyhf3wcRVw3ahaIIqGXAJ8Twntc3DBWQJIi2BLLC0pJYLfAvhR8Zef3Vc+tq2En8qv6pdulgce1NPbxpgdLn1pKA=',
+))
+2015-11-06 15:25:40  response: stdClass::__set_state(array(
+   'alipay_trade_precreate_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'out_trade_no' => '20151105163078',
+     'qr_code' => 'https://qr.alipay.com/baxw3ofo3jzywf0z3a',
+  )),
+   'sign' => 'bDq0J3SBPBiihf6q4vufEzQ3xwAHdbmeAeh/oYLyBRE6gx1PoUNCJR9kkOyKxIg6ThMV4w5r4vCF+2b0Aqnk1qAGNufR7sX+K17pr01zS2zvGP6zb0FpStrHQ0Fnhzi015vSxzlmh7OKV6/iF/opEwluXuWC8+yfg526AEdcLRs=',
+))
+2015-11-06 16:32:40  response: SimpleXMLElement::__set_state(array(
+   'code' => '40004',
+   'msg' => 'Business Failed',
+   'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+   'sub_msg' => '交易已经支付',
+   'sign' => 'veTPig/xarBg08ZhEw6FBkKDFHPNWE1d+gKUzl8nOyPFldYIOO/sihEzrar2K2mHGxVtNbnR71vHtlViVfqqahSDgvxbFIbkpLdcoZUwbB1Q1lQOMUI4NBo+w4f6ySDl6QcIJW2z4J54we1ebakq+5jgfTVQE9ySHq+bEs0VDW0=',
+))
+2015-11-06 16:33:04  response: SimpleXMLElement::__set_state(array(
+   'code' => '40004',
+   'msg' => 'Business Failed',
+   'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+   'sub_msg' => '交易已经支付',
+   'sign' => 'veTPig/xarBg08ZhEw6FBkKDFHPNWE1d+gKUzl8nOyPFldYIOO/sihEzrar2K2mHGxVtNbnR71vHtlViVfqqahSDgvxbFIbkpLdcoZUwbB1Q1lQOMUI4NBo+w4f6ySDl6QcIJW2z4J54we1ebakq+5jgfTVQE9ySHq+bEs0VDW0=',
+))
+2015-11-06 16:33:35  response: SimpleXMLElement::__set_state(array(
+   'code' => '10000',
+   'msg' => 'Success',
+   'out_trade_no' => '20151105163079',
+   'qr_code' => 'https://qr.alipay.com/bax4iewscb43sncfd8',
+   'sign' => 'QHltI/9YYWk68hqvlasg5qF1s/lk+K0HyKOHScXkUuR/qQlSBf3gbzqnaPX9uM8yI9nusjL204oULeM4YMDofnDZeUPtmxC2+ct5k+hgrlMg6yVu8/es66gRFSXmrI9Dse8awFDOUln+ODVtEfoGqfVlL0nl0sN7CtDFLAx4TJw=',
+))
+2015-11-06 16:33:47  response: SimpleXMLElement::__set_state(array(
+   'code' => '40004',
+   'msg' => 'Business Failed',
+   'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+   'sub_msg' => '交易已经支付',
+   'sign' => 'veTPig/xarBg08ZhEw6FBkKDFHPNWE1d+gKUzl8nOyPFldYIOO/sihEzrar2K2mHGxVtNbnR71vHtlViVfqqahSDgvxbFIbkpLdcoZUwbB1Q1lQOMUI4NBo+w4f6ySDl6QcIJW2z4J54we1ebakq+5jgfTVQE9ySHq+bEs0VDW0=',
+))
+2015-11-06 16:34:33  response: SimpleXMLElement::__set_state(array(
+   'code' => '10000',
+   'msg' => 'Success',
+   'buyer_logon_id' => '187****3326',
+   'buyer_pay_amount' => '0.01',
+   'buyer_user_id' => '2088602026535537',
+   'fund_bill_list' => 
+  SimpleXMLElement::__set_state(array(
+     '@attributes' => 
+    array (
+      'list' => 'true',
+    ),
+     'trade_fund_bill' => 
+    SimpleXMLElement::__set_state(array(
+       'amount' => '0.01',
+       'fund_channel' => 'ALIPAYACCOUNT',
+    )),
+  )),
+   'invoice_amount' => '0.01',
+   'open_id' => '20880070522226233788500502114353',
+   'out_trade_no' => '20151105163078',
+   'point_amount' => '0.00',
+   'receipt_amount' => '0.01',
+   'send_pay_date' => '2015-11-06 15:26:47',
+   'total_amount' => '0.01',
+   'trade_no' => '2015110621001004530060076312',
+   'trade_status' => 'TRADE_SUCCESS',
+   'sign' => 'E4xjupxzzyV5QSUgKXvwYqONxTjD4+qjxhiFC1CmgwueK8Vj7i63h2/2HpT7dEtMNn/BPdfwbPzq9MEr5g4eWWmaEhf/Sk/rke1nOMbVrLdDQ37sCjkmmbiytaZAR3O4utLpcWdsgFfh3HdqO72/M+hid+o4XBxe8ugwl5TtcbA=',
+))
+2015-11-07 09:45:10  response: stdClass::__set_state(array(
+   'alipay_trade_query_response' => 
+  stdClass::__set_state(array(
+     'code' => '10000',
+     'msg' => 'Success',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '20151105163078',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'send_pay_date' => '2015-11-06 15:26:47',
+     'total_amount' => '0.01',
+     'trade_no' => '2015110621001004530060076312',
+     'trade_status' => 'TRADE_SUCCESS',
+  )),
+   'sign' => 'mR0TR5u0FnE+io9nxR6J3msL2hTt+8bLNqz+pyiau8n1PI/pI1am9OsePvrrUBUGT48d1MA3Qx5w+rKa1uxYJf7vlL3IZcb5+GB+zEF1vwjxavgxlNQ1hYA3oucln8+W6z4e9E2de1FoR53uCdYAOYVG7V7WlXpWmSknillhaYA=',
+))
+2015-11-07 10:04:27  response: stdClass::__set_state(array(
+   'alipay_trade_pay_response' => 
+  stdClass::__set_state(array(
+     'code' => '40004',
+     'msg' => 'Business Failed',
+     'sub_code' => 'ACQ.TRADE_HAS_SUCCESS',
+     'sub_msg' => '支付失败，交易已经支付，请勿重复收款。[TRADE_HAS_SUCCESS]',
+     'buyer_logon_id' => '187****3326',
+     'buyer_pay_amount' => '0.01',
+     'buyer_user_id' => '2088602026535537',
+     'fund_bill_list' => 
+    array (
+      0 => 
+      stdClass::__set_state(array(
+         'amount' => '0.01',
+         'fund_channel' => 'ALIPAYACCOUNT',
+      )),
+    ),
+     'gmt_payment' => '2015-11-06 15:26:47',
+     'invoice_amount' => '0.01',
+     'open_id' => '20880070522226233788500502114353',
+     'out_trade_no' => '20151105163078',
+     'point_amount' => '0.00',
+     'receipt_amount' => '0.01',
+     'trade_no' => '2015110621001004530060076312',
+  )),
+   'sign' => 'qeXqtMOJQr6tLG56xCehky02vdn8RkrObaJ5p9dfDdJrY9jELgXhltiMuP8sHLiI34MGKEdmIA/fPzjRcx/B5wZrdDMeGils8GA25ft1SxHZWfSrgv3agNsiKuNc+zmsxqDVwuX+lG07I4gIhywP12aiRfm7kt/OZudt7OnCGAw=',
+))

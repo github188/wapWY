@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapDialog{position:relative; height:500px}
+
+.floatbg{background:#000; position:absolute; left:0; top:0; width:100%; height:860px; z-index:9999; filter:alpha(opacity=50) ; opacity:0.5;}
+.floatwin{width:570px; position:absolute;left:15%; top:10%; background:#fff; z-index:10000; loverflow:hidden}
+
+.pagerbar{ clear:both; text-align:right; border:none; border-top:2px solid #efefef; height:22px}
+.pagerbar .pager{ float:right; background:url(../images/tablebottombg.gif); border:1px solid #ddd; border-top:none; border-right:none; padding:0 5px}
+.pagerbar a{ text-decoration:underline; color:#000}
+.pagerbar a:hover{ color:#ff8800}
+
+
+.dialog{background:#ccc url(../images/dialogbg.gif) repeat-x; border:1px solid #000; padding:1px; height:200px; width:800px; margin:20px auto;}
+.dialog .dialogbase{background:#fff; vertical-align:top; padding:0}
+.dialog .dialogtitle{color:#000; border:1px solid #f00; text-align:left; position:relative}
+.dialog .dialogtitle h1{margin:0; font-size:14px; color:#fff}
+.dialog .dialogtitle td{height:1px}
+.dialog .dialogtitle .close{display:block; cursor:pointer; background:url(../images/close_box.gif) no-repeat; width:15px; height:15px; position:static}
+.dialog .actionbar{ margin:5px 0; margin-left:43%; clear:both}
+.dialog .actionbar .button{ float:left; font-weight:400; height:26px;background:url(../images/btn_funtion-r.gif) no-repeat right 0; margin-left:2px; padding:0 10px; cursor:pointer}
+.dialog .actionbar .button span{ background:url(../images/btn_funtion-l.gif) no-repeat; display:block; float:left; height:26px; line-height:26px; color:#fff; text-align:center; padding-left:12px}
+
+.dialogbox{ background:#fff; 1height:290px;position:relative}
+.dialogbox .title{ background:url(../images/clisttitlebg.gif); border:1px solid #fff; border-bottom:1px solid #666; height:22px; line-height:22px; padding:3px}
+.dialogbox .body{ background:#fff; padding:6px; margin-top:1px;overflow-x:hidden; overflow-y:auto}
+.dialogbox .body li{ padding-left:14px; border-bottom:1px solid #efefef; line-height:22px; cursor:pointer}
+.dialogbox .body li:hover{ background:#e8f1f6}
+
+
+/*隐藏层样式
+------------------------------*/
+.addcategory1{border:0}
+.hidesytle{width:350px;margin:20px auto; position:relative; border:1px solid #ccc; padding:10px}
+
+.tableinfo{ margin:20px 0}
+.tableinfo .thR{ text-align:right; font-weight:normal}
